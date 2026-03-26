@@ -14,16 +14,11 @@
 #
 #
 #
+#   TODO: FREE GUIDS:
+#   1600000294 - 1600000308
 ###
 -->
 <ModOps>
-
-<!-- Testing -->
-<Group>
-<!--
-<Include File="testing/pools-forceSpawnTesting.xml"/> 
--->
-</Group>
 
 <!-- Common Specialists -->
 <Group>
@@ -69,7 +64,7 @@
 
 <!-- Add to Pools -->
 <Include File="pools/AssetList/AssetListPool.xml" />
-<Include File="pools/RewardPool/RewardPool-AllItems&Specialists.xml" />
+<Include File="pools/RewardPool/AllItems&Specialists.xml" />
 
 <!-- Add to Traderpools --> 
 <Include File="pools/Traders/pools-common.xml" />

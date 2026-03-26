@@ -157,11 +157,6 @@
           <Text>Très dévoué, il prêche les vertus romaines du dieu Mars.</Text>
           <LineId>1600000069</LineId> 
       </Text>
-      <!-- Boost Hint -->
-      <Text>
-          <Text>Il faut s'assurer que l'île suit la divinité Mars...</Text>
-          <LineId>1600000070</LineId> 
-      </Text>
     </ModOp>
   </Group>
 
@@ -177,11 +172,6 @@
       <Text>
           <Text>Très dévoué, il prêche les vertus romaines de la déesse Cérès.</Text>
           <LineId>1600000073</LineId> 
-      </Text>
-      <!-- Boost Hint -->
-      <Text>
-          <Text>Il faut s'assurer que l'île vénère la déesse Cérès...</Text>
-          <LineId>1600000074</LineId> 
       </Text>
     </ModOp>
   </Group>
@@ -199,11 +189,6 @@
           <Text>Connaît les anciennes vertus celtiques de la divinité Cernunnos.</Text>
           <LineId>1600000077</LineId> 
       </Text>
-      <!-- Boost Hint -->
-      <Text>
-          <Text>Il faut s'assurer que l'île suit la divinité Cernunnos...</Text>
-          <LineId>1600000078</LineId> 
-      </Text>
     </ModOp>
   </Group>
 
@@ -219,11 +204,6 @@
       <Text>
           <Text>Connaît les anciennes vertus celtiques de la déesse Epona.</Text>
           <LineId>1600000081</LineId> 
-      </Text>
-      <!-- Boost Hint -->
-      <Text>
-          <Text>Il faut s'assurer que l'île suit la divinité Epona...</Text>
-          <LineId>1600000082</LineId> 
       </Text>
     </ModOp>
   </Group>
@@ -241,11 +221,6 @@
           <Text>Très dévoué, il prêche les vertus romaines de la divinité Mercure.</Text>
           <LineId>1600000085</LineId> 
       </Text>
-      <!-- Boost Hint -->
-      <Text>
-          <Text>Il faut s'assurer que l'île suit la divinité Mercure...</Text>
-          <LineId>1600000086</LineId> 
-      </Text>
     </ModOp>
   </Group>
 
@@ -262,11 +237,6 @@
           <Text>Très dévoué, il prêche les vertus romaines de la déesse Minerve.</Text>
           <LineId>1600000089</LineId> 
       </Text>
-      <!-- Boost Hint -->
-      <Text>
-          <Text>Il faut s'assurer que l'île suit la divinité Minerve...</Text>
-          <LineId>1600000090</LineId> 
-      </Text>
     </ModOp>
   </Group>
 
@@ -282,11 +252,6 @@
       <Text>
           <Text>Très dévoué, il prêche les vertus romaines de la divinité Neptune.</Text>
           <LineId>1600000093</LineId> 
-      </Text>
-      <!-- Boost Hint -->
-      <Text>
-          <Text>Il faut s'assurer que l'île suit la divinité Neptune...</Text>
-          <LineId>1600000094</LineId> 
       </Text>
     </ModOp>
   </Group>
@@ -320,6 +285,11 @@
       <Text>
           <Text>“Quelle performance exquise ! » « Quel talent incroyable ! » « Quand je serai grande, je veux être comme elle!”</Text>
           <LineId>1600000149</LineId> 
+      </Text>
+      <!-- Boosted Description -->
+      <Text>
+          <Text>"Where is my audience?" (15000 Population on Island)</Text>
+          <LineId>1600000150</LineId> 
       </Text>
     </ModOp>
   </Group>

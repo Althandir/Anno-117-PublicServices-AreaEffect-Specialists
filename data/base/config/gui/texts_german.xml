@@ -157,11 +157,6 @@
           <Text>Höchst hingebungsvoll und predigt die römischen Tugenden des Gottes Mars.</Text>
           <LineId>1600000069</LineId> 
       </Text>
-      <!-- Boost Hint -->
-      <Text>
-          <Text>Braucht die Gewissheit dass die Insel dem Gott Mars folgt...</Text>
-          <LineId>1600000070</LineId> 
-      </Text>
     </ModOp>
   </Group>
 
@@ -179,11 +174,6 @@
           <Text>Höchst hingebungsvoll und predigt die römischen Tugenden der Göttin Ceres.</Text>
           <LineId>1600000073</LineId> 
       </Text>
-      <!-- Boost Hint -->
-      <Text>
-          <Text>Braucht die Gewissheit dass die Insel der Göttin Ceres folgt...</Text>
-          <LineId>1600000074</LineId> 
-      </Text>
     </ModOp>
   </Group>
 
@@ -199,11 +189,6 @@
       <Text>
           <Text>Kennt die alten keltischen Tugenden der Gottheit Cernunnos.</Text>
           <LineId>1600000077</LineId> 
-      </Text>
-      <!-- Boost Hint -->
-      <Text>
-          <Text>Braucht die Gewissheit dass die Insel dem Gott Cernunnos folgt...</Text>
-          <LineId>1600000078</LineId> 
       </Text>
     </ModOp>
   </Group>
@@ -221,11 +206,6 @@
           <Text>Kennt die alten keltischen Tugenden der Gottheit Epona.</Text>
           <LineId>1600000081</LineId> 
       </Text>
-      <!-- Boost Hint -->
-      <Text>
-          <Text>Braucht die Gewissheit dass die Insel der Göttin Epona folgt...</Text>
-          <LineId>1600000082</LineId> 
-      </Text>
     </ModOp>
   </Group>
 
@@ -241,11 +221,6 @@
       <Text>
           <Text>Höchst hingebungsvoll und predigt die römischen Tugenden des Gottes Mercur.</Text>
           <LineId>1600000085</LineId> 
-      </Text>
-      <!-- Boost Hint -->
-      <Text>
-          <Text>Braucht die Gewissheit dass die Insel dem Gott Merkur folgt...</Text>
-          <LineId>1600000086</LineId> 
       </Text>
     </ModOp>
   </Group>
@@ -263,11 +238,6 @@
           <Text>Höchst hingebungsvoll und predigt die römischen Tugenden der Göttin Minerva.</Text>
           <LineId>1600000089</LineId> 
       </Text>
-      <!-- Boost Hint -->
-      <Text>
-          <Text>Braucht die Gewissheit dass die Insel der Göttin Minerva folgt...</Text>
-          <LineId>1600000090</LineId> 
-      </Text>
     </ModOp>
   </Group>
 
@@ -283,11 +253,6 @@
       <Text>
           <Text>Höchst hingebungsvoll und predigt die römischen Tugenden des Gottes Neptun.</Text>
           <LineId>1600000093</LineId> 
-      </Text>
-      <!-- Boost Hint -->
-      <Text>
-          <Text>Braucht die Gewissheit dass die Insel dem Gott Neptun folgt...</Text>
-          <LineId>1600000094</LineId> 
       </Text>
     </ModOp>
   </Group>
@@ -320,6 +285,11 @@
       <Text>
           <Text>„Was für eine exquisite Darbietung!“ „Was für ein unglaubliches Talent!“ „Wenn ich groß bin, möchte ich genau wie er sein!“</Text>
           <LineId>1600000149</LineId> 
+      </Text>
+      <!-- Boosted Description -->
+      <Text>
+          <Text>"Wo ist denn mein Publikum?" (15000 Einwohner auf Insel)</Text>
+          <LineId>1600000150</LineId> 
       </Text>
     </ModOp>
   </Group>
@@ -416,6 +386,11 @@
       <Text>
           <Text>Entfacht das Herzstück römischer Handwerkskunst und Handels. &#xD;Hinweis I: Der Produktivitätbonus gilt für alle Produktionsgebäude im Straßenreichweite. &#xD;Hinweis II: In Albion zählt der Tempel als Forum.</Text>
           <LineId>1600000217</LineId> 
+      </Text>
+      <!-- Boosted Description -->
+      <Text>
+          <Text>"Ohne eine wirtschaftliche Basis lässt sich hier nichts entfachen!" (42 Produktionsgebäude auf Insel)</Text>
+          <LineId>1600000218</LineId> 
       </Text>
     </ModOp>
   </Group>
