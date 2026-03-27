@@ -385,7 +385,7 @@
       </Text>
       <!-- Description -->
       <Text>
-          <Text>Triggers the heart of roman Craftsmanship and Trade. &#xD;Hint I: Productivity applies to All Production Buildings in Street Range. &#xD;Hint II: In Albion, the temple counts as a forum.</Text>
+          <Text>Triggers the heart of roman Craftsmanship and Trade. &#xD;Hint I: Productivity applies to All Production Buildings in Street Range. &#xD;Hint II: In Albion, the temple also counts as a forum.</Text>
           <LineId>1600000217</LineId> 
       </Text>
       <!-- Boosted Description -->
@@ -396,7 +396,7 @@
     </ModOp>
   </Group> 
 
-  <!-- Specialist AreaEffect-ForumWorkforce-E -->
+  <!-- Specialist AE-Forum-CTHall-Popu-E -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -406,7 +406,7 @@
       </Text>
       <!-- Description -->
       <Text>
-          <Text>"117 Citzens... 1404 Citzens... 1503 Citzens... 1602 Citzens... 1800 Citzens... 2070 Citzens... 2205 Citzens..." &#xD;Hint: In Albion, the temple counts as a forum.</Text>
+          <Text>"117 Citzens... 1404 Citzens... 1503 Citzens... 1602 Citzens... 1800 Citzens... 2070 Citzens... 2205 Citzens..." &#xD;Hint: In Albion, the temple also counts as a forum.</Text>
           <LineId>1600000221</LineId> 
       </Text>
     </ModOp>

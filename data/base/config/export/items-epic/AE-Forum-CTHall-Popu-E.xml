@@ -7,8 +7,8 @@
         <Values>
           <Standard>
             <GUID>1600000220</GUID>
-            <Name>Specialist AreaEffect-ForumWorkforce-E</Name>
-            <IconFilename>data/base/graphics/icons/female_ForumsWorkforceE.png</IconFilename>
+            <Name>Specialist AE-Forum-CTHall-Popu-E</Name>
+            <IconFilename>data/base/graphics/icons/f_Forum-CTHall-Popu-E.png</IconFilename>
             <InfoDescription>1600000221</InfoDescription>
           </Standard>
           <Effect>
@@ -20,9 +20,12 @@
               </Item>
             </Buffs>
             <Targets> <!-- Targets of Buff -->
-              <Item>
-                <GUID>81273</GUID> <!-- #Info: For some Reason: RomanCelticTemple is in this Asset Pool? -->
-              </Item>
+                <Item>
+                    <GUID>81273</GUID> <!-- #Info: For some Reason: RomanCelticTemple is in this Asset Pool? -->
+                </Item>
+                <Item>
+                    <GUID>6726</GUID> 
+                </Item>
             </Targets>
             <HideInGovernorsBar>1</HideInGovernorsBar>
           </Effect>
@@ -52,8 +55,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000221</GUID>
-                    <Name>Specialist AreaEffect-ForumWorkforce-E BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/female_ForumsWorkforceE.png</IconFilename>
+                    <Name>Specialist AE-Forum-CTHall-Popu-E BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/f_Forum-CTHall-Popu-E.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000220</OasisId>
@@ -93,8 +96,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000222</GUID>
-                    <Name>Specialist AreaEffect-ForumWorkforce-E FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/female_ForumsWorkforceE.png</IconFilename>
+                    <Name>Specialist AE-Forum-CTHall-Popu-E FunctionalEffect</Name>
+                    <IconFilename>data/base/graphics/icons/f_Forum-CTHall-Popu-E.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>StreetDistance</EffectScope>
@@ -125,8 +128,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000223</GUID>
-                    <Name>Specialist AreaEffect-ForumWorkforce-E FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/female_ForumsWorkforceE.png</IconFilename>
+                    <Name>Specialist AE-Forum-CTHall-Popu-E FunctionalEffect BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/f_Forum-CTHall-Popu-E.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000220</OasisId>

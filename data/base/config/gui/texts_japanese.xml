@@ -415,13 +415,13 @@
       </Text>
       <!-- Description -->
       <Text>
-          <Text>Triggers the heart of roman Craftsmanship and Trade. &#xD;Hint I: Productivity applies to All Production Buildings in Street Range. &#xD;Hint II: In Albion, the temple counts as a forum.</Text>
+          <Text>Triggers the heart of roman Craftsmanship and Trade. &#xD;Hint I: Productivity applies to All Production Buildings in Street Range. &#xD;Hint II: In Albion, the temple also counts as a forum.</Text>
           <LineId>1600000217</LineId> 
       </Text>
     </ModOp>
   </Group> 
 
-  <!-- Specialist AreaEffect-ForumWorkforce-E -->
+  <!-- Specialist AE-Forum-CTHall-Popu-E -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -431,7 +431,7 @@
       </Text>
       <!-- Description -->
       <Text>
-          <Text>Manages workers for greater efficiency and organizes them to the best suited profession. &#xD;Hint I: Workforce Modifier applies to All Buildings in Street Range. &#xD;Hint II: In Albion, the temple counts as a forum.</Text>
+          <Text>Manages workers for greater efficiency and organizes them to the best suited profession. &#xD;Hint I: Workforce Modifier applies to All Buildings in Street Range. &#xD;Hint II: In Albion, the temple also counts as a forum.</Text>
           <LineId>1600000221</LineId> 
       </Text>
     </ModOp>
