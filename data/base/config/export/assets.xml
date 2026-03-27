@@ -24,7 +24,6 @@
 <Group>
     <Include File="items-common/AreaEffect-BardicHallBelief-C.xml" />
     <Include File="items-common/AreaEffect-MarketBelief-C.xml" />
-    <Include File="items-common/AreaEffect-SancFanumBeliefbyMoney-R.xml" />
     <Include File="items-common/AreaEffect-TabernaMoney-C.xml" />
 </Group>
 
@@ -36,6 +35,7 @@
     <Include File="items-rare/AreaEffect-GamblingHouseMoneybyHappinessBelief-R.xml"/>
     <Include File="items-rare/AreaEffect-GrammaticusKnowledgebyMoney-R.xml"/>
     <Include File="items-rare/AreaEffect-TheaterHappinessbyPrestige-R.xml"/>
+    <Include File="items-rare/AreaEffect-SancFanumBeliefbyMoney-R.xml" />
 </Group>
 
 <!-- Epic Specialists -->
