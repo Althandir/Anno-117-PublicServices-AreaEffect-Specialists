@@ -40,8 +40,8 @@
 
 <!-- Epic Specialists -->
 <Group>
-    <Include File="items-epic/AreaEffect-CelcicTownHallHappinessPrestigeKnowledge-E.xml" />
-    <Include File="items-epic/AE-Forum-CTHall-Popu-E.xml" />
+    <Include File="items-epic/AE-CTHall-PrestiKnowHappy-E.xml" />
+    <Include File="items-epic/AE-Forum-CTHall-Popu-NAll-E.xml" />
     <Include File="items-epic/AE-Gamble-PrestiHappy-E.xml" />
     <Include File="items-epic/AE-Gramma-AddGoods-NBelief-E.xml" />
     <Include File="items-epic/AE-Lib-KnowPresti-NFire-E.xml" />
