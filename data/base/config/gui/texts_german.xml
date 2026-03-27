@@ -48,7 +48,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AreaEffect-SancFanumBeliefbyMoney-C -->
+  <!-- Specialist AreaEffect-SancFanumBeliefbyMoney-R -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->

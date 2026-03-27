@@ -7,7 +7,7 @@
         <Values>
           <Standard>
             <GUID>1600000017</GUID>
-            <Name>Specialist AreaEffect-SancFanumBeliefbyMoney-C</Name>
+            <Name>Specialist AreaEffect-SancFanumBeliefbyMoney-R</Name>
             <IconFilename>data/base/graphics/icons/female_SancFanumBeliefbyMoney.png</IconFilename>
             <InfoDescription>1600000018</InfoDescription>
           </Standard>
@@ -31,9 +31,9 @@
           </Effect>
           <Item>
             <Niche>Religion</Niche>
-            <TradePrice>2500</TradePrice> 
+            <TradePrice>20000</TradePrice> 
             <BarkPool>83333</BarkPool> <!-- <GUID>83333</GUID> -->
-            <Rarity>Common</Rarity> 
+            <Rarity>Rare</Rarity> 
           </Item>
           <Locked>
             <DefaultLockedState>0</DefaultLockedState>
@@ -55,7 +55,7 @@
             <Values>
                 <Standard>
                     <GUID>1600000018</GUID>
-                    <Name>Specialist AreaEffect-SancFanumBeliefbyMoney-C BuildingBuff</Name>
+                    <Name>Specialist AreaEffect-SancFanumBeliefbyMoney-R BuildingBuff</Name>
                     <IconFilename>data/base/graphics/icons/female_SancFanumBeliefbyMoney.png</IconFilename>
                 </Standard>
                 <Text>
@@ -90,7 +90,7 @@
             <Values>
                 <Standard>
                     <GUID>1600000019</GUID>
-                    <Name>Specialist AreaEffect-SancFanumBeliefbyMoney-C FunctionalEffect</Name>
+                    <Name>Specialist AreaEffect-SancFanumBeliefbyMoney-R FunctionalEffect</Name>
                     <IconFilename>data/base/graphics/icons/female_SancFanumBeliefbyMoney.png</IconFilename>
                 </Standard>
                 <Effect>
@@ -122,7 +122,7 @@
             <Values>
                 <Standard>
                     <GUID>1600000020</GUID>
-                    <Name>Specialist AreaEffect-SancFanumBeliefbyMoney-C FunctionalEffect BuildingBuff</Name>
+                    <Name>Specialist AreaEffect-SancFanumBeliefbyMoney-R FunctionalEffect BuildingBuff</Name>
                     <IconFilename>data/base/graphics/icons/female_SancFanumBeliefbyMoney.png</IconFilename>
                 </Standard>
                 <Text>
@@ -131,48 +131,24 @@
                 <HealthUpgrade/>
                 <BuildingUpgrade>
                     <AdditionalAttributes>
-                        <Population>
-                        <AmountOrPercent>
-                            <Value>0</Value>
-                            <Percental>0</Percental>
-                        </AmountOrPercent>
-                        </Population>
                         <Happiness>
-                        <AmountOrPercent>
-                            <Value>0</Value>
-                            <Percental>0</Percental>
-                        </AmountOrPercent>
+                            <AmountOrPercent>
+                                <Value>0.5</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
                         </Happiness>
                         <Money>
-                        <AmountOrPercent>
-                            <Value>-0.5</Value>
-                            <Percental>0</Percental>
-                        </AmountOrPercent>
+                            <AmountOrPercent>
+                                <Value>-1</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
                         </Money>
-                        <Prestige>
-                        <AmountOrPercent>
-                            <Value>0</Value>
-                            <Percental>0</Percental>
-                        </AmountOrPercent>
-                        </Prestige>
                         <Belief>
                             <AmountOrPercent>
                                 <Value>1</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
                         </Belief>
-                        <Knowledge>
-                            <AmountOrPercent>
-                                <Value>0</Value>
-                                <Percental>0</Percental>
-                            </AmountOrPercent>
-                        </Knowledge>
-                        <FireSafety>
-                            <AmountOrPercent>
-                                <Value>0</Value>
-                                <Percental>0</Percental>
-                            </AmountOrPercent>
-                        </FireSafety>
                     </AdditionalAttributes>
                 </BuildingUpgrade>
                 <DistributionUpgrade/>

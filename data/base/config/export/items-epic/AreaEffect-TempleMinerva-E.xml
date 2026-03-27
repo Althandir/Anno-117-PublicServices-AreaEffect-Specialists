@@ -148,7 +148,7 @@
                         </Money>
                         <Prestige>
                             <AmountOrPercent>
-                                <Value>0.5</Value>
+                                <Value>0.8</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
                         </Prestige>
@@ -160,7 +160,7 @@
                         </Belief>
                         <Knowledge>
                             <AmountOrPercent>
-                                <Value>0.5</Value>
+                                <Value>0.8</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
                         </Knowledge>

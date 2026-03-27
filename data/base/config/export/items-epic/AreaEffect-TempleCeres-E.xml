@@ -131,7 +131,7 @@
                     <AdditionalAttributes>
                         <Population>
                             <AmountOrPercent>
-                                <Value>0.5</Value>
+                                <Value>0.8</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
                         </Population>
@@ -167,7 +167,7 @@
                         </Knowledge>
                         <Health>
                             <AmountOrPercent>
-                                <Value>0.5</Value>
+                                <Value>0.8</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
                         </Health>
