@@ -401,12 +401,12 @@
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
       <Text>
-          <Text>Aurelia Ordinata, Worker Organizer</Text>
+          <Text>Aurelia Ordinata, Census Delegate</Text>
           <LineId>1600000220</LineId> <!-- <GUID>1600000220</GUID> -->
       </Text>
       <!-- Description -->
       <Text>
-          <Text>Manages workers for greater efficiency and organizes them to the best suited profession. &#xD;Hint I: Workforce Modifier applies to All Buildings in Street Range. &#xD;Hint II: In Albion, the temple counts as a forum.</Text>
+          <Text>"117 Citzens... 1404 Citzens... 1503 Citzens... 1602 Citzens... 1800 Citzens... 2070 Citzens... 2205 Citzens..." &#xD;Hint: In Albion, the temple counts as a forum.</Text>
           <LineId>1600000221</LineId> 
       </Text>
     </ModOp>

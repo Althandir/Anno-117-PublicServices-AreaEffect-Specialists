@@ -395,12 +395,12 @@
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
       <Text>
-          <Text>Aurelia Ordinata, organisatrice des travailleurs</Text>
+          <Text>Aurelia Ordinata, Census Delegate</Text>
           <LineId>1600000220</LineId> <!-- <GUID>1600000220</GUID> -->
       </Text>
       <!-- Description -->
       <Text>
-          <Text>Gère les travailleurs pour une plus grande efficacité et les organise selon la profession qui leur convient le mieux. Indice I : le modificateur de main-d'œuvre s'applique à tous les bâtiments situés dans le rayon de la rue. Indice II : à Albion, le temple fait office de forum.</Text>
+          <Text>"117 Citzens... 1404 Citzens... 1503 Citzens... 1602 Citzens... 1800 Citzens... 2070 Citzens... 2205 Citzens..." &#xD;Hint: In Albion, the temple counts as a forum.</Text>
           <LineId>1600000221</LineId> 
       </Text>
     </ModOp>

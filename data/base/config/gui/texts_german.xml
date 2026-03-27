@@ -267,7 +267,7 @@
       </Text>
       <!-- Description -->
       <Text>
-          <Text>Spielt die Rolle einer hässlichen Hexe, die es liebt, Augäpfel von anderen Menschen zu sammeln. Sie ist immer offen für einen guten Deal... Zu ihren Gunsten natürlich.</Text>
+          <Text>Spielt die Rolle einer hässlichen Hexe, die es liebt, Augäpfel von anderen Bürger zu sammeln. Sie ist immer offen für einen guten Deal... Zu ihren Gunsten natürlich.</Text>
           <LineId>1600000097</LineId> 
       </Text>
     </ModOp>
@@ -400,12 +400,12 @@
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
       <Text>
-          <Text>Aurelia Ordinata, Arbeitskraftorganisatorin</Text>
+          <Text>Aurelia Ordinata, Abgesante des Zensus</Text>
           <LineId>1600000220</LineId> <!-- <GUID>1600000220</GUID> -->
       </Text>
       <!-- Description -->
       <Text>
-          <Text>Verwaltet Arbeiter für mehr Effizienz und ordnet sie den am besten geeigneten Berufen zu. &#xD;Hinweis I: Der Arbeitskräfte-Modifikator gilt für alle Gebäude im Straßenreichweite. &#xD;Hinweis II: In Albion zählt der Tempel als Forum.</Text>
+          <Text>"117 Bürger... 1404 Bürger... 1503 Bürger... 1602 Bürger... 1800 Bürger... 2070 Bürger... 2205 Bürger...". &#xD;Hinweis: In Albion zählt der Tempel auch als Forum.</Text>
           <LineId>1600000221</LineId> 
       </Text>
     </ModOp>

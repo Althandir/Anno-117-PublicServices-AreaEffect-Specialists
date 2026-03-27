@@ -73,7 +73,7 @@
                 <ModuleOwnerUpgrade/>
                 <MaintenanceUpgrade>
                     <WorkforceMaintenanceFactorUpgrade>
-                        <Value>-20</Value>
+                        <Value>0</Value>
                         <Percental>1</Percental>
                     </WorkforceMaintenanceFactorUpgrade>
                 </MaintenanceUpgrade>
@@ -137,13 +137,13 @@
                     <AdditionalAttributes>
                         <Population>
                         <AmountOrPercent>
-                            <Value>0</Value>
+                            <Value>2</Value>
                             <Percental>0</Percental>
                         </AmountOrPercent>
                         </Population>
                         <Happiness>
                         <AmountOrPercent>
-                            <Value>0</Value>
+                            <Value>-1</Value>
                             <Percental>0</Percental>
                         </AmountOrPercent>
                         </Happiness>
@@ -173,13 +173,13 @@
                         </Knowledge>
                         <FireSafety>
                             <AmountOrPercent>
-                                <Value>0</Value>
+                                <Value>-1</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
                         </FireSafety>
                         <Health>
                             <AmountOrPercent>
-                                <Value>0</Value>
+                                <Value>-1</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
                         </Health>
@@ -200,7 +200,7 @@
                 <ModuleOwnerUpgrade/>
                 <MaintenanceUpgrade>
                     <WorkforceMaintenanceFactorUpgrade>
-                        <Value>-20</Value>
+                        <Value>0</Value>
                         <Percental>1</Percental>
                     </WorkforceMaintenanceFactorUpgrade>
                 </MaintenanceUpgrade>
