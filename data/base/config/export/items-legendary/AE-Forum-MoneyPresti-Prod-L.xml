@@ -7,8 +7,8 @@
             <Values>
             <Standard>
                 <GUID>1600000216</GUID>
-                <Name>Specialist AreaEffect-ForumIncomePrestigeProductivity-L</Name>
-                <IconFilename>data/base/graphics/icons/female_ForumIncomePrestigeProductivityL.png</IconFilename>
+                <Name>Specialist AE-Forum-MoneyPresti-Prod-L</Name>
+                <IconFilename>data/base/graphics/icons/f_AE-Forum-MoneyPresti-Prod-L.png</IconFilename>
                 <InfoDescription>1600000217</InfoDescription>
             </Standard>
             <Effect>
@@ -98,8 +98,8 @@
                 <Values>
                     <Standard>
                         <GUID>1600000217</GUID>
-                        <Name>Specialist AreaEffect-ForumIncomePrestigeProductivity-L BuildingBuff</Name>
-                        <IconFilename>data/base/graphics/icons/female_ForumIncomePrestigeProductivityL.png</IconFilename>
+                        <Name>Specialist AE-Forum-MoneyPresti-Prod-L BuildingBuff</Name>
+                        <IconFilename>data/base/graphics/icons/f_AE-Forum-MoneyPresti-Prod-L.png</IconFilename>
                     </Standard>
                     <Text>
                         <OasisId>1600000216</OasisId>
@@ -142,8 +142,8 @@
                 <Values>
                     <Standard>
                         <GUID>1600000218</GUID>
-                        <Name>Specialist AreaEffect-ForumIncomePrestigeProductivity-L FunctionalEffect</Name>
-                        <IconFilename>data/base/graphics/icons/female_ForumIncomePrestigeProductivityL.png</IconFilename>
+                        <Name>Specialist AE-Forum-MoneyPresti-Prod-L FunctionalEffect</Name>
+                        <IconFilename>data/base/graphics/icons/f_AE-Forum-MoneyPresti-Prod-L.png</IconFilename>
                     </Standard>
                     <Effect>
                         <EffectScope>StreetDistance</EffectScope>
@@ -174,8 +174,8 @@
                 <Values>
                     <Standard>
                         <GUID>1600000219</GUID>
-                        <Name>Specialist AreaEffect-ForumIncomePrestigeProductivity-L FunctionalEffect BuildingBuff</Name>
-                        <IconFilename>data/base/graphics/icons/female_ForumIncomePrestigeProductivityL.png</IconFilename>
+                        <Name>Specialist AE-Forum-MoneyPresti-Prod-L FunctionalEffect BuildingBuff</Name>
+                        <IconFilename>data/base/graphics/icons/f_AE-Forum-MoneyPresti-Prod-L.png</IconFilename>
                     </Standard>
                     <Text>
                         <OasisId>1600000216</OasisId>
@@ -215,8 +215,8 @@
                 <Values>
                     <Standard>
                         <GUID>1600000288</GUID>
-                        <Name>Specialist AreaEffect-ForumIncomePrestigeProductivity-L BuildingBuff</Name>
-                        <IconFilename>data/base/graphics/icons/female_ForumIncomePrestigeProductivityL.png</IconFilename>
+                        <Name>Specialist AE-Forum-MoneyPresti-Prod-L BuildingBuff</Name>
+                        <IconFilename>data/base/graphics/icons/f_AE-Forum-MoneyPresti-Prod-L.png</IconFilename>
                     </Standard>
                     <Text>
                         <OasisId>1600000216</OasisId>
@@ -259,8 +259,8 @@
                 <Values>
                     <Standard>
                         <GUID>1600000289</GUID>
-                        <Name>Specialist AreaEffect-ForumIncomePrestigeProductivity-L FunctionalEffect</Name>
-                        <IconFilename>data/base/graphics/icons/female_ForumIncomePrestigeProductivityL.png</IconFilename>
+                        <Name>Specialist AE-Forum-MoneyPresti-Prod-L FunctionalEffect</Name>
+                        <IconFilename>data/base/graphics/icons/f_AE-Forum-MoneyPresti-Prod-L.png</IconFilename>
                     </Standard>
                     <Effect>
                         <EffectScope>StreetDistance</EffectScope>
@@ -291,8 +291,8 @@
                 <Values>
                     <Standard>
                         <GUID>1600000290</GUID>
-                        <Name>Specialist AreaEffect-ForumIncomePrestigeProductivity-L FunctionalEffect BuildingBuff</Name>
-                        <IconFilename>data/base/graphics/icons/female_ForumIncomePrestigeProductivityL.png</IconFilename>
+                        <Name>Specialist AE-Forum-MoneyPresti-Prod-L FunctionalEffect BuildingBuff</Name>
+                        <IconFilename>data/base/graphics/icons/f_AE-Forum-MoneyPresti-Prod-L.png</IconFilename>
                     </Standard>
                     <Text>
                         <OasisId>1600000216</OasisId>

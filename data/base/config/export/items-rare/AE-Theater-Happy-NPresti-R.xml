@@ -1,42 +1,42 @@
 <ModOps>
-<!-- Item Definition GUID:1600000178 - 1600000181 | LineID:1600000178 - 1600000179 -->
+<!-- Item Definition GUID:1600000186 - 1600000189 | LineID:1600000186 - 1600000187 -->
   <Group>
     <ModOp Type="addNextSibling" GUID="106410">
       <Asset>
         <Template>Item</Template>
         <Values>
           <Standard>
-            <GUID>1600000178</GUID>
-            <Name>Specialist AreaEffect-GrammaticusKnowledgebyMoney-R</Name>
-            <IconFilename>data/base/graphics/icons/male_GrammaticusKnowledgebyMoneyR.png</IconFilename>
-            <InfoDescription>1600000179</InfoDescription>
+            <GUID>1600000186</GUID>
+            <Name>Specialist AE-Theater-Happy-NPresti-R</Name>
+            <IconFilename>data/base/graphics/icons/unchanged/c_f_AE-Theater-Happy-NPresti-R.png</IconFilename>
+            <InfoDescription>1600000187</InfoDescription>
           </Standard>
           <Effect>
             <EffectScope>Radius</EffectScope>  
             <SourceCategory>Item</SourceCategory>
             <Buffs>
               <Item>
-                <GUID>1600000179</GUID>
+                <GUID>1600000187</GUID>
               </Item>
             </Buffs>
             <Targets> <!-- Targets of Buff -->
               <Item>
-                <GUID>42605</GUID>
+                <GUID>81446</GUID>
               </Item>
             </Targets>
             <HideInGovernorsBar>1</HideInGovernorsBar>
           </Effect>
           <Item>
-            <Niche>Research</Niche>
-            <TradePrice>28500</TradePrice> 
-            <BarkPool>80248</BarkPool> <!-- <GUID>80248</GUID> -->
+            <Niche>Culture</Niche>
+            <TradePrice>34000</TradePrice> 
+            <BarkPool>83313</BarkPool> <!-- <GUID>83313</GUID> -->
             <Rarity>Rare</Rarity> 
           </Item>
           <Locked>
             <DefaultLockedState>0</DefaultLockedState>
           </Locked>
           <Text>
-            <OasisId>1600000178</OasisId>
+            <OasisId>1600000186</OasisId>
           </Text>
         </Values>
       </Asset>
@@ -51,24 +51,16 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000179</GUID>
-                    <Name>Specialist AreaEffect-GrammaticusKnowledgebyMoney-R BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/male_GrammaticusKnowledgebyMoneyR.png</IconFilename>
+                    <GUID>1600000187</GUID>
+                    <Name>Specialist AE-Theater-Happy-NPresti-R BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/unchanged/c_f_AE-Theater-Happy-NPresti-R.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000178</OasisId>
+                    <OasisId>1600000186</OasisId>
                 </Text>
                 <HealthUpgrade/>
                 <BuildingUpgrade>
-                    <AdditionalFunctionalEffect>1600000180</AdditionalFunctionalEffect>
-                    <AdditionalAttributes>
-                      <Belief>
-                        <AmountOrPercent>
-                          <Value>0</Value>
-                          <Percental>0</Percental>
-                        </AmountOrPercent>
-                      </Belief>
-                    </AdditionalAttributes>
+                    <AdditionalFunctionalEffect>1600000188</AdditionalFunctionalEffect>
                 </BuildingUpgrade>
                 <DistributionUpgrade/>
                 <Buff>
@@ -93,16 +85,16 @@
             <Template>Effect</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000180</GUID>
-                    <Name>Specialist AreaEffect-GrammaticusKnowledgebyMoney-R FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/male_GrammaticusKnowledgebyMoneyR.png</IconFilename>
+                    <GUID>1600000188</GUID>
+                    <Name>Specialist AE-Theater-Happy-NPresti-R FunctionalEffect</Name>
+                    <IconFilename>data/base/graphics/icons/unchanged/c_f_AE-Theater-Happy-NPresti-R.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>StreetDistance</EffectScope>
                     <SourceCategory>Adjacency</SourceCategory>
                     <Buffs>
                         <Item>
-                            <GUID>1600000181</GUID>
+                            <GUID>1600000189</GUID>
                         </Item>
                     </Buffs>
                     <Targets>
@@ -114,7 +106,7 @@
                     <HideInGovernorsBar>1</HideInGovernorsBar>
                 </Effect>
                 <Text>
-                    <OasisId>1600000178</OasisId>
+                    <OasisId>1600000186</OasisId>
                 </Text>
             </Values>
         </Asset>
@@ -125,28 +117,28 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000181</GUID>
-                    <Name>Specialist AreaEffect-GrammaticusKnowledgebyMoney-R FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/male_GrammaticusKnowledgebyMoneyR.png</IconFilename>
+                    <GUID>1600000189</GUID>
+                    <Name>Specialist AE-Theater-Happy-NPresti-R FunctionalEffect BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/unchanged/c_f_AE-Theater-Happy-NPresti-R.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000178</OasisId>
+                    <OasisId>1600000186</OasisId>
                 </Text>
                 <HealthUpgrade/>
                 <BuildingUpgrade>
                     <AdditionalAttributes>
-                        <Knowledge>
+                        <Happiness>
                             <AmountOrPercent>
                                 <Value>1</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
-                        </Knowledge>
-                        <Money>
+                        </Happiness>
+                        <Prestige>
                             <AmountOrPercent>
-                                <Value>0</Value>
+                                <Value>-0.5</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
-				                </Money>
+				                </Prestige>
                     </AdditionalAttributes>
                 </BuildingUpgrade>
                 <DistributionUpgrade/>

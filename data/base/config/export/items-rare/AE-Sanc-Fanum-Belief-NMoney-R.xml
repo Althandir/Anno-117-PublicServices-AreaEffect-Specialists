@@ -1,42 +1,45 @@
 <ModOps>
-<!-- Item Definition GUID:1600000166 - 1600000169 | LineID:1600000166 - 1600000167 -->
+<!-- Item Definition GUID:1600000017 - 1600000020 | LineID:1600000017 - 1600000018 -->
   <Group>
     <ModOp Type="addNextSibling" GUID="106410">
       <Asset>
         <Template>Item</Template>
         <Values>
           <Standard>
-            <GUID>1600000166</GUID>
-            <Name>Specialist AreaEffect-CelcicSacredGroveBeliefByPrestige-R</Name>
-            <IconFilename>data/base/graphics/icons/unchanged/celtic_female_CelticSacredGroveBeliefByPrestige.png</IconFilename>
-            <InfoDescription>1600000167</InfoDescription>
+            <GUID>1600000017</GUID>
+            <Name>Specialist AE-Sanc-Fanum-Belief-NMoney-R</Name>
+            <IconFilename>data/base/graphics/icons/f_AE-Sanc-Fanum-Belief-NMoney-R.png</IconFilename>
+            <InfoDescription>1600000018</InfoDescription>
           </Standard>
           <Effect>
             <EffectScope>Radius</EffectScope>  
             <SourceCategory>Item</SourceCategory>
             <Buffs>
               <Item>
-                <GUID>1600000167</GUID>
+                <GUID>1600000018</GUID>
               </Item>
             </Buffs>
             <Targets> <!-- Targets of Buff -->
               <Item>
-                <GUID>55981</GUID>
+                <GUID>3615</GUID>
+              </Item>
+              <Item>
+                <GUID>6728</GUID>
               </Item>
             </Targets>
             <HideInGovernorsBar>1</HideInGovernorsBar>
           </Effect>
           <Item>
             <Niche>Religion</Niche>
-            <TradePrice>22500</TradePrice> 
-            <BarkPool>83342</BarkPool> <!-- <GUID>83342</GUID> -->
+            <TradePrice>20000</TradePrice> 
+            <BarkPool>83333</BarkPool> <!-- <GUID>83333</GUID> -->
             <Rarity>Rare</Rarity> 
           </Item>
           <Locked>
             <DefaultLockedState>0</DefaultLockedState>
           </Locked>
           <Text>
-            <OasisId>1600000166</OasisId>
+            <OasisId>1600000017</OasisId>
           </Text>
         </Values>
       </Asset>
@@ -51,16 +54,16 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000167</GUID>
-                    <Name>Specialist AreaEffect-CelcicSacredGroveBeliefByPrestige-R BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/unchanged/celtic_female_CelticSacredGroveBeliefByPrestige.png</IconFilename>
+                    <GUID>1600000018</GUID>
+                    <Name>Specialist AE-Sanc-Fanum-Belief-NMoney-R BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/f_AE-Sanc-Fanum-Belief-NMoney-R.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000166</OasisId>
+                    <OasisId>1600000017</OasisId>
                 </Text>
                 <HealthUpgrade/>
                 <BuildingUpgrade>
-                    <AdditionalFunctionalEffect>1600000168</AdditionalFunctionalEffect>
+                    <AdditionalFunctionalEffect>1600000019</AdditionalFunctionalEffect>
                 </BuildingUpgrade>
                 <DistributionUpgrade/>
                 <Buff>
@@ -70,7 +73,12 @@
                 </ResidenceUpgrade>
                 <FactoryUpgrade/>
                 <ModuleOwnerUpgrade/>
-                <MaintenanceUpgrade/>
+                <MaintenanceUpgrade>
+                    <MaintenanceFactorUpgrade>
+                        <Value>-100</Value>
+                        <Percental>1</Percental>
+                    </MaintenanceFactorUpgrade>
+                </MaintenanceUpgrade>
                 <CityInstitutionUpgrade/>
                 <IncidentInfectableUpgrade/>
                 <RecruitmentUpgrade/>
@@ -86,16 +94,16 @@
             <Template>Effect</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000168</GUID>
-                    <Name>Specialist AreaEffect-CelcicSacredGroveBeliefByPrestige-R FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/unchanged/celtic_female_CelticSacredGroveBeliefByPrestige.png</IconFilename>
+                    <GUID>1600000019</GUID>
+                    <Name>Specialist AE-Sanc-Fanum-Belief-NMoney-R FunctionalEffect</Name>
+                    <IconFilename>data/base/graphics/icons/f_AE-Sanc-Fanum-Belief-NMoney-R.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>StreetDistance</EffectScope>
                     <SourceCategory>Adjacency</SourceCategory>
                     <Buffs>
                         <Item>
-                            <GUID>1600000169</GUID>
+                            <GUID>1600000020</GUID>
                         </Item>
                     </Buffs>
                     <Targets>
@@ -107,7 +115,7 @@
                     <HideInGovernorsBar>1</HideInGovernorsBar>
                 </Effect>
                 <Text>
-                    <OasisId>1600000166</OasisId>
+                    <OasisId>1600000017</OasisId>
                 </Text>
             </Values>
         </Asset>
@@ -118,58 +126,34 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000169</GUID>
-                    <Name>Specialist AreaEffect-CelcicSacredGroveBeliefByPrestige-R FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/unchanged/celtic_female_CelticSacredGroveBeliefByPrestige.png</IconFilename>
+                    <GUID>1600000020</GUID>
+                    <Name>Specialist AE-Sanc-Fanum-Belief-NMoney-R FunctionalEffect BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/f_AE-Sanc-Fanum-Belief-NMoney-R.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000166</OasisId>
+                    <OasisId>1600000017</OasisId>
                 </Text>
                 <HealthUpgrade/>
                 <BuildingUpgrade>
                     <AdditionalAttributes>
-                        <Population>
-                        <AmountOrPercent>
-                            <Value>0</Value>
-                            <Percental>0</Percental>
-                        </AmountOrPercent>
-                        </Population>
                         <Happiness>
-                        <AmountOrPercent>
-                            <Value>0</Value>
-                            <Percental>0</Percental>
-                        </AmountOrPercent>
-                        </Happiness>
-                        <Money>
-                        <AmountOrPercent>
-                            <Value>0</Value>
-                            <Percental>0</Percental>
-                        </AmountOrPercent>
-                        </Money>
-                        <Prestige>
-                        <AmountOrPercent>
-                            <Value>-1</Value>
-                            <Percental>0</Percental>
-                        </AmountOrPercent>
-                        </Prestige>
-                        <Belief>
-                            <AmountOrPercent>
-                                <Value>1.5</Value>
-                                <Percental>0</Percental>
-                            </AmountOrPercent>
-                        </Belief>
-                        <Knowledge>
                             <AmountOrPercent>
                                 <Value>0.5</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
-                        </Knowledge>
-                        <FireSafety>
+                        </Happiness>
+                        <Money>
                             <AmountOrPercent>
-                                <Value>0</Value>
+                                <Value>-1</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
-                        </FireSafety>
+                        </Money>
+                        <Belief>
+                            <AmountOrPercent>
+                                <Value>1</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
+                        </Belief>
                     </AdditionalAttributes>
                 </BuildingUpgrade>
                 <DistributionUpgrade/>

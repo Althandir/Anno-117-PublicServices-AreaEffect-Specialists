@@ -1,42 +1,42 @@
 <ModOps>
-<!-- Item Definition GUID:1600000009 - 1600000012 | LineID:1600000009 - 1600000010 -->
+<!-- Item Definition GUID:1600000068 - 1600000071 | LineID:1600000068 - 1600000069 -->
   <Group>
     <ModOp Type="addNextSibling" GUID="106410">
       <Asset>
         <Template>Item</Template>
         <Values>
           <Standard>
-            <GUID>1600000009</GUID>
-            <Name>Specialist AreaEffect-CelcicBarrowHealthPrestige-R</Name>
-            <IconFilename>data/base/graphics/icons/unchanged/celtic_male_barrowgardener.png</IconFilename>
-            <InfoDescription>1600000010</InfoDescription>
+            <GUID>1600000068</GUID>
+            <Name>Specialist AE-TempleMars-E</Name>
+            <IconFilename>data/base/graphics/icons/r_temple/roman_priestess_mod_Mars.png</IconFilename>
+            <InfoDescription>1600000069</InfoDescription>
           </Standard>
           <Effect>
-            <EffectScope>Radius</EffectScope> 
+            <EffectScope>Radius</EffectScope>  
             <SourceCategory>Item</SourceCategory>
             <Buffs>
               <Item>
-                <GUID>1600000010</GUID>
+                <GUID>1600000069</GUID>
               </Item>
             </Buffs>
-            <Targets> 
+            <Targets> <!-- Targets of Buff -->
               <Item>
-                <GUID>55980</GUID>
+                <GUID>140886</GUID>
               </Item>
             </Targets>
             <HideInGovernorsBar>1</HideInGovernorsBar>
           </Effect>
           <Item>
-            <Niche>Agriculture</Niche>
-            <TradePrice>37500</TradePrice> 
-            <BarkPool>83321</BarkPool> <!-- <GUID>83321</GUID> -->
-            <Rarity>Rare</Rarity> 
+            <Niche>Religion</Niche> 
+            <TradePrice>85000</TradePrice> 
+            <BarkPool>83343</BarkPool> <!-- <GUID>83343</GUID> -->
+            <Rarity>Epic</Rarity> 
           </Item>
           <Locked>
             <DefaultLockedState>0</DefaultLockedState>
           </Locked>
           <Text>
-            <OasisId>1600000009</OasisId>
+            <OasisId>1600000068</OasisId>
           </Text>
         </Values>
       </Asset>
@@ -51,16 +51,16 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000010</GUID>
-                    <Name>Specialist AreaEffect-CelcicBarrowHealthPrestige-R BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/unchanged/celtic_male_barrowgardener.png</IconFilename>
+                    <GUID>1600000069</GUID>
+                    <Name>Specialist AE-TempleMars-E BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/r_temple/roman_priestess_mod_Mars.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000009</OasisId>
+                    <OasisId>1600000068</OasisId>
                 </Text>
                 <HealthUpgrade/>
                 <BuildingUpgrade>
-                    <AdditionalFunctionalEffect>1600000011</AdditionalFunctionalEffect>
+                    <AdditionalFunctionalEffect>1600000070</AdditionalFunctionalEffect>
                 </BuildingUpgrade>
                 <DistributionUpgrade/>
                 <Buff>
@@ -86,16 +86,16 @@
             <Template>Effect</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000011</GUID>
-                    <Name>Specialist AreaEffect-CelcicBarrowHealthPrestige-R FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/unchanged/celtic_male_barrowgardener.png</IconFilename>
+                    <GUID>1600000070</GUID>
+                    <Name>Specialist AE-TempleMars-E FunctionalEffect</Name>
+                    <IconFilename>data/base/graphics/icons/r_temple/roman_priestess_mod_Mars.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>StreetDistance</EffectScope>
                     <SourceCategory>Adjacency</SourceCategory>
                     <Buffs>
                         <Item>
-                            <GUID>1600000012</GUID>
+                            <GUID>1600000071</GUID>
                         </Item>
                     </Buffs>
                     <Targets>
@@ -107,7 +107,7 @@
                     <HideInGovernorsBar>1</HideInGovernorsBar>
                 </Effect>
                 <Text>
-                    <OasisId>1600000009</OasisId>
+                    <OasisId>1600000068</OasisId>
                 </Text>
             </Values>
         </Asset>
@@ -118,39 +118,39 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000012</GUID>
-                    <Name>Specialist AreaEffect-CelcicBarrowHealthPrestige-R FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/unchanged/celtic_male_barrowgardener.png</IconFilename>
+                    <GUID>1600000071</GUID>
+                    <Name>Specialist AE-TempleMars-E FunctionalEffect BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/r_temple/roman_priestess_mod_Mars.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000009</OasisId>
+                    <OasisId>1600000068</OasisId>
                 </Text>
                 <HealthUpgrade/>
                 <BuildingUpgrade>
                     <AdditionalAttributes>
                         <Population>
-                            <AmountOrPercent>
-                                <Value>0</Value>
-                                <Percental>0</Percental>
-                            </AmountOrPercent>
+                        <AmountOrPercent>
+                            <Value>0.8</Value>
+                            <Percental>0</Percental>
+                        </AmountOrPercent>
                         </Population>
                         <Happiness>
-                            <AmountOrPercent>
-                                <Value>0</Value>
-                                <Percental>0</Percental>
-                            </AmountOrPercent>
+                        <AmountOrPercent>
+                            <Value>0</Value>
+                            <Percental>0</Percental>
+                        </AmountOrPercent>
                         </Happiness>
                         <Money>
-                            <AmountOrPercent>
-                                <Value>0</Value>
-                                <Percental>0</Percental>
-                            </AmountOrPercent>
+                        <AmountOrPercent>
+                            <Value>0</Value>
+                            <Percental>0</Percental>
+                        </AmountOrPercent>
                         </Money>
                         <Prestige>
-                            <AmountOrPercent>
-                                <Value>1</Value>
-                                <Percental>0</Percental>
-                            </AmountOrPercent>
+                        <AmountOrPercent>
+                            <Value>0.8</Value>
+                            <Percental>0</Percental>
+                        </AmountOrPercent>
                         </Prestige>
                         <Belief>
                             <AmountOrPercent>
@@ -166,10 +166,16 @@
                         </Knowledge>
                         <Health>
                             <AmountOrPercent>
-                                <Value>1</Value>
+                                <Value>0</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
                         </Health>
+                        <FireSafety>
+                            <AmountOrPercent>
+                                <Value>0</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
+                        </FireSafety>
                     </AdditionalAttributes>
                 </BuildingUpgrade>
                 <DistributionUpgrade/>

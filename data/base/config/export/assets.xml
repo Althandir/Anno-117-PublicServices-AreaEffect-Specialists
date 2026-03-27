@@ -22,44 +22,44 @@
 
 <!-- Common Specialists -->
 <Group>
-    <Include File="items-common/AreaEffect-BardicHallBelief-C.xml" />
-    <Include File="items-common/AreaEffect-MarketBelief-C.xml" />
-    <Include File="items-common/AreaEffect-TabernaMoney-C.xml" />
+    <Include File="items-common/AE-Bard-Belief-C.xml" />
+    <Include File="items-common/AE-Market-Belief-C.xml" />
+    <Include File="items-common/AE-TabernaBard-Money-C.xml" />
 </Group>
 
 <!-- Rare Specialists -->
 <Group>
-    <Include File="items-rare/AreaEffect-CelcicBarrowHealthPrestige-R.xml" />
-    <Include File="items-rare/AreaEffect-BathsHealthbyHappiness-R.xml" />
-    <Include File="items-rare/AreaEffect-CelcicSacredGroveBeliefByPrestige-R.xml" />
-    <Include File="items-rare/AreaEffect-GamblingHouseMoneybyHappinessBelief-R.xml"/>
-    <Include File="items-rare/AreaEffect-GrammaticusKnowledgebyMoney-R.xml"/>
-    <Include File="items-rare/AreaEffect-TheaterHappinessbyPrestige-R.xml"/>
-    <Include File="items-rare/AreaEffect-SancFanumBeliefbyMoney-R.xml" />
+    <Include File="items-rare/AE-CBarrow-HealthPresti-R.xml" />
+    <Include File="items-rare/AE-Bath-Health-NHappy-R.xml" />
+    <Include File="items-rare/AE-CSGrove-Belief-NPresti-R.xml" />
+    <Include File="items-rare/AE-Gamble-Money-NHappyBelief-R.xml"/>
+    <Include File="items-rare/AE-Gramma-Know-R.xml"/>
+    <Include File="items-rare/AE-Theater-Happy-NPresti-R.xml"/>
+    <Include File="items-rare/AE-Sanc-Fanum-Belief-NMoney-R.xml" />
 </Group>
 
 <!-- Epic Specialists -->
 <Group>
     <Include File="items-epic/AreaEffect-CelcicTownHallHappinessPrestigeKnowledge-E.xml" />
     <Include File="items-epic/AE-Forum-CTHall-Popu-E.xml" />
-    <Include File="items-epic/AreaEffect-GamblingHousePrestigeHappiness-E.xml" />
-    <Include File="items-epic/AreaEffect-GrammaticusAdditionalGoodsbyBelief-E.xml" />
-    <Include File="items-epic/AreaEffect-LibraryKnowledgePrestigebyFireSafety-E.xml" />
-    <Include File="items-epic/AreaEffect-LibraryPopulationHealthHappiness-E.xml" />
-    <Include File="items-epic/AreaEffect-TempleMars-E.xml" />
-    <Include File="items-epic/AreaEffect-TempleCeres-E.xml" />
-    <Include File="items-epic/AreaEffect-TempleCernunnos-E.xml" />
-    <Include File="items-epic/AreaEffect-TempleEpona-E.xml" />
-    <Include File="items-epic/AreaEffect-TempleMercury-E.xml" />
-    <Include File="items-epic/AreaEffect-TempleMinerva-E.xml" />  
-    <Include File="items-epic/AreaEffect-TempleNeptune-E.xml" />
-    <Include File="items-epic/AreaEffect-TheaterHealthBeliefHappiness-E.xml" />
+    <Include File="items-epic/AE-Gamble-PrestiHappy-E.xml" />
+    <Include File="items-epic/AE-Gramma-AddGoods-NBelief-E.xml" />
+    <Include File="items-epic/AE-Lib-KnowPresti-NFire-E.xml" />
+    <Include File="items-epic/AE-Lib-PopHealthHappy-E.xml" />
+    <Include File="items-epic/AE-TempleMars-E.xml" />
+    <Include File="items-epic/AE-TempleCeres-E.xml" />
+    <Include File="items-epic/AE-TempleCernunnos-E.xml" />
+    <Include File="items-epic/AE-TempleEpona-E.xml" />
+    <Include File="items-epic/AE-TempleMercury-E.xml" />
+    <Include File="items-epic/AE-TempleMinerva-E.xml" />  
+    <Include File="items-epic/AE-TempleNeptune-E.xml" />
+    <Include File="items-epic/AE-Theater-HealthHag-E.xml" />
 </Group>
 
 <!-- Legendary Specialists -->
 <Group>
-    <Include File="items-legendary/AreaEffect-TheaterHappinessPrestigeKnowledge-L.xml" />
-    <Include File="items-legendary/AreaEffect-ForumIncomePrestigeProductivity-L.xml"/>
+    <Include File="items-legendary/AE-Theater-HappyPrestiKnow-L.xml" />
+    <Include File="items-legendary/AE-Forum-MoneyPresti-Prod-L.xml"/>
 </Group>
 
 <!-- Add to Pools -->

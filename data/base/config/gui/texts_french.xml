@@ -1,6 +1,6 @@
 <ModOps>
 
-  <!-- Specialist AreaEffect-BardicHallBelief-C -->
+  <!-- Specialist AE-Bard-Belief-C -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -16,7 +16,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AreaEffect-CelcicBarrowHealthPrestige-R -->
+  <!-- Specialist AE-CBarrow-HealthPresti-R -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -32,7 +32,7 @@
     </ModOp>
   </Group>
   
-  <!-- Specialist AreaEffect-MarketBelief-C -->
+  <!-- Specialist AE-Market-Belief-C -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -48,7 +48,7 @@
     </ModOp>
   </Group>
   
-  <!-- Specialist AreaEffect-SancFanumBeliefbyMoney-R -->
+  <!-- Specialist AE-Sanc-Fanum-Belief-NMoney-R -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -64,7 +64,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AreaEffect-TabernaMoney-C -->
+  <!-- Specialist AE-TabernaBard-Money-C -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -96,7 +96,7 @@
     </ModOp>
   </Group> 
 
-  <!-- Specialist AreaEffect-GamblingHousePrestigeHappiness-E -->
+  <!-- Specialist AE-Gamble-PrestiHappy-E -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -112,7 +112,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AreaEffect-LibraryKnowledgePrestigebyFireSafety-E -->
+  <!-- Specialist AE-Lib-KnowPresti-NFire-E -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -144,7 +144,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AreaEffect-TempleMars-E -->
+  <!-- Specialist AE-TempleMars-E -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -160,7 +160,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AreaEffect-TempleCeres-E -->
+  <!-- Specialist AE-TempleCeres-E -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -176,7 +176,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AreaEffect-TempleCernunnos-E -->
+  <!-- Specialist AE-TempleCernunnos-E -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -192,7 +192,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AreaEffect-TempleEpona-E -->
+  <!-- Specialist AE-TempleEpona-E -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -208,7 +208,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AreaEffect-TempleMercury-E -->
+  <!-- Specialist AE-TempleMercury-E -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -224,7 +224,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AreaEffect-TempleMinerva-E -->
+  <!-- Specialist AE-TempleMinerva-E -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -240,7 +240,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AreaEffect-TempleNeptune-E -->
+  <!-- Specialist AE-TempleNeptune-E -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -273,7 +273,7 @@
   </Group>
 
 
-  <!-- Specialist AreaEffect-TheaterHappinessPrestigeKnowledge-L -->
+  <!-- Specialist AE-Theater-HappyPrestiKnow-L -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -294,7 +294,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AreaEffect-BathsHealthbyHappiness-R -->
+  <!-- Specialist AE-Bath-Health-NHappy-R -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -310,7 +310,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AreaEffect-CelcicSacredGroveBeliefByPrestige-R -->
+  <!-- Specialist AE-CSGrove-Belief-NPresti-R -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -326,7 +326,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AreaEffect-GamblingHouseMoneybyHappinessBelief-R -->
+  <!-- Specialist AE-Gamble-Money-NHappyBelief-R -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -342,7 +342,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AreaEffect-GrammaticusKnowledgebyMoney-R -->
+  <!-- Specialist AE-Gramma-Know-R -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -358,7 +358,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AreaEffect-TheaterHappinessbyPrestige-R -->
+  <!-- Specialist AE-Theater-Happy-NPresti-R -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -374,7 +374,7 @@
     </ModOp>
   </Group>
   
-  <!-- Specialist AreaEffect-ForumIncomePrestigeProductivity-L -->
+  <!-- Specialist AE-Forum-MoneyPresti-Prod-L -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -406,7 +406,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AreaEffect-GrammaticusAdditionalGoodsbyBelief-E -->
+  <!-- Specialist AE-Gramma-AddGoods-NBelief-E -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->

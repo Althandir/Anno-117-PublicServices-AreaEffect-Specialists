@@ -1,74 +1,80 @@
 <ModOps>
-<!-- Item Definition GUID:1600000072 - 1600000075 | LineID:1600000072 - 1600000073 -->
+<!-- Item Definition GUID:1600000013 - 1600000016 | LineID:1600000013 - 14 -->
   <Group>
     <ModOp Type="addNextSibling" GUID="106410">
       <Asset>
         <Template>Item</Template>
         <Values>
           <Standard>
-            <GUID>1600000072</GUID>
-            <Name>Specialist AreaEffect-TempleCeres-E</Name>
-            <IconFilename>data/base/graphics/icons/roman_priestess/roman_priestess_mod_Ceres.png</IconFilename>
-            <InfoDescription>1600000073</InfoDescription>
+            <GUID>1600000013</GUID>
+            <Name>Specialist AE-Market-Belief-C</Name>
+            <IconFilename>data/base/graphics/icons/c_f_Market-Beli-C.png</IconFilename>
+            <InfoDescription>1600000014</InfoDescription>
           </Standard>
           <Effect>
             <EffectScope>Radius</EffectScope>  
             <SourceCategory>Item</SourceCategory>
             <Buffs>
               <Item>
-                <GUID>1600000073</GUID>
+                <GUID>1600000014</GUID>
               </Item>
             </Buffs>
             <Targets> <!-- Targets of Buff -->
               <Item>
-                <GUID>140886</GUID>
+                <GUID>31659</GUID>
               </Item>
             </Targets>
             <HideInGovernorsBar>1</HideInGovernorsBar>
           </Effect>
           <Item>
             <Niche>Religion</Niche> 
-            <TradePrice>85000</TradePrice> 
-            <BarkPool>83343</BarkPool> <!-- <GUID>83343</GUID> -->
-            <Rarity>Epic</Rarity> 
+            <TradePrice>3000</TradePrice>
+            <BarkPool>83342</BarkPool> <!-- <GUID>83342</GUID> -->
+            <Rarity>Common</Rarity> 
           </Item>
           <Locked>
             <DefaultLockedState>0</DefaultLockedState>
           </Locked>
           <Text>
-            <OasisId>1600000072</OasisId>
+            <OasisId>1600000013</OasisId>
           </Text>
-        
         </Values>
       </Asset>
     </ModOp>
   </Group>
 
-    <!-- Normal Buff Definitions-->
-    <Group>
+  <!-- Buff Definitions-->
+  <Group>
     <!-- BuildingEffect Definition -->
     <ModOp Type="addNextSibling" GUID="80193">
         <Asset>
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000073</GUID>
-                    <Name>Specialist AreaEffect-TempleCeres-E BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/roman_priestess/roman_priestess_mod_Ceres.png</IconFilename>
+                    <GUID>1600000014</GUID>
+                    <Name>Specialist AE-Market-Belief-C BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/c_f_Market-Beli-C.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000072</OasisId>
+                    <OasisId>1600000013</OasisId>
                 </Text>
                 <HealthUpgrade/>
                 <BuildingUpgrade>
-                    <AdditionalFunctionalEffect>1600000074</AdditionalFunctionalEffect>
+                    <AdditionalFunctionalEffect>1600000015</AdditionalFunctionalEffect>
+                    <AdditionalAttributes>
+                      <Belief>
+                        <AmountOrPercent>
+                          <Value>0</Value>
+                          <Percental>0</Percental>
+                        </AmountOrPercent>
+                      </Belief>
+                    </AdditionalAttributes>
                 </BuildingUpgrade>
                 <DistributionUpgrade/>
                 <Buff>
                     <SourceCategory>Item</SourceCategory>
                 </Buff>
-                <ResidenceUpgrade>
-                </ResidenceUpgrade>
+                <ResidenceUpgrade/>
                 <FactoryUpgrade/>
                 <ModuleOwnerUpgrade/>
                 <MaintenanceUpgrade/>
@@ -87,16 +93,16 @@
             <Template>Effect</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000074</GUID>
-                    <Name>Specialist AreaEffect-TempleCeres-E FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/roman_priestess/roman_priestess_mod_Ceres.png</IconFilename>
+                    <GUID>1600000015</GUID>
+                    <Name>Specialist AE-Market-Belief-C FunctionalEffect</Name>
+                    <IconFilename>data/base/graphics/icons/c_f_Market-Beli-C.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>StreetDistance</EffectScope>
                     <SourceCategory>Adjacency</SourceCategory>
                     <Buffs>
                         <Item>
-                            <GUID>1600000075</GUID>
+                            <GUID>1600000016</GUID>
                         </Item>
                     </Buffs>
                     <Targets>
@@ -108,7 +114,7 @@
                     <HideInGovernorsBar>1</HideInGovernorsBar>
                 </Effect>
                 <Text>
-                    <OasisId>1600000072</OasisId>
+                    <OasisId>1600000013</OasisId>
                 </Text>
             </Values>
         </Asset>
@@ -119,72 +125,35 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000075</GUID>
-                    <Name>Specialist AreaEffect-TempleCeres-E FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/roman_priestess/roman_priestess_mod_Ceres.png</IconFilename>
+                    <GUID>1600000016</GUID>
+                    <Name>Specialist AE-Market-Belief-C FunctionalEffect BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/c_f_Market-Beli-C.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000072</OasisId>
+                    <OasisId>1600000013</OasisId>
                 </Text>
                 <HealthUpgrade/>
                 <BuildingUpgrade>
                     <AdditionalAttributes>
-                        <Population>
+                        <Belief>
                             <AmountOrPercent>
-                                <Value>0.8</Value>
+                                <Value>0.5</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
-                        </Population>
-                        <Happiness>
-                            <AmountOrPercent>
-                                <Value>0</Value>
-                                <Percental>0</Percental>
-                            </AmountOrPercent>
-                        </Happiness>
+                        </Belief>
                         <Money>
                             <AmountOrPercent>
                                 <Value>0</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
-                        </Money>
-                        <Prestige>
-                            <AmountOrPercent>
-                                <Value>0</Value>
-                                <Percental>0</Percental>
-                            </AmountOrPercent>
-                        </Prestige>
-                        <Belief>
-                            <AmountOrPercent>
-                                <Value>0</Value>
-                                <Percental>0</Percental>
-                            </AmountOrPercent>
-                        </Belief>
-                        <Knowledge>
-                            <AmountOrPercent>
-                                <Value>0</Value>
-                                <Percental>0</Percental>
-                            </AmountOrPercent>
-                        </Knowledge>
-                        <Health>
-                            <AmountOrPercent>
-                                <Value>0.8</Value>
-                                <Percental>0</Percental>
-                            </AmountOrPercent>
-                        </Health>
-                        <FireSafety>
-                            <AmountOrPercent>
-                                <Value>0</Value>
-                                <Percental>0</Percental>
-                            </AmountOrPercent>
-                        </FireSafety>
+				        </Money>
                     </AdditionalAttributes>
                 </BuildingUpgrade>
                 <DistributionUpgrade/>
                 <Buff>
                     <SourceCategory>Adjacency</SourceCategory>
                 </Buff>
-                <ResidenceUpgrade>
-                </ResidenceUpgrade>
+                <ResidenceUpgrade/>
                 <FactoryUpgrade/>
                 <ModuleOwnerUpgrade/>
                 <MaintenanceUpgrade/>

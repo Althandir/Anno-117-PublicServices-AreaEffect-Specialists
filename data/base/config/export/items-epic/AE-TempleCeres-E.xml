@@ -1,22 +1,22 @@
 <ModOps>
-<!-- Item Definition GUID:1600000068 - 1600000071 | LineID:1600000068 - 1600000069 -->
+<!-- Item Definition GUID:1600000072 - 1600000075 | LineID:1600000072 - 1600000073 -->
   <Group>
     <ModOp Type="addNextSibling" GUID="106410">
       <Asset>
         <Template>Item</Template>
         <Values>
           <Standard>
-            <GUID>1600000068</GUID>
-            <Name>Specialist AreaEffect-TempleMars-E</Name>
-            <IconFilename>data/base/graphics/icons/roman_priestess/roman_priestess_mod_Mars.png</IconFilename>
-            <InfoDescription>1600000069</InfoDescription>
+            <GUID>1600000072</GUID>
+            <Name>Specialist AE-TempleCeres-E</Name>
+            <IconFilename>data/base/graphics/icons/r_temple/roman_priestess_mod_Ceres.png</IconFilename>
+            <InfoDescription>1600000073</InfoDescription>
           </Standard>
           <Effect>
             <EffectScope>Radius</EffectScope>  
             <SourceCategory>Item</SourceCategory>
             <Buffs>
               <Item>
-                <GUID>1600000069</GUID>
+                <GUID>1600000073</GUID>
               </Item>
             </Buffs>
             <Targets> <!-- Targets of Buff -->
@@ -36,31 +36,32 @@
             <DefaultLockedState>0</DefaultLockedState>
           </Locked>
           <Text>
-            <OasisId>1600000068</OasisId>
+            <OasisId>1600000072</OasisId>
           </Text>
+        
         </Values>
       </Asset>
     </ModOp>
   </Group>
 
-  <!-- Buff Definitions-->
-  <Group>
+    <!-- Normal Buff Definitions-->
+    <Group>
     <!-- BuildingEffect Definition -->
     <ModOp Type="addNextSibling" GUID="80193">
         <Asset>
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000069</GUID>
-                    <Name>Specialist AreaEffect-TempleMars-E BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/roman_priestess/roman_priestess_mod_Mars.png</IconFilename>
+                    <GUID>1600000073</GUID>
+                    <Name>Specialist AE-TempleCeres-E BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/r_temple/roman_priestess_mod_Ceres.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000068</OasisId>
+                    <OasisId>1600000072</OasisId>
                 </Text>
                 <HealthUpgrade/>
                 <BuildingUpgrade>
-                    <AdditionalFunctionalEffect>1600000070</AdditionalFunctionalEffect>
+                    <AdditionalFunctionalEffect>1600000074</AdditionalFunctionalEffect>
                 </BuildingUpgrade>
                 <DistributionUpgrade/>
                 <Buff>
@@ -86,16 +87,16 @@
             <Template>Effect</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000070</GUID>
-                    <Name>Specialist AreaEffect-TempleMars-E FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/roman_priestess/roman_priestess_mod_Mars.png</IconFilename>
+                    <GUID>1600000074</GUID>
+                    <Name>Specialist AE-TempleCeres-E FunctionalEffect</Name>
+                    <IconFilename>data/base/graphics/icons/r_temple/roman_priestess_mod_Ceres.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>StreetDistance</EffectScope>
                     <SourceCategory>Adjacency</SourceCategory>
                     <Buffs>
                         <Item>
-                            <GUID>1600000071</GUID>
+                            <GUID>1600000075</GUID>
                         </Item>
                     </Buffs>
                     <Targets>
@@ -107,7 +108,7 @@
                     <HideInGovernorsBar>1</HideInGovernorsBar>
                 </Effect>
                 <Text>
-                    <OasisId>1600000068</OasisId>
+                    <OasisId>1600000072</OasisId>
                 </Text>
             </Values>
         </Asset>
@@ -118,39 +119,39 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000071</GUID>
-                    <Name>Specialist AreaEffect-TempleMars-E FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/roman_priestess/roman_priestess_mod_Mars.png</IconFilename>
+                    <GUID>1600000075</GUID>
+                    <Name>Specialist AE-TempleCeres-E FunctionalEffect BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/r_temple/roman_priestess_mod_Ceres.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000068</OasisId>
+                    <OasisId>1600000072</OasisId>
                 </Text>
                 <HealthUpgrade/>
                 <BuildingUpgrade>
                     <AdditionalAttributes>
                         <Population>
-                        <AmountOrPercent>
-                            <Value>0.8</Value>
-                            <Percental>0</Percental>
-                        </AmountOrPercent>
+                            <AmountOrPercent>
+                                <Value>0.8</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
                         </Population>
                         <Happiness>
-                        <AmountOrPercent>
-                            <Value>0</Value>
-                            <Percental>0</Percental>
-                        </AmountOrPercent>
+                            <AmountOrPercent>
+                                <Value>0</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
                         </Happiness>
                         <Money>
-                        <AmountOrPercent>
-                            <Value>0</Value>
-                            <Percental>0</Percental>
-                        </AmountOrPercent>
+                            <AmountOrPercent>
+                                <Value>0</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
                         </Money>
                         <Prestige>
-                        <AmountOrPercent>
-                            <Value>0.8</Value>
-                            <Percental>0</Percental>
-                        </AmountOrPercent>
+                            <AmountOrPercent>
+                                <Value>0</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
                         </Prestige>
                         <Belief>
                             <AmountOrPercent>
@@ -166,7 +167,7 @@
                         </Knowledge>
                         <Health>
                             <AmountOrPercent>
-                                <Value>0</Value>
+                                <Value>0.8</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
                         </Health>

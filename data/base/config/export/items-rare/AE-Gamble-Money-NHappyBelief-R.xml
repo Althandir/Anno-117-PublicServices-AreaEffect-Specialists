@@ -1,42 +1,42 @@
 <ModOps>
-<!-- Item Definition GUID:1600000064 - 1600000067 | LineID:1600000064 - 1600000065 -->
+<!-- Item Definition GUID:1600000174 - 1600000177 | LineID:1600000174 - 1600000175 -->
   <Group>
     <ModOp Type="addNextSibling" GUID="106410">
       <Asset>
         <Template>Item</Template>
         <Values>
           <Standard>
-            <GUID>1600000064</GUID>
-            <Name>Specialist AreaEffect-LibraryPopulationHealthHappiness-E</Name>
-            <IconFilename>data/base/graphics/icons/other_male_LibraryPopulationHealth.png</IconFilename>
-            <InfoDescription>1600000065</InfoDescription>
+            <GUID>1600000174</GUID>
+            <Name>Specialist AE-Gamble-Money-NHappyBelief-R</Name>
+            <IconFilename>data/base/graphics/icons/r_m_AE-Gamble-Money-NHappyBelief-R.png</IconFilename>
+            <InfoDescription>1600000175</InfoDescription>
           </Standard>
           <Effect>
             <EffectScope>Radius</EffectScope>  
             <SourceCategory>Item</SourceCategory>
             <Buffs>
               <Item>
-                <GUID>1600000065</GUID>
+                <GUID>1600000175</GUID>
               </Item>
             </Buffs>
             <Targets> <!-- Targets of Buff -->
               <Item>
-                <GUID>31368</GUID>
+                <GUID>81911</GUID>
               </Item>
             </Targets>
             <HideInGovernorsBar>1</HideInGovernorsBar>
           </Effect>
           <Item>
-            <Niche>Agriculture</Niche>
-            <TradePrice>80000</TradePrice> 
-            <BarkPool>83310</BarkPool> <!-- <GUID>83310</GUID> -->
-            <Rarity>Epic</Rarity> 
+            <Niche>Finance</Niche>
+            <TradePrice>33150</TradePrice> 
+            <BarkPool>83312</BarkPool> <!-- <GUID>83312</GUID> -->
+            <Rarity>Rare</Rarity> 
           </Item>
           <Locked>
             <DefaultLockedState>0</DefaultLockedState>
           </Locked>
           <Text>
-            <OasisId>1600000064</OasisId>
+            <OasisId>1600000174</OasisId>
           </Text>
         </Values>
       </Asset>
@@ -51,16 +51,16 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000065</GUID>
-                    <Name>Specialist AreaEffect-LibraryPopulationHealthHappiness-E BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/other_male_LibraryPopulationHealth.png</IconFilename>
+                    <GUID>1600000175</GUID>
+                    <Name>Specialist AE-Gamble-Money-NHappyBelief-R BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/r_m_AE-Gamble-Money-NHappyBelief-R.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000064</OasisId>
+                    <OasisId>1600000174</OasisId>
                 </Text>
                 <HealthUpgrade/>
                 <BuildingUpgrade>
-                    <AdditionalFunctionalEffect>1600000066</AdditionalFunctionalEffect>
+                    <AdditionalFunctionalEffect>1600000176</AdditionalFunctionalEffect>
                 </BuildingUpgrade>
                 <DistributionUpgrade/>
                 <Buff>
@@ -86,16 +86,16 @@
             <Template>Effect</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000066</GUID>
-                    <Name>Specialist AreaEffect-LibraryPopulationHealthHappiness-E FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/other_male_LibraryPopulationHealth.png</IconFilename>
+                    <GUID>1600000176</GUID>
+                    <Name>Specialist AE-Gamble-Money-NHappyBelief-R FunctionalEffect</Name>
+                    <IconFilename>data/base/graphics/icons/r_m_AE-Gamble-Money-NHappyBelief-R.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>StreetDistance</EffectScope>
                     <SourceCategory>Adjacency</SourceCategory>
                     <Buffs>
                         <Item>
-                            <GUID>1600000067</GUID>
+                            <GUID>1600000177</GUID>
                         </Item>
                     </Buffs>
                     <Targets>
@@ -107,7 +107,7 @@
                     <HideInGovernorsBar>1</HideInGovernorsBar>
                 </Effect>
                 <Text>
-                    <OasisId>1600000064</OasisId>
+                    <OasisId>1600000174</OasisId>
                 </Text>
             </Values>
         </Asset>
@@ -118,31 +118,31 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000067</GUID>
-                    <Name>Specialist AreaEffect-LibraryPopulationHealthHappiness-E FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/other_male_LibraryPopulationHealth.png</IconFilename>
+                    <GUID>1600000177</GUID>
+                    <Name>Specialist AE-Gamble-Money-NHappyBelief-R FunctionalEffect BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/r_m_AE-Gamble-Money-NHappyBelief-R.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000064</OasisId>
+                    <OasisId>1600000174</OasisId>
                 </Text>
                 <HealthUpgrade/>
                 <BuildingUpgrade>
                     <AdditionalAttributes>
                         <Population>
                         <AmountOrPercent>
-                            <Value>0.5</Value>
+                            <Value>0</Value>
                             <Percental>0</Percental>
                         </AmountOrPercent>
                         </Population>
                         <Happiness>
                         <AmountOrPercent>
-                            <Value>0.25</Value>
+                            <Value>-1</Value>
                             <Percental>0</Percental>
                         </AmountOrPercent>
                         </Happiness>
                         <Money>
                         <AmountOrPercent>
-                            <Value>0</Value>
+                            <Value>2</Value>
                             <Percental>0</Percental>
                         </AmountOrPercent>
                         </Money>
@@ -154,7 +154,7 @@
                         </Prestige>
                         <Belief>
                             <AmountOrPercent>
-                                <Value>0</Value>
+                                <Value>-0.5</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
                         </Belief>
@@ -164,12 +164,12 @@
                                 <Percental>0</Percental>
                             </AmountOrPercent>
                         </Knowledge>
-                        <Health>
+                        <FireSafety>
                             <AmountOrPercent>
-                                <Value>1</Value>
+                                <Value>0</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
-                        </Health>
+                        </FireSafety>
                     </AdditionalAttributes>
                 </BuildingUpgrade>
                 <DistributionUpgrade/>

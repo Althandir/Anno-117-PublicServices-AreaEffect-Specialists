@@ -7,8 +7,8 @@
         <Values>
           <Standard>
             <GUID>1600000096</GUID>
-            <Name>Specialist AreaEffect-TheaterHealthBeliefHappiness-E</Name>
-            <IconFilename>data/base/graphics/icons/celtic_female_theaterHealthBelief.png</IconFilename>
+            <Name>Specialist AE-Theater-HealthHag-E</Name>
+            <IconFilename>data/base/graphics/icons/c_f_AE-Theater-HealthHag-E.png</IconFilename>
             <InfoDescription>1600000097</InfoDescription>
           </Standard>
           <Effect>
@@ -53,8 +53,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000097</GUID>
-                    <Name>Specialist AreaEffect-TheaterHealthBeliefHappiness-E BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/celtic_female_theaterHealthBelief.png</IconFilename>
+                    <Name>Specialist AE-Theater-HealthHag-E BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/c_f_AE-Theater-HealthHag-E.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000096</OasisId>
@@ -87,8 +87,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000098</GUID>
-                    <Name>Specialist AreaEffect-TheaterHealthBeliefHappiness-E FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/celtic_female_theaterHealthBelief.png</IconFilename>
+                    <Name>Specialist AE-Theater-HealthHag-E FunctionalEffect</Name>
+                    <IconFilename>data/base/graphics/icons/c_f_AE-Theater-HealthHag-E.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>StreetDistance</EffectScope>
@@ -119,8 +119,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000099</GUID>
-                    <Name>Specialist AreaEffect-TheaterHealthBeliefHappiness-E FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/celtic_female_theaterHealthBelief.png</IconFilename>
+                    <Name>Specialist AE-Theater-HealthHag-E FunctionalEffect BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/c_f_AE-Theater-HealthHag-E.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000096</OasisId>

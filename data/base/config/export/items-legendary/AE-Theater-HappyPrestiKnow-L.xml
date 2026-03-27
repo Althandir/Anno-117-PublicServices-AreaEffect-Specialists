@@ -7,8 +7,8 @@
             <Values>
             <Standard>
                 <GUID>1600000148</GUID>
-                <Name>Specialist AreaEffect-TheaterHappinessPrestigeKnowledge-L</Name>
-                <IconFilename>data/base/graphics/icons/unchanged/female_TheaterHappinessPrestigeBeliefKnowledge-L.png</IconFilename>
+                <Name>Specialist AE-Theater-HappyPrestiKnow-L</Name>
+                <IconFilename>data/base/graphics/icons/unchanged/f_AE-Theater-HappyPrestiKnow-L.png</IconFilename>
                 <InfoDescription>1600000149</InfoDescription>
             </Standard>
             <Effect>
@@ -99,8 +99,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000149</GUID>
-                    <Name>Specialist AreaEffect-TheaterHappinessPrestigeKnowledge-L BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/unchanged/female_TheaterHappinessPrestigeBeliefKnowledge-L.png</IconFilename>
+                    <Name>Specialist AE-Theater-HappyPrestiKnow-L BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/unchanged/f_AE-Theater-HappyPrestiKnow-L.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000148</OasisId>
@@ -133,8 +133,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000150</GUID>
-                    <Name>Specialist AreaEffect-TheaterHappinessPrestigeKnowledge-L FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/unchanged/female_TheaterHappinessPrestigeBeliefKnowledge-L.png</IconFilename>
+                    <Name>Specialist AE-Theater-HappyPrestiKnow-L FunctionalEffect</Name>
+                    <IconFilename>data/base/graphics/icons/unchanged/f_AE-Theater-HappyPrestiKnow-L.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>StreetDistance</EffectScope>
@@ -165,8 +165,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000151</GUID>
-                    <Name>Specialist AreaEffect-TheaterHappinessPrestigeKnowledge-L FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/unchanged/female_TheaterHappinessPrestigeBeliefKnowledge-L.png</IconFilename>
+                    <Name>Specialist AE-Theater-HappyPrestiKnow-L FunctionalEffect BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/unchanged/f_AE-Theater-HappyPrestiKnow-L.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000148</OasisId>
@@ -221,8 +221,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000291</GUID>
-                    <Name>Specialist AreaEffect-TheaterHappinessPrestigeKnowledge-L BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/unchanged/female_TheaterHappinessPrestigeBeliefKnowledge-L.png</IconFilename>
+                    <Name>Specialist AE-Theater-HappyPrestiKnow-L BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/unchanged/f_AE-Theater-HappyPrestiKnow-L.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000148</OasisId>
@@ -255,8 +255,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000292</GUID>
-                    <Name>Specialist AreaEffect-TheaterHappinessPrestigeKnowledge-L FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/unchanged/female_TheaterHappinessPrestigeBeliefKnowledge-L.png</IconFilename>
+                    <Name>Specialist AE-Theater-HappyPrestiKnow-L FunctionalEffect</Name>
+                    <IconFilename>data/base/graphics/icons/unchanged/f_AE-Theater-HappyPrestiKnow-L.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>StreetDistance</EffectScope>
@@ -287,8 +287,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000293</GUID>
-                    <Name>Specialist AreaEffect-TheaterHappinessPrestigeKnowledge-L FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/unchanged/female_TheaterHappinessPrestigeBeliefKnowledge-L.png</IconFilename>
+                    <Name>Specialist AE-Theater-HappyPrestiKnow-L FunctionalEffect BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/unchanged/f_AE-Theater-HappyPrestiKnow-L.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000148</OasisId>

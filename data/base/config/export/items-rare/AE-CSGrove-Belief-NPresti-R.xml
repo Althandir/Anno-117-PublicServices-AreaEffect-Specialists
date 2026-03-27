@@ -1,44 +1,43 @@
 <ModOps>
-<!-- Item Definition GUID:1600000076 - 1600000079 | LineID:1600000076 - 1600000077 -->
+<!-- Item Definition GUID:1600000166 - 1600000169 | LineID:1600000166 - 1600000167 -->
   <Group>
     <ModOp Type="addNextSibling" GUID="106410">
       <Asset>
         <Template>Item</Template>
         <Values>
           <Standard>
-            <GUID>1600000076</GUID>
-            <Name>Specialist AreaEffect-TempleCernunnos-E</Name>
-            <IconFilename>data/base/graphics/icons/celtic_druid/celtic_druid_cernunnos.png</IconFilename>
-            <InfoDescription>1600000077</InfoDescription>
+            <GUID>1600000166</GUID>
+            <Name>Specialist AE-CSGrove-Belief-NPresti-R</Name>
+            <IconFilename>data/base/graphics/icons/unchanged/c_f_AE-CSGrove-Belief-NPresti-R.png</IconFilename>
+            <InfoDescription>1600000167</InfoDescription>
           </Standard>
           <Effect>
             <EffectScope>Radius</EffectScope>  
             <SourceCategory>Item</SourceCategory>
             <Buffs>
               <Item>
-                <GUID>1600000077</GUID>
+                <GUID>1600000167</GUID>
               </Item>
             </Buffs>
             <Targets> <!-- Targets of Buff -->
               <Item>
-                <GUID>140886</GUID>
+                <GUID>55981</GUID>
               </Item>
             </Targets>
             <HideInGovernorsBar>1</HideInGovernorsBar>
           </Effect>
           <Item>
-            <Niche>Religion</Niche> 
-            <TradePrice>85000</TradePrice> 
-            <BarkPool>83298</BarkPool> <!-- <GUID>83298</GUID> -->
-            <Rarity>Epic</Rarity> 
+            <Niche>Religion</Niche>
+            <TradePrice>22500</TradePrice> 
+            <BarkPool>83342</BarkPool> <!-- <GUID>83342</GUID> -->
+            <Rarity>Rare</Rarity> 
           </Item>
           <Locked>
             <DefaultLockedState>0</DefaultLockedState>
           </Locked>
           <Text>
-            <OasisId>1600000076</OasisId>
+            <OasisId>1600000166</OasisId>
           </Text>
-
         </Values>
       </Asset>
     </ModOp>
@@ -52,16 +51,16 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000077</GUID>
-                    <Name>Specialist AreaEffect-TempleCernunnos-E BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/celtic_druid/celtic_druid_cernunnos.png</IconFilename>
+                    <GUID>1600000167</GUID>
+                    <Name>Specialist AE-CSGrove-Belief-NPresti-R BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/unchanged/c_f_AE-CSGrove-Belief-NPresti-R.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000076</OasisId>
+                    <OasisId>1600000166</OasisId>
                 </Text>
                 <HealthUpgrade/>
                 <BuildingUpgrade>
-                    <AdditionalFunctionalEffect>1600000078</AdditionalFunctionalEffect>
+                    <AdditionalFunctionalEffect>1600000168</AdditionalFunctionalEffect>
                 </BuildingUpgrade>
                 <DistributionUpgrade/>
                 <Buff>
@@ -87,16 +86,16 @@
             <Template>Effect</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000078</GUID>
-                    <Name>Specialist AreaEffect-TempleCernunnos-E FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/celtic_druid/celtic_druid_cernunnos.png</IconFilename>
+                    <GUID>1600000168</GUID>
+                    <Name>Specialist AE-CSGrove-Belief-NPresti-R FunctionalEffect</Name>
+                    <IconFilename>data/base/graphics/icons/unchanged/c_f_AE-CSGrove-Belief-NPresti-R.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>StreetDistance</EffectScope>
                     <SourceCategory>Adjacency</SourceCategory>
                     <Buffs>
                         <Item>
-                            <GUID>1600000079</GUID>
+                            <GUID>1600000169</GUID>
                         </Item>
                     </Buffs>
                     <Targets>
@@ -108,7 +107,7 @@
                     <HideInGovernorsBar>1</HideInGovernorsBar>
                 </Effect>
                 <Text>
-                    <OasisId>1600000076</OasisId>
+                    <OasisId>1600000166</OasisId>
                 </Text>
             </Values>
         </Asset>
@@ -119,58 +118,52 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000079</GUID>
-                    <Name>Specialist AreaEffect-TempleCernunnos-E FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/celtic_druid/celtic_druid_cernunnos.png</IconFilename>
+                    <GUID>1600000169</GUID>
+                    <Name>Specialist AE-CSGrove-Belief-NPresti-R FunctionalEffect BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/unchanged/c_f_AE-CSGrove-Belief-NPresti-R.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000076</OasisId>
+                    <OasisId>1600000166</OasisId>
                 </Text>
                 <HealthUpgrade/>
                 <BuildingUpgrade>
                     <AdditionalAttributes>
                         <Population>
-                            <AmountOrPercent>
-                                <Value>0</Value>
-                                <Percental>0</Percental>
-                            </AmountOrPercent>
+                        <AmountOrPercent>
+                            <Value>0</Value>
+                            <Percental>0</Percental>
+                        </AmountOrPercent>
                         </Population>
                         <Happiness>
-                            <AmountOrPercent>
-                                <Value>0</Value>
-                                <Percental>0</Percental>
-                            </AmountOrPercent>
+                        <AmountOrPercent>
+                            <Value>0</Value>
+                            <Percental>0</Percental>
+                        </AmountOrPercent>
                         </Happiness>
                         <Money>
-                            <AmountOrPercent>
-                                <Value>0</Value>
-                                <Percental>0</Percental>
-                            </AmountOrPercent>
+                        <AmountOrPercent>
+                            <Value>0</Value>
+                            <Percental>0</Percental>
+                        </AmountOrPercent>
                         </Money>
                         <Prestige>
-                            <AmountOrPercent>
-                                <Value>0</Value>
-                                <Percental>0</Percental>
-                            </AmountOrPercent>
+                        <AmountOrPercent>
+                            <Value>-1</Value>
+                            <Percental>0</Percental>
+                        </AmountOrPercent>
                         </Prestige>
                         <Belief>
                             <AmountOrPercent>
-                                <Value>0.8</Value>
+                                <Value>1.5</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
                         </Belief>
                         <Knowledge>
                             <AmountOrPercent>
-                                <Value>0</Value>
+                                <Value>0.5</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
                         </Knowledge>
-                        <Health>
-                            <AmountOrPercent>
-                                <Value>0.8</Value>
-                                <Percental>0</Percental>
-                            </AmountOrPercent>
-                        </Health>
                         <FireSafety>
                             <AmountOrPercent>
                                 <Value>0</Value>

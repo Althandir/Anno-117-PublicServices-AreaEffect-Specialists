@@ -1,45 +1,42 @@
 <ModOps>
-<!-- Item Definition GUID:1600000017 - 1600000020 | LineID:1600000017 - 1600000018 -->
+<!-- Item Definition GUID:1600000048 - 1600000051 | LineID:1600000048 - 1600000049 -->
   <Group>
     <ModOp Type="addNextSibling" GUID="106410">
       <Asset>
         <Template>Item</Template>
         <Values>
           <Standard>
-            <GUID>1600000017</GUID>
-            <Name>Specialist AreaEffect-SancFanumBeliefbyMoney-R</Name>
-            <IconFilename>data/base/graphics/icons/female_SancFanumBeliefbyMoney.png</IconFilename>
-            <InfoDescription>1600000018</InfoDescription>
+            <GUID>1600000048</GUID>
+            <Name>Specialist AE-CTHall-PrestiKnowHappy-E</Name>
+            <IconFilename>data/base/graphics/icons/unchanged/c_m_AE-CTHall-PrestiKnowHappy-E.png</IconFilename>
+            <InfoDescription>1600000049</InfoDescription>
           </Standard>
           <Effect>
             <EffectScope>Radius</EffectScope>  
             <SourceCategory>Item</SourceCategory>
             <Buffs>
               <Item>
-                <GUID>1600000018</GUID>
+                <GUID>1600000049</GUID>
               </Item>
             </Buffs>
             <Targets> <!-- Targets of Buff -->
               <Item>
-                <GUID>3615</GUID>
-              </Item>
-              <Item>
-                <GUID>6728</GUID>
+                <GUID>6726</GUID>
               </Item>
             </Targets>
             <HideInGovernorsBar>1</HideInGovernorsBar>
           </Effect>
           <Item>
-            <Niche>Religion</Niche>
-            <TradePrice>20000</TradePrice> 
-            <BarkPool>83333</BarkPool> <!-- <GUID>83333</GUID> -->
-            <Rarity>Rare</Rarity> 
+            <Niche>Diplomacy</Niche>
+            <TradePrice>82500</TradePrice> 
+            <BarkPool>80241</BarkPool> <!-- <GUID>80241</GUID> -->
+            <Rarity>Epic</Rarity> 
           </Item>
           <Locked>
             <DefaultLockedState>0</DefaultLockedState>
           </Locked>
           <Text>
-            <OasisId>1600000017</OasisId>
+            <OasisId>1600000048</OasisId>
           </Text>
         </Values>
       </Asset>
@@ -54,16 +51,16 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000018</GUID>
-                    <Name>Specialist AreaEffect-SancFanumBeliefbyMoney-R BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/female_SancFanumBeliefbyMoney.png</IconFilename>
+                    <GUID>1600000049</GUID>
+                    <Name>Specialist AE-CTHall-PrestiKnowHappy-E BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/unchanged/c_m_AE-CTHall-PrestiKnowHappy-E.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000017</OasisId>
+                    <OasisId>1600000048</OasisId>
                 </Text>
                 <HealthUpgrade/>
                 <BuildingUpgrade>
-                    <AdditionalFunctionalEffect>1600000019</AdditionalFunctionalEffect>
+                    <AdditionalFunctionalEffect>1600000050</AdditionalFunctionalEffect>
                 </BuildingUpgrade>
                 <DistributionUpgrade/>
                 <Buff>
@@ -73,12 +70,7 @@
                 </ResidenceUpgrade>
                 <FactoryUpgrade/>
                 <ModuleOwnerUpgrade/>
-                <MaintenanceUpgrade>
-                    <MaintenanceFactorUpgrade>
-                        <Value>-100</Value>
-                        <Percental>1</Percental>
-                    </MaintenanceFactorUpgrade>
-                </MaintenanceUpgrade>
+                <MaintenanceUpgrade/>
                 <CityInstitutionUpgrade/>
                 <IncidentInfectableUpgrade/>
                 <RecruitmentUpgrade/>
@@ -94,16 +86,16 @@
             <Template>Effect</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000019</GUID>
-                    <Name>Specialist AreaEffect-SancFanumBeliefbyMoney-R FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/female_SancFanumBeliefbyMoney.png</IconFilename>
+                    <GUID>1600000050</GUID>
+                    <Name>Specialist AE-CTHall-PrestiKnowHappy-E FunctionalEffect</Name>
+                    <IconFilename>data/base/graphics/icons/unchanged/c_m_AE-CTHall-PrestiKnowHappy-E.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>StreetDistance</EffectScope>
                     <SourceCategory>Adjacency</SourceCategory>
                     <Buffs>
                         <Item>
-                            <GUID>1600000020</GUID>
+                            <GUID>1600000051</GUID>
                         </Item>
                     </Buffs>
                     <Targets>
@@ -115,7 +107,7 @@
                     <HideInGovernorsBar>1</HideInGovernorsBar>
                 </Effect>
                 <Text>
-                    <OasisId>1600000017</OasisId>
+                    <OasisId>1600000048</OasisId>
                 </Text>
             </Values>
         </Asset>
@@ -126,34 +118,58 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000020</GUID>
-                    <Name>Specialist AreaEffect-SancFanumBeliefbyMoney-R FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/female_SancFanumBeliefbyMoney.png</IconFilename>
+                    <GUID>1600000051</GUID>
+                    <Name>Specialist AE-CTHall-PrestiKnowHappy-E FunctionalEffect BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/unchanged/c_m_AE-CTHall-PrestiKnowHappy-E.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000017</OasisId>
+                    <OasisId>1600000048</OasisId>
                 </Text>
                 <HealthUpgrade/>
                 <BuildingUpgrade>
                     <AdditionalAttributes>
+                        <Population>
+                        <AmountOrPercent>
+                            <Value>0</Value>
+                            <Percental>0</Percental>
+                        </AmountOrPercent>
+                        </Population>
                         <Happiness>
+                        <AmountOrPercent>
+                            <Value>1</Value>
+                            <Percental>0</Percental>
+                        </AmountOrPercent>
+                        </Happiness>
+                        <Money>
+                        <AmountOrPercent>
+                            <Value>0</Value>
+                            <Percental>0</Percental>
+                        </AmountOrPercent>
+                        </Money>
+                        <Prestige>
+                        <AmountOrPercent>
+                            <Value>1</Value>
+                            <Percental>0</Percental>
+                        </AmountOrPercent>
+                        </Prestige>
+                        <Belief>
+                            <AmountOrPercent>
+                                <Value>0</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
+                        </Belief>
+                        <Knowledge>
                             <AmountOrPercent>
                                 <Value>0.5</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
-                        </Happiness>
-                        <Money>
+                        </Knowledge>
+                        <FireSafety>
                             <AmountOrPercent>
-                                <Value>-1</Value>
+                                <Value>0</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
-                        </Money>
-                        <Belief>
-                            <AmountOrPercent>
-                                <Value>1</Value>
-                                <Percental>0</Percental>
-                            </AmountOrPercent>
-                        </Belief>
+                        </FireSafety>
                     </AdditionalAttributes>
                 </BuildingUpgrade>
                 <DistributionUpgrade/>

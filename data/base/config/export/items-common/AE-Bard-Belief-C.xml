@@ -7,8 +7,8 @@
         <Values>
           <Standard>
             <GUID>1600000005</GUID>
-            <Name>Specialist AreaEffect-BardicHallBelief-C</Name>
-            <IconFilename>data/base/graphics/icons/celtic_male_bard.png</IconFilename>
+            <Name>Specialist AE-Bard-Belief-C</Name>
+            <IconFilename>data/base/graphics/icons/c_m_Bard-C.png</IconFilename>
             <InfoDescription>1600000006</InfoDescription>
           </Standard>
           <Effect>
@@ -52,8 +52,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000006</GUID>
-                    <Name>Specialist AreaEffect-BardicHallBelief-C BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/celtic_male_bard.png</IconFilename>
+                    <Name>Specialist AE-Bard-Belief-C BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/c_m_Bard-C.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000005</OasisId>
@@ -87,8 +87,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000007</GUID>
-                    <Name>Specialist AreaEffect-BardicHallBelief-C FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/celtic_male_bard.png</IconFilename>
+                    <Name>Specialist AE-Bard-Belief-C FunctionalEffect</Name>
+                    <IconFilename>data/base/graphics/icons/c_m_Bard-C.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>StreetDistance</EffectScope>
@@ -119,8 +119,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000008</GUID>
-                    <Name>Specialist AreaEffect-BardicHallBelief-C FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/celtic_male_bard.png</IconFilename>
+                    <Name>Specialist AE-Bard-Belief-C FunctionalEffect BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/c_m_Bard-C.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000005</OasisId>
