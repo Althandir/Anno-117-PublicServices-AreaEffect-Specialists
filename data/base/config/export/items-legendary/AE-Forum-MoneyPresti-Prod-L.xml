@@ -49,10 +49,10 @@
                     <Values>
                         <Condition/>
                         <ConditionObjectCount>
-                        <Amount>3</Amount>
+                        <Amount>42</Amount>
                         </ConditionObjectCount>
                         <ObjectFilter>
-                        <ObjectGUID>3168</ObjectGUID>
+                        <ObjectGUID>38370</ObjectGUID>
                         <ObjectLocations>
                             <Template>LocationFilter</Template>
                             <Values>
