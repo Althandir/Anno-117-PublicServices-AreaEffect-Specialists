@@ -1,42 +1,42 @@
 <ModOps>
-<!-- Item Definition GUID:1600000048 - 1600000051 | LineID:1600000048 - 1600000049 -->
+<!-- Item Definition GUID:1600000162 - 1600000165 | LineID:1600000162 - 1600000163 -->
   <Group>
     <ModOp Type="addNextSibling" GUID="106410">
       <Asset>
         <Template>Item</Template>
         <Values>
           <Standard>
-            <GUID>1600000048</GUID>
-            <Name>Specialist AreaEffect-CelcicTownHallPrestigeKnowledge-E</Name>
-            <IconFilename>data/base/graphics/icons/unchanged/celtic_male_celticTownhallHappinessPrestigeKnowledge.png</IconFilename>
-            <InfoDescription>1600000049</InfoDescription>
+            <GUID>1600000162</GUID>
+            <Name>Specialist AE-Bath-Health-NHappy-R</Name>
+            <IconFilename>data/base/graphics/icons/r_m_Bathmaster.png</IconFilename>
+            <InfoDescription>1600000163</InfoDescription>
           </Standard>
           <Effect>
             <EffectScope>Radius</EffectScope>  
             <SourceCategory>Item</SourceCategory>
             <Buffs>
               <Item>
-                <GUID>1600000049</GUID>
+                <GUID>1600000163</GUID>
               </Item>
             </Buffs>
             <Targets> <!-- Targets of Buff -->
               <Item>
-                <GUID>6726</GUID>
+                <GUID>70714</GUID>
               </Item>
             </Targets>
             <HideInGovernorsBar>1</HideInGovernorsBar>
           </Effect>
           <Item>
-            <Niche>Diplomacy</Niche>
-            <TradePrice>82500</TradePrice> 
-            <BarkPool>80241</BarkPool> <!-- <GUID>80241</GUID> -->
-            <Rarity>Epic</Rarity> 
+            <Niche>Agriculture</Niche>
+            <TradePrice>23500</TradePrice> 
+            <BarkPool>80249</BarkPool> <!-- <GUID>80249</GUID> -->
+            <Rarity>Rare</Rarity> 
           </Item>
           <Locked>
             <DefaultLockedState>0</DefaultLockedState>
           </Locked>
           <Text>
-            <OasisId>1600000048</OasisId>
+            <OasisId>1600000162</OasisId>
           </Text>
         </Values>
       </Asset>
@@ -51,23 +51,22 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000049</GUID>
-                    <Name>Specialist AreaEffect-CelcicTownHallPrestigeKnowledge-E BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/unchanged/celtic_male_celticTownhallHappinessPrestigeKnowledge.png</IconFilename>
+                    <GUID>1600000163</GUID>
+                    <Name>Specialist AE-Bath-Health-NHappy-R BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/r_m_Bathmaster.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000048</OasisId>
+                    <OasisId>1600000162</OasisId>
                 </Text>
                 <HealthUpgrade/>
                 <BuildingUpgrade>
-                    <AdditionalFunctionalEffect>1600000050</AdditionalFunctionalEffect>
+                    <AdditionalFunctionalEffect>1600000164</AdditionalFunctionalEffect>
                 </BuildingUpgrade>
                 <DistributionUpgrade/>
                 <Buff>
                     <SourceCategory>Item</SourceCategory>
                 </Buff>
-                <ResidenceUpgrade>
-                </ResidenceUpgrade>
+                <ResidenceUpgrade/>
                 <FactoryUpgrade/>
                 <ModuleOwnerUpgrade/>
                 <MaintenanceUpgrade/>
@@ -86,16 +85,16 @@
             <Template>Effect</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000050</GUID>
-                    <Name>Specialist AreaEffect-CelcicTownHallPrestigeKnowledge-E FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/unchanged/celtic_male_celticTownhallHappinessPrestigeKnowledge.png</IconFilename>
+                    <GUID>1600000164</GUID>
+                    <Name>Specialist AE-Bath-Health-NHappy-R FunctionalEffect</Name>
+                    <IconFilename>data/base/graphics/icons/r_m_Bathmaster.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>StreetDistance</EffectScope>
                     <SourceCategory>Adjacency</SourceCategory>
                     <Buffs>
                         <Item>
-                            <GUID>1600000051</GUID>
+                            <GUID>1600000165</GUID>
                         </Item>
                     </Buffs>
                     <Targets>
@@ -107,7 +106,7 @@
                     <HideInGovernorsBar>1</HideInGovernorsBar>
                 </Effect>
                 <Text>
-                    <OasisId>1600000048</OasisId>
+                    <OasisId>1600000162</OasisId>
                 </Text>
             </Values>
         </Asset>
@@ -118,66 +117,53 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000051</GUID>
-                    <Name>Specialist AreaEffect-CelcicTownHallPrestigeKnowledge-E FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/unchanged/celtic_male_celticTownhallHappinessPrestigeKnowledge.png</IconFilename>
+                    <GUID>1600000165</GUID>
+                    <Name>Specialist AE-Bath-Health-NHappy-R FunctionalEffect BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/r_m_Bathmaster.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000048</OasisId>
+                    <OasisId>1600000162</OasisId>
                 </Text>
                 <HealthUpgrade/>
                 <BuildingUpgrade>
                     <AdditionalAttributes>
-                        <Population>
-                        <AmountOrPercent>
-                            <Value>0</Value>
-                            <Percental>0</Percental>
-                        </AmountOrPercent>
-                        </Population>
                         <Happiness>
-                        <AmountOrPercent>
-                            <Value>1</Value>
-                            <Percental>0</Percental>
-                        </AmountOrPercent>
+                            <AmountOrPercent>
+                                <Value>-0.5</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
                         </Happiness>
-                        <Money>
-                        <AmountOrPercent>
-                            <Value>0</Value>
-                            <Percental>0</Percental>
-                        </AmountOrPercent>
-                        </Money>
                         <Prestige>
-                        <AmountOrPercent>
-                            <Value>1</Value>
-                            <Percental>0</Percental>
-                        </AmountOrPercent>
+                            <AmountOrPercent>
+                                <Value>0</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
                         </Prestige>
                         <Belief>
                             <AmountOrPercent>
                                 <Value>0</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
-                        </Belief>
+				        </Belief>
                         <Knowledge>
-                            <AmountOrPercent>
-                                <Value>0.5</Value>
-                                <Percental>0</Percental>
-                            </AmountOrPercent>
-                        </Knowledge>
-                        <FireSafety>
                             <AmountOrPercent>
                                 <Value>0</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
-                        </FireSafety>
+				        </Knowledge>
+                        <Health>
+                            <AmountOrPercent>
+                                <Value>1.5</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
+				        </Health>
                     </AdditionalAttributes>
                 </BuildingUpgrade>
                 <DistributionUpgrade/>
                 <Buff>
                     <SourceCategory>Adjacency</SourceCategory>
                 </Buff>
-                <ResidenceUpgrade>
-                </ResidenceUpgrade>
+                <ResidenceUpgrade/>
                 <FactoryUpgrade/>
                 <ModuleOwnerUpgrade/>
                 <MaintenanceUpgrade/>

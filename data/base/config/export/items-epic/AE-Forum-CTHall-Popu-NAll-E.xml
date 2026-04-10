@@ -1,42 +1,45 @@
 <ModOps>
-<!-- Item Definition GUID:1600000056 - 1600000059 | LineID:1600000056 - 1600000057 -->
+<!-- Item Definition GUID:1600000220 - 1600000223 | LineID:1600000220 - 1600000221 -->
   <Group>
     <ModOp Type="addNextSibling" GUID="106410">
       <Asset>
         <Template>Item</Template>
         <Values>
           <Standard>
-            <GUID>1600000056</GUID>
-            <Name>Specialist AreaEffect-GamblingHousePrestigeHappiness-E</Name>
-            <IconFilename>data/base/graphics/icons/roman_male_GamblingHousePopulationHappinessE.png</IconFilename>
-            <InfoDescription>1600000057</InfoDescription>
+            <GUID>1600000220</GUID>
+            <Name>Specialist AE-Forum-CTHall-Popu-NAll-E</Name>
+            <IconFilename>data/base/graphics/icons/f_AE-Forum-CTHall-Popu-NAll-E.png</IconFilename>
+            <InfoDescription>1600000221</InfoDescription>
           </Standard>
           <Effect>
             <EffectScope>Radius</EffectScope>  
             <SourceCategory>Item</SourceCategory>
             <Buffs>
               <Item>
-                <GUID>1600000057</GUID>
+                <GUID>1600000221</GUID>
               </Item>
             </Buffs>
             <Targets> <!-- Targets of Buff -->
-              <Item>
-                <GUID>81911</GUID>
-              </Item>
+                <Item>
+                    <GUID>81273</GUID> <!-- #Info: For some Reason: RomanCelticTemple is in this Asset Pool? -->
+                </Item>
+                <Item>
+                    <GUID>6726</GUID> 
+                </Item>
             </Targets>
             <HideInGovernorsBar>1</HideInGovernorsBar>
           </Effect>
           <Item>
-            <Niche>Culture</Niche>
-            <TradePrice>70000</TradePrice> 
-            <BarkPool>83303</BarkPool> <!-- <GUID>83303</GUID> -->
+            <Niche>Economy</Niche>
+            <TradePrice>100000</TradePrice> 
+            <BarkPool>83341</BarkPool> <!-- <GUID>83341</GUID> -->
             <Rarity>Epic</Rarity> 
           </Item>
           <Locked>
             <DefaultLockedState>0</DefaultLockedState>
           </Locked>
           <Text>
-            <OasisId>1600000056</OasisId>
+            <OasisId>1600000220</OasisId>
           </Text>
         </Values>
       </Asset>
@@ -51,16 +54,17 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000057</GUID>
-                    <Name>Specialist AreaEffect-GamblingHousePrestigeHappiness-E BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/roman_male_GamblingHousePopulationHappinessE.png</IconFilename>
+                    <GUID>1600000221</GUID>
+                    <Name>Specialist AE-Forum-CTHall-Popu-NAll-E BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/f_AE-Forum-CTHall-Popu-NAll-E.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000056</OasisId>
+                    <OasisId>1600000220</OasisId>
                 </Text>
                 <HealthUpgrade/>
                 <BuildingUpgrade>
-                    <AdditionalFunctionalEffect>1600000058</AdditionalFunctionalEffect>
+                    <AdditionalFunctionalEffect>1600000222</AdditionalFunctionalEffect>
+                    <WorkforceModifierInPercent>0</WorkforceModifierInPercent>
                 </BuildingUpgrade>
                 <DistributionUpgrade/>
                 <Buff>
@@ -70,7 +74,12 @@
                 </ResidenceUpgrade>
                 <FactoryUpgrade/>
                 <ModuleOwnerUpgrade/>
-                <MaintenanceUpgrade/>
+                <MaintenanceUpgrade>
+                    <WorkforceMaintenanceFactorUpgrade>
+                        <Value>0</Value>
+                        <Percental>1</Percental>
+                    </WorkforceMaintenanceFactorUpgrade>
+                </MaintenanceUpgrade>
                 <CityInstitutionUpgrade/>
                 <IncidentInfectableUpgrade/>
                 <RecruitmentUpgrade/>
@@ -86,16 +95,16 @@
             <Template>Effect</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000058</GUID>
-                    <Name>Specialist AreaEffect-GamblingHousePrestigeHappiness-E FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/roman_male_GamblingHousePopulationHappinessE.png</IconFilename>
+                    <GUID>1600000222</GUID>
+                    <Name>Specialist AE-Forum-CTHall-Popu-NAll-E FunctionalEffect</Name>
+                    <IconFilename>data/base/graphics/icons/f_AE-Forum-CTHall-Popu-NAll-E.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>StreetDistance</EffectScope>
                     <SourceCategory>Adjacency</SourceCategory>
                     <Buffs>
                         <Item>
-                            <GUID>1600000059</GUID>
+                            <GUID>1600000223</GUID>
                         </Item>
                     </Buffs>
                     <Targets>
@@ -107,7 +116,7 @@
                     <HideInGovernorsBar>1</HideInGovernorsBar>
                 </Effect>
                 <Text>
-                    <OasisId>1600000056</OasisId>
+                    <OasisId>1600000220</OasisId>
                 </Text>
             </Values>
         </Asset>
@@ -118,25 +127,26 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000059</GUID>
-                    <Name>Specialist AreaEffect-GamblingHousePrestigeHappiness-E FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/roman_male_GamblingHousePopulationHappinessE.png</IconFilename>
+                    <GUID>1600000223</GUID>
+                    <Name>Specialist AE-Forum-CTHall-Popu-NAll-E FunctionalEffect BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/f_AE-Forum-CTHall-Popu-NAll-E.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000056</OasisId>
+                    <OasisId>1600000220</OasisId>
                 </Text>
                 <HealthUpgrade/>
                 <BuildingUpgrade>
+                    <WorkforceModifierInPercent>0</WorkforceModifierInPercent>
                     <AdditionalAttributes>
                         <Population>
                         <AmountOrPercent>
-                            <Value>0</Value>
+                            <Value>2</Value>
                             <Percental>0</Percental>
                         </AmountOrPercent>
                         </Population>
                         <Happiness>
                         <AmountOrPercent>
-                            <Value>1</Value>
+                            <Value>-1</Value>
                             <Percental>0</Percental>
                         </AmountOrPercent>
                         </Happiness>
@@ -148,7 +158,7 @@
                         </Money>
                         <Prestige>
                         <AmountOrPercent>
-                            <Value>0.5</Value>
+                            <Value>0</Value>
                             <Percental>0</Percental>
                         </AmountOrPercent>
                         </Prestige>
@@ -166,10 +176,16 @@
                         </Knowledge>
                         <FireSafety>
                             <AmountOrPercent>
-                                <Value>0</Value>
+                                <Value>-1</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
                         </FireSafety>
+                        <Health>
+                            <AmountOrPercent>
+                                <Value>-1</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
+                        </Health>
                     </AdditionalAttributes>
                 </BuildingUpgrade>
                 <DistributionUpgrade/>
@@ -178,9 +194,19 @@
                 </Buff>
                 <ResidenceUpgrade>
                 </ResidenceUpgrade>
-                <FactoryUpgrade/>
+                <FactoryUpgrade>
+                    <ProductivityUpgrade>
+                        <Value>0</Value>
+                        <Percental>1</Percental>
+			        </ProductivityUpgrade>
+                </FactoryUpgrade>
                 <ModuleOwnerUpgrade/>
-                <MaintenanceUpgrade/>
+                <MaintenanceUpgrade>
+                    <WorkforceMaintenanceFactorUpgrade>
+                        <Value>0</Value>
+                        <Percental>1</Percental>
+                    </WorkforceMaintenanceFactorUpgrade>
+                </MaintenanceUpgrade>
                 <CityInstitutionUpgrade/>
                 <IncidentInfectableUpgrade/>
                 <RecruitmentUpgrade/>

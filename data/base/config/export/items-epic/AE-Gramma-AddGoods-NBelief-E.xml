@@ -7,8 +7,8 @@
         <Values>
           <Standard>
             <GUID>1600000230</GUID>
-            <Name>Specialist AreaEffect-GrammaticusAdditionalGoodsbyBelief-E</Name>
-            <IconFilename>data/base/graphics/icons/female_GrammaticusProductivityE.png</IconFilename>
+            <Name>Specialist AE-Gramma-AddGoods-NBelief-E</Name>
+            <IconFilename>data/base/graphics/icons/f_AE-Gramma-AddGoods-NBelief-E.png</IconFilename>
             <InfoDescription>1600000231</InfoDescription>
           </Standard>
           <Effect>
@@ -52,8 +52,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000231</GUID>
-                    <Name>Specialist AreaEffect-GrammaticusAdditionalGoodsbyBelief-E BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/female_GrammaticusProductivityE.png</IconFilename>
+                    <Name>Specialist AE-Gramma-AddGoods-NBelief-E BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/f_AE-Gramma-AddGoods-NBelief-E.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000230</OasisId>
@@ -99,8 +99,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000232</GUID>
-                    <Name>Specialist AreaEffect-GrammaticusAdditionalGoodsbyBelief-E FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/female_GrammaticusProductivityE.png</IconFilename>
+                    <Name>Specialist AE-Gramma-AddGoods-NBelief-E FunctionalEffect</Name>
+                    <IconFilename>data/base/graphics/icons/f_AE-Gramma-AddGoods-NBelief-E.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>StreetDistance</EffectScope>
@@ -131,8 +131,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000233</GUID>
-                    <Name>Specialist AreaEffect-GrammaticusAdditionalGoodsbyBelief-E FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/female_GrammaticusProductivityE.png</IconFilename>
+                    <Name>Specialist AE-Gramma-AddGoods-NBelief-E FunctionalEffect BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/f_AE-Gramma-AddGoods-NBelief-E.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000230</OasisId>

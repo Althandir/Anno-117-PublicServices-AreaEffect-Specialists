@@ -1,42 +1,42 @@
 <ModOps>
-<!-- Item Definition GUID:1600000148 - 1600000151 | LineID:1600000148 - 1600000149 -->
+<!-- Item Definition GUID:1600000092 - 1600000095 | LineID:1600000092 - 1600000093 -->
   <Group>
     <ModOp Type="addNextSibling" GUID="106410">
       <Asset>
         <Template>Item</Template>
         <Values>
           <Standard>
-            <GUID>1600000148</GUID>
-            <Name>Specialist AreaEffect-TheaterHappinessPrestigeKnowledge-L</Name>
-            <IconFilename>data/base/graphics/icons/unchanged/female_TheaterHappinessPrestigeBeliefKnowledge-L.png</IconFilename>
-            <InfoDescription>1600000149</InfoDescription>
+            <GUID>1600000092</GUID>
+            <Name>Specialist AE-TempleNeptune-E</Name>
+            <IconFilename>data/base/graphics/icons/r_temple/roman_priestess_mod_Neptune.png</IconFilename>
+            <InfoDescription>1600000093</InfoDescription>
           </Standard>
           <Effect>
             <EffectScope>Radius</EffectScope>  
             <SourceCategory>Item</SourceCategory>
             <Buffs>
               <Item>
-                <GUID>1600000149</GUID>
+                <GUID>1600000093</GUID>
               </Item>
             </Buffs>
             <Targets> <!-- Targets of Buff -->
               <Item>
-                <GUID>81446</GUID>
+                <GUID>140886</GUID>
               </Item>
             </Targets>
             <HideInGovernorsBar>1</HideInGovernorsBar>
           </Effect>
           <Item>
-            <Niche>Culture</Niche>
-            <TradePrice>650000</TradePrice> 
-            <BarkPool>83358</BarkPool> <!-- <GUID>83358</GUID> -->
-            <Rarity>Legendary</Rarity> 
+            <Niche>Religion</Niche>
+            <TradePrice>85000</TradePrice> 
+            <BarkPool>83343</BarkPool> <!-- <GUID>83343</GUID> -->
+            <Rarity>Epic</Rarity> 
           </Item>
           <Locked>
             <DefaultLockedState>0</DefaultLockedState>
           </Locked>
           <Text>
-            <OasisId>1600000148</OasisId>
+            <OasisId>1600000092</OasisId>
           </Text>
         </Values>
       </Asset>
@@ -51,22 +51,23 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000149</GUID>
-                    <Name>Specialist AreaEffect-TheaterHappinessPrestigeKnowledge-L BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/unchanged/female_TheaterHappinessPrestigeBeliefKnowledge-L.png</IconFilename>
+                    <GUID>1600000093</GUID>
+                    <Name>Specialist AE-TempleNeptune-E BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/r_temple/roman_priestess_mod_Neptune.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000148</OasisId>
+                    <OasisId>1600000092</OasisId>
                 </Text>
                 <HealthUpgrade/>
                 <BuildingUpgrade>
-                    <AdditionalFunctionalEffect>1600000150</AdditionalFunctionalEffect>
+                    <AdditionalFunctionalEffect>1600000094</AdditionalFunctionalEffect>
                 </BuildingUpgrade>
                 <DistributionUpgrade/>
                 <Buff>
                     <SourceCategory>Item</SourceCategory>
                 </Buff>
-                <ResidenceUpgrade/>
+                <ResidenceUpgrade>
+                </ResidenceUpgrade>
                 <FactoryUpgrade/>
                 <ModuleOwnerUpgrade/>
                 <MaintenanceUpgrade/>
@@ -85,16 +86,16 @@
             <Template>Effect</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000150</GUID>
-                    <Name>Specialist AreaEffect-TheaterHappinessPrestigeKnowledge-L FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/unchanged/female_TheaterHappinessPrestigeBeliefKnowledge-L.png</IconFilename>
+                    <GUID>1600000094</GUID>
+                    <Name>Specialist AE-TempleNeptune-E FunctionalEffect</Name>
+                    <IconFilename>data/base/graphics/icons/r_temple/roman_priestess_mod_Neptune.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>StreetDistance</EffectScope>
                     <SourceCategory>Adjacency</SourceCategory>
                     <Buffs>
                         <Item>
-                            <GUID>1600000151</GUID>
+                            <GUID>1600000095</GUID>
                         </Item>
                     </Buffs>
                     <Targets>
@@ -106,7 +107,7 @@
                     <HideInGovernorsBar>1</HideInGovernorsBar>
                 </Effect>
                 <Text>
-                    <OasisId>1600000148</OasisId>
+                    <OasisId>1600000092</OasisId>
                 </Text>
             </Values>
         </Asset>
@@ -117,47 +118,72 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000151</GUID>
-                    <Name>Specialist AreaEffect-TheaterHappinessPrestigeKnowledge-L FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/unchanged/female_TheaterHappinessPrestigeBeliefKnowledge-L.png</IconFilename>
+                    <GUID>1600000095</GUID>
+                    <Name>Specialist AE-TempleNeptune-E FunctionalEffect BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/r_temple/roman_priestess_mod_Neptune.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000148</OasisId>
+                    <OasisId>1600000092</OasisId>
                 </Text>
                 <HealthUpgrade/>
                 <BuildingUpgrade>
                     <AdditionalAttributes>
+                        <Population>
+                            <AmountOrPercent>
+                                <Value>0</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
+                        </Population>
                         <Happiness>
                             <AmountOrPercent>
-                                <Value>2</Value>
+                                <Value>0</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
                         </Happiness>
-                        <Prestige>
+                        <Money>
                             <AmountOrPercent>
-                                <Value>1</Value>
+                                <Value>0.8</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
+                        </Money>
+                        <Prestige>
+                        <AmountOrPercent>
+                            <Value>0</Value>
+                            <Percental>0</Percental>
+                        </AmountOrPercent>
                         </Prestige>
                         <Belief>
                             <AmountOrPercent>
                                 <Value>0</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
-				        </Belief>
+                        </Belief>
                         <Knowledge>
                             <AmountOrPercent>
-                                <Value>0.5</Value>
+                                <Value>0</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
-				                </Knowledge>
+                        </Knowledge>
+                        <Health>
+                            <AmountOrPercent>
+                                <Value>0</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
+                        </Health>
+                        <FireSafety>
+                            <AmountOrPercent>
+                                <Value>0.8</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
+                        </FireSafety>
                     </AdditionalAttributes>
                 </BuildingUpgrade>
                 <DistributionUpgrade/>
                 <Buff>
                     <SourceCategory>Adjacency</SourceCategory>
                 </Buff>
-                <ResidenceUpgrade/>
+                <ResidenceUpgrade>
+                </ResidenceUpgrade>
                 <FactoryUpgrade/>
                 <ModuleOwnerUpgrade/>
                 <MaintenanceUpgrade/>

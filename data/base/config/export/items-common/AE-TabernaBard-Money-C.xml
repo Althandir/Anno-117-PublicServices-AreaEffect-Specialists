@@ -7,8 +7,8 @@
         <Values>
           <Standard>
             <GUID>1600000021</GUID>
-            <Name>Specialist AreaEffect-TabernaMoney-C</Name>
-            <IconFilename>data/base/graphics/icons/unchanged/roman_male_tabernaMoney.png</IconFilename>
+            <Name>Specialist AE-TabernaBard-Money-C</Name>
+            <IconFilename>data/base/graphics/icons/unchanged/r_m_taber-Bard-Money-C.png</IconFilename>
             <InfoDescription>1600000022</InfoDescription>
           </Standard>
           <Effect>
@@ -20,8 +20,11 @@
               </Item>
             </Buffs>
             <Targets> <!-- Targets of Buff -->
+                <Item>
+                    <GUID>3528</GUID>
+                </Item>
               <Item>
-                <GUID>3528</GUID>
+                <GUID>6727</GUID>
               </Item>
             </Targets>
             <HideInGovernorsBar>1</HideInGovernorsBar>
@@ -52,8 +55,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000022</GUID>
-                    <Name>Specialist AreaEffect-TabernaMoney-C BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/unchanged/roman_male_tabernaMoney.png</IconFilename>
+                    <Name>Specialist AE-TabernaBard-Money-C BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/unchanged/r_m_taber-Bard-Money-C.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000021</OasisId>
@@ -87,8 +90,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000023</GUID>
-                    <Name>Specialist AreaEffect-TabernaMoney-C FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/unchanged/roman_male_tabernaMoney.png</IconFilename>
+                    <Name>Specialist AE-TabernaBard-Money-C FunctionalEffect</Name>
+                    <IconFilename>data/base/graphics/icons/unchanged/r_m_taber-Bard-Money-C.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>StreetDistance</EffectScope>
@@ -119,8 +122,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000024</GUID>
-                    <Name>Specialist AreaEffect-TabernaMoney-C FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/unchanged/roman_male_tabernaMoney.png</IconFilename>
+                    <Name>Specialist AE-TabernaBard-Money-C FunctionalEffect BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/unchanged/r_m_taber-Bard-Money-C.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000021</OasisId>

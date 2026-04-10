@@ -1,43 +1,42 @@
 <ModOps>
-<!-- Item Definition GUID:1600000096 - 1600000099 | LineID:1600000096 - 1600000097 -->
+<!-- Item Definition GUID:1600000056 - 1600000059 | LineID:1600000056 - 1600000057 -->
   <Group>
     <ModOp Type="addNextSibling" GUID="106410">
       <Asset>
         <Template>Item</Template>
         <Values>
           <Standard>
-            <GUID>1600000096</GUID>
-            <Name>Specialist AreaEffect-TheaterHealthBeliefHappiness-E</Name>
-            <IconFilename>data/base/graphics/icons/celtic_female_theaterHealthBelief.png</IconFilename>
-            <InfoDescription>1600000097</InfoDescription>
+            <GUID>1600000056</GUID>
+            <Name>Specialist AE-Gamble-PrestiHappy-E</Name>
+            <IconFilename>data/base/graphics/icons/r_m_AE-Gamble-PrestiHappy-E.png</IconFilename>
+            <InfoDescription>1600000057</InfoDescription>
           </Standard>
           <Effect>
             <EffectScope>Radius</EffectScope>  
             <SourceCategory>Item</SourceCategory>
             <Buffs>
               <Item>
-                <GUID>1600000097</GUID>
+                <GUID>1600000057</GUID>
               </Item>
             </Buffs>
             <Targets> <!-- Targets of Buff -->
               <Item>
-                <GUID>81446</GUID>
+                <GUID>81911</GUID>
               </Item>
             </Targets>
             <HideInGovernorsBar>1</HideInGovernorsBar>
           </Effect>
           <Item>
-            <Niche>Agriculture</Niche>
-            <TradePrice>82000</TradePrice> 
-            <BarkPool>83331</BarkPool> <!-- <GUID>83331</GUID> -->
-             
+            <Niche>Culture</Niche>
+            <TradePrice>70000</TradePrice> 
+            <BarkPool>83303</BarkPool> <!-- <GUID>83303</GUID> -->
             <Rarity>Epic</Rarity> 
           </Item>
           <Locked>
             <DefaultLockedState>0</DefaultLockedState>
           </Locked>
           <Text>
-            <OasisId>1600000096</OasisId>
+            <OasisId>1600000056</OasisId>
           </Text>
         </Values>
       </Asset>
@@ -52,22 +51,23 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000097</GUID>
-                    <Name>Specialist AreaEffect-TheaterHealthBeliefHappiness-E BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/celtic_female_theaterHealthBelief.png</IconFilename>
+                    <GUID>1600000057</GUID>
+                    <Name>Specialist AE-Gamble-PrestiHappy-E BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/r_m_AE-Gamble-PrestiHappy-E.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000096</OasisId>
+                    <OasisId>1600000056</OasisId>
                 </Text>
                 <HealthUpgrade/>
                 <BuildingUpgrade>
-                    <AdditionalFunctionalEffect>1600000098</AdditionalFunctionalEffect>
+                    <AdditionalFunctionalEffect>1600000058</AdditionalFunctionalEffect>
                 </BuildingUpgrade>
                 <DistributionUpgrade/>
                 <Buff>
                     <SourceCategory>Item</SourceCategory>
                 </Buff>
-                <ResidenceUpgrade/>
+                <ResidenceUpgrade>
+                </ResidenceUpgrade>
                 <FactoryUpgrade/>
                 <ModuleOwnerUpgrade/>
                 <MaintenanceUpgrade/>
@@ -86,16 +86,16 @@
             <Template>Effect</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000098</GUID>
-                    <Name>Specialist AreaEffect-TheaterHealthBeliefHappiness-E FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/celtic_female_theaterHealthBelief.png</IconFilename>
+                    <GUID>1600000058</GUID>
+                    <Name>Specialist AE-Gamble-PrestiHappy-E FunctionalEffect</Name>
+                    <IconFilename>data/base/graphics/icons/r_m_AE-Gamble-PrestiHappy-E.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>StreetDistance</EffectScope>
                     <SourceCategory>Adjacency</SourceCategory>
                     <Buffs>
                         <Item>
-                            <GUID>1600000099</GUID>
+                            <GUID>1600000059</GUID>
                         </Item>
                     </Buffs>
                     <Targets>
@@ -107,7 +107,7 @@
                     <HideInGovernorsBar>1</HideInGovernorsBar>
                 </Effect>
                 <Text>
-                    <OasisId>1600000096</OasisId>
+                    <OasisId>1600000056</OasisId>
                 </Text>
             </Values>
         </Asset>
@@ -118,41 +118,66 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000099</GUID>
-                    <Name>Specialist AreaEffect-TheaterHealthBeliefHappiness-E FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/celtic_female_theaterHealthBelief.png</IconFilename>
+                    <GUID>1600000059</GUID>
+                    <Name>Specialist AE-Gamble-PrestiHappy-E FunctionalEffect BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/r_m_AE-Gamble-PrestiHappy-E.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000096</OasisId>
+                    <OasisId>1600000056</OasisId>
                 </Text>
                 <HealthUpgrade/>
                 <BuildingUpgrade>
                     <AdditionalAttributes>
-                        <Health>
-                            <AmountOrPercent>
-                                <Value>0.25</Value>
-                                <Percental>0</Percental>
-                            </AmountOrPercent>
-                        </Health>
+                        <Population>
+                        <AmountOrPercent>
+                            <Value>0</Value>
+                            <Percental>0</Percental>
+                        </AmountOrPercent>
+                        </Population>
+                        <Happiness>
+                        <AmountOrPercent>
+                            <Value>1</Value>
+                            <Percental>0</Percental>
+                        </AmountOrPercent>
+                        </Happiness>
+                        <Money>
+                        <AmountOrPercent>
+                            <Value>0</Value>
+                            <Percental>0</Percental>
+                        </AmountOrPercent>
+                        </Money>
+                        <Prestige>
+                        <AmountOrPercent>
+                            <Value>0.5</Value>
+                            <Percental>0</Percental>
+                        </AmountOrPercent>
+                        </Prestige>
                         <Belief>
                             <AmountOrPercent>
-                                <Value>1.5</Value>
+                                <Value>0</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
-				        </Belief>
-                        <Happiness>
+                        </Belief>
+                        <Knowledge>
                             <AmountOrPercent>
-                                <Value>0.25</Value>
+                                <Value>0</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
-				        </Happiness>
+                        </Knowledge>
+                        <FireSafety>
+                            <AmountOrPercent>
+                                <Value>0</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
+                        </FireSafety>
                     </AdditionalAttributes>
                 </BuildingUpgrade>
                 <DistributionUpgrade/>
                 <Buff>
                     <SourceCategory>Adjacency</SourceCategory>
                 </Buff>
-                <ResidenceUpgrade/>
+                <ResidenceUpgrade>
+                </ResidenceUpgrade>
                 <FactoryUpgrade/>
                 <ModuleOwnerUpgrade/>
                 <MaintenanceUpgrade/>

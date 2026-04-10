@@ -1,42 +1,42 @@
 <ModOps>
-<!-- Item Definition GUID:1600000216 - 1600000219 | LineID:1600000216 - 1600000217 -->
+<!-- Item Definition GUID:1600000064 - 1600000067 | LineID:1600000064 - 1600000065 -->
   <Group>
     <ModOp Type="addNextSibling" GUID="106410">
       <Asset>
         <Template>Item</Template>
         <Values>
           <Standard>
-            <GUID>1600000216</GUID>
-            <Name>Specialist AreaEffect-ForumIncomePrestigeProductivity-L</Name>
-            <IconFilename>data/base/graphics/icons/female_ForumIncomePrestigeProductivityL.png</IconFilename>
-            <InfoDescription>1600000217</InfoDescription>
+            <GUID>1600000064</GUID>
+            <Name>Specialist AE-Lib-PopHealthHappy-E</Name>
+            <IconFilename>data/base/graphics/icons/m_AE-Lib-PopHealthHappy-E.png</IconFilename>
+            <InfoDescription>1600000065</InfoDescription>
           </Standard>
           <Effect>
             <EffectScope>Radius</EffectScope>  
             <SourceCategory>Item</SourceCategory>
             <Buffs>
               <Item>
-                <GUID>1600000217</GUID>
+                <GUID>1600000065</GUID>
               </Item>
             </Buffs>
             <Targets> <!-- Targets of Buff -->
               <Item>
-                <GUID>81273</GUID> <!-- #Info: For some Reason: RomanCelticTemple is in this Asset Pool? -->
+                <GUID>31368</GUID>
               </Item>
             </Targets>
             <HideInGovernorsBar>1</HideInGovernorsBar>
           </Effect>
           <Item>
-            <Niche>Economy</Niche>
-            <TradePrice>650000</TradePrice> 
-            <BarkPool>83347</BarkPool> <!-- <GUID>83347</GUID> -->
-            <Rarity>Legendary</Rarity> 
+            <Niche>Agriculture</Niche>
+            <TradePrice>80000</TradePrice> 
+            <BarkPool>83310</BarkPool> <!-- <GUID>83310</GUID> -->
+            <Rarity>Epic</Rarity> 
           </Item>
           <Locked>
             <DefaultLockedState>0</DefaultLockedState>
           </Locked>
           <Text>
-            <OasisId>1600000216</OasisId>
+            <OasisId>1600000064</OasisId>
           </Text>
         </Values>
       </Asset>
@@ -51,33 +51,24 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000217</GUID>
-                    <Name>Specialist AreaEffect-ForumIncomePrestigeProductivity-L BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/female_ForumIncomePrestigeProductivityL.png</IconFilename>
+                    <GUID>1600000065</GUID>
+                    <Name>Specialist AE-Lib-PopHealthHappy-E BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/m_AE-Lib-PopHealthHappy-E.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000216</OasisId>
+                    <OasisId>1600000064</OasisId>
                 </Text>
                 <HealthUpgrade/>
                 <BuildingUpgrade>
-                    <AdditionalFunctionalEffect>1600000218</AdditionalFunctionalEffect>
+                    <AdditionalFunctionalEffect>1600000066</AdditionalFunctionalEffect>
                 </BuildingUpgrade>
                 <DistributionUpgrade/>
                 <Buff>
                     <SourceCategory>Item</SourceCategory>
                 </Buff>
-                <ResidenceUpgrade/>
-                <!-- 
-                  This is here to inform the player about the Buffs on TargetBuildings! 
-                  UI currently don't reflect this. 
-                  Buff itself will have no effect on Building. Workaround is to inform Player via Description. 
-                  -->
-                <FactoryUpgrade>
-                    <ProductivityUpgrade>
-                        <Value>20</Value>
-                        <Percental>1</Percental>
-			        </ProductivityUpgrade>
-                </FactoryUpgrade>
+                <ResidenceUpgrade>
+                </ResidenceUpgrade>
+                <FactoryUpgrade/>
                 <ModuleOwnerUpgrade/>
                 <MaintenanceUpgrade/>
                 <CityInstitutionUpgrade/>
@@ -95,16 +86,16 @@
             <Template>Effect</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000218</GUID>
-                    <Name>Specialist AreaEffect-ForumIncomePrestigeProductivity-L FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/female_ForumIncomePrestigeProductivityL.png</IconFilename>
+                    <GUID>1600000066</GUID>
+                    <Name>Specialist AE-Lib-PopHealthHappy-E FunctionalEffect</Name>
+                    <IconFilename>data/base/graphics/icons/m_AE-Lib-PopHealthHappy-E.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>StreetDistance</EffectScope>
                     <SourceCategory>Adjacency</SourceCategory>
                     <Buffs>
                         <Item>
-                            <GUID>1600000219</GUID>
+                            <GUID>1600000067</GUID>
                         </Item>
                     </Buffs>
                     <Targets>
@@ -116,7 +107,7 @@
                     <HideInGovernorsBar>1</HideInGovernorsBar>
                 </Effect>
                 <Text>
-                    <OasisId>1600000216</OasisId>
+                    <OasisId>1600000064</OasisId>
                 </Text>
             </Values>
         </Asset>
@@ -127,37 +118,37 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000219</GUID>
-                    <Name>Specialist AreaEffect-ForumIncomePrestigeProductivity-L FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/female_ForumIncomePrestigeProductivityL.png</IconFilename>
+                    <GUID>1600000067</GUID>
+                    <Name>Specialist AE-Lib-PopHealthHappy-E FunctionalEffect BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/m_AE-Lib-PopHealthHappy-E.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000216</OasisId>
+                    <OasisId>1600000064</OasisId>
                 </Text>
                 <HealthUpgrade/>
                 <BuildingUpgrade>
                     <AdditionalAttributes>
                         <Population>
                         <AmountOrPercent>
-                            <Value>0</Value>
+                            <Value>0.5</Value>
                             <Percental>0</Percental>
                         </AmountOrPercent>
                         </Population>
                         <Happiness>
                         <AmountOrPercent>
-                            <Value>0</Value>
+                            <Value>0.25</Value>
                             <Percental>0</Percental>
                         </AmountOrPercent>
                         </Happiness>
                         <Money>
                         <AmountOrPercent>
-                            <Value>1</Value>
+                            <Value>0</Value>
                             <Percental>0</Percental>
                         </AmountOrPercent>
                         </Money>
                         <Prestige>
                         <AmountOrPercent>
-                            <Value>1</Value>
+                            <Value>0</Value>
                             <Percental>0</Percental>
                         </AmountOrPercent>
                         </Prestige>
@@ -173,15 +164,9 @@
                                 <Percental>0</Percental>
                             </AmountOrPercent>
                         </Knowledge>
-                        <FireSafety>
-                            <AmountOrPercent>
-                                <Value>0</Value>
-                                <Percental>0</Percental>
-                            </AmountOrPercent>
-                        </FireSafety>
                         <Health>
                             <AmountOrPercent>
-                                <Value>0</Value>
+                                <Value>1</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
                         </Health>
@@ -193,12 +178,7 @@
                 </Buff>
                 <ResidenceUpgrade>
                 </ResidenceUpgrade>
-                <FactoryUpgrade>
-                    <ProductivityUpgrade>
-                        <Value>20</Value>
-                        <Percental>1</Percental>
-			        </ProductivityUpgrade>
-                </FactoryUpgrade>
+                <FactoryUpgrade/>
                 <ModuleOwnerUpgrade/>
                 <MaintenanceUpgrade/>
                 <CityInstitutionUpgrade/>

@@ -1,6 +1,6 @@
 <ModOps>
 
-  <!-- Specialist AreaEffect-BardicHallBelief-C -->
+  <!-- Specialist AE-Bard-Belief-C -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -16,7 +16,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AreaEffect-CelcicBarrowHealthPrestige-R -->
+  <!-- Specialist AE-CBarrow-HealthPresti-R -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -32,7 +32,7 @@
     </ModOp>
   </Group>
   
-  <!-- Specialist AreaEffect-MarketBelief-C -->
+  <!-- Specialist AE-Market-Belief-C -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -48,7 +48,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AreaEffect-SancFanumBeliefbyMoney-C -->
+  <!-- Specialist AE-Sanc-Fanum-Belief-NMoney-R -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -64,7 +64,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AreaEffect-TabernaMoney-C -->
+  <!-- Specialist AE-TabernaBard-Money-C -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -96,7 +96,7 @@
     </ModOp>
   </Group>  
 
-  <!-- Specialist AreaEffect-GamblingHousePrestigeHappiness-E -->
+  <!-- Specialist AE-Gamble-PrestiHappy-E -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -112,7 +112,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AreaEffect-LibraryKnowledgePrestigebyFireSafety-E -->
+  <!-- Specialist AE-Lib-KnowPresti-NFire-E -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -144,7 +144,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AreaEffect-TempleMars-E -->
+  <!-- Specialist AE-TempleMars-E -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -157,16 +157,11 @@
           <Text>Höchst hingebungsvoll und predigt die römischen Tugenden des Gottes Mars.</Text>
           <LineId>1600000069</LineId> 
       </Text>
-      <!-- Boost Hint -->
-      <Text>
-          <Text>Braucht die Gewissheit dass die Insel dem Gott Mars folgt...</Text>
-          <LineId>1600000070</LineId> 
-      </Text>
     </ModOp>
   </Group>
 
 
-  <!-- Specialist AreaEffect-TempleCeres-E -->
+  <!-- Specialist AE-TempleCeres-E -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -179,15 +174,10 @@
           <Text>Höchst hingebungsvoll und predigt die römischen Tugenden der Göttin Ceres.</Text>
           <LineId>1600000073</LineId> 
       </Text>
-      <!-- Boost Hint -->
-      <Text>
-          <Text>Braucht die Gewissheit dass die Insel der Göttin Ceres folgt...</Text>
-          <LineId>1600000074</LineId> 
-      </Text>
     </ModOp>
   </Group>
 
-  <!-- Specialist AreaEffect-TempleCernunnos-E -->
+  <!-- Specialist AE-TempleCernunnos-E -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -200,15 +190,10 @@
           <Text>Kennt die alten keltischen Tugenden der Gottheit Cernunnos.</Text>
           <LineId>1600000077</LineId> 
       </Text>
-      <!-- Boost Hint -->
-      <Text>
-          <Text>Braucht die Gewissheit dass die Insel dem Gott Cernunnos folgt...</Text>
-          <LineId>1600000078</LineId> 
-      </Text>
     </ModOp>
   </Group>
 
-  <!-- Specialist AreaEffect-TempleEpona-E -->
+  <!-- Specialist AE-TempleEpona-E -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -221,15 +206,10 @@
           <Text>Kennt die alten keltischen Tugenden der Gottheit Epona.</Text>
           <LineId>1600000081</LineId> 
       </Text>
-      <!-- Boost Hint -->
-      <Text>
-          <Text>Braucht die Gewissheit dass die Insel der Göttin Epona folgt...</Text>
-          <LineId>1600000082</LineId> 
-      </Text>
     </ModOp>
   </Group>
 
-  <!-- Specialist AreaEffect-TempleMercury-E -->
+  <!-- Specialist AE-TempleMercury-E -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -242,15 +222,10 @@
           <Text>Höchst hingebungsvoll und predigt die römischen Tugenden des Gottes Mercur.</Text>
           <LineId>1600000085</LineId> 
       </Text>
-      <!-- Boost Hint -->
-      <Text>
-          <Text>Braucht die Gewissheit dass die Insel dem Gott Merkur folgt...</Text>
-          <LineId>1600000086</LineId> 
-      </Text>
     </ModOp>
   </Group>
 
-  <!-- Specialist AreaEffect-TempleMinerva-E -->
+  <!-- Specialist AE-TempleMinerva-E -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -263,15 +238,10 @@
           <Text>Höchst hingebungsvoll und predigt die römischen Tugenden der Göttin Minerva.</Text>
           <LineId>1600000089</LineId> 
       </Text>
-      <!-- Boost Hint -->
-      <Text>
-          <Text>Braucht die Gewissheit dass die Insel der Göttin Minerva folgt...</Text>
-          <LineId>1600000090</LineId> 
-      </Text>
     </ModOp>
   </Group>
 
-  <!-- Specialist AreaEffect-TempleNeptune-E -->
+  <!-- Specialist AE-TempleNeptune-E -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -283,11 +253,6 @@
       <Text>
           <Text>Höchst hingebungsvoll und predigt die römischen Tugenden des Gottes Neptun.</Text>
           <LineId>1600000093</LineId> 
-      </Text>
-      <!-- Boost Hint -->
-      <Text>
-          <Text>Braucht die Gewissheit dass die Insel dem Gott Neptun folgt...</Text>
-          <LineId>1600000094</LineId> 
       </Text>
     </ModOp>
   </Group>
@@ -302,13 +267,13 @@
       </Text>
       <!-- Description -->
       <Text>
-          <Text>Spielt die Rolle einer hässlichen Hexe, die es liebt, Augäpfel von anderen Menschen zu sammeln. Sie ist immer offen für einen guten Deal... Zu ihren Gunsten natürlich.</Text>
+          <Text>Spielt die Rolle einer hässlichen Hexe, die es liebt, Augäpfel von anderen Bürger zu sammeln. Sie ist immer offen für einen guten Deal... Zu ihren Gunsten natürlich.</Text>
           <LineId>1600000097</LineId> 
       </Text>
     </ModOp>
   </Group>
 
-  <!-- Specialist AreaEffect-TheaterHappinessPrestigeKnowledge-L -->
+  <!-- Specialist AE-Theater-HappyPrestiKnow-L -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -321,10 +286,15 @@
           <Text>„Was für eine exquisite Darbietung!“ „Was für ein unglaubliches Talent!“ „Wenn ich groß bin, möchte ich genau wie er sein!“</Text>
           <LineId>1600000149</LineId> 
       </Text>
+      <!-- Boosted Description -->
+      <Text>
+          <Text>"Wo ist denn mein Publikum?" (15000 Einwohner auf Insel)</Text>
+          <LineId>1600000150</LineId> 
+      </Text>
     </ModOp>
   </Group>
 
-  <!-- Specialist AreaEffect-BathsHealthbyHappiness-R -->
+  <!-- Specialist AE-Bath-Health-NHappy-R -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -340,7 +310,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AreaEffect-CelcicSacredGroveBeliefByPrestige-R -->
+  <!-- Specialist AE-CSGrove-Belief-NPresti-R -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -356,7 +326,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AreaEffect-GamblingHouseMoneybyHappinessBelief-R -->
+  <!-- Specialist AE-Gamble-Money-NHappyBelief-R -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -372,12 +342,12 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AreaEffect-GrammaticusKnowledgebyMoney-R -->
+  <!-- Specialist AE-Gramma-Know-R -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
       <Text>
-          <Text>Öffentlicher Lehrer</Text>
+          <Text>Motivierter Lehrer</Text>
           <LineId>1600000178</LineId> <!-- <GUID>1600000178</GUID> -->
       </Text>
       <!-- Description -->
@@ -388,7 +358,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AreaEffect-TheaterHappinessbyPrestige-R -->
+  <!-- Specialist AE-Theater-Happy-NPresti-R -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -404,7 +374,7 @@
     </ModOp>
   </Group>
   
-  <!-- Specialist AreaEffect-ForumIncomePrestigeProductivity-L -->
+  <!-- Specialist AE-Forum-MoneyPresti-Prod-L -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -417,26 +387,31 @@
           <Text>Entfacht das Herzstück römischer Handwerkskunst und Handels. &#xD;Hinweis I: Der Produktivitätbonus gilt für alle Produktionsgebäude im Straßenreichweite. &#xD;Hinweis II: In Albion zählt der Tempel als Forum.</Text>
           <LineId>1600000217</LineId> 
       </Text>
+      <!-- Boosted Description -->
+      <Text>
+          <Text>"Ohne eine wirtschaftliche Basis lässt sich hier nichts entfachen!" (42 Produktionsgebäude auf Insel)</Text>
+          <LineId>1600000218</LineId> 
+      </Text>
     </ModOp>
   </Group>
 
-  <!-- Specialist AreaEffect-ForumWorkforce-E -->
+  <!-- Specialist AE-Forum-CTHall-Popu-NAll-E -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
       <Text>
-          <Text>Aurelia Ordinata, Arbeitskraftorganisatorin</Text>
+          <Text>Aurelia Ordinata, Abgesante des Zensus</Text>
           <LineId>1600000220</LineId> <!-- <GUID>1600000220</GUID> -->
       </Text>
       <!-- Description -->
       <Text>
-          <Text>Verwaltet Arbeiter für mehr Effizienz und ordnet sie den am besten geeigneten Berufen zu. &#xD;Hinweis I: Der Arbeitskräfte-Modifikator gilt für alle Gebäude im Straßenreichweite. &#xD;Hinweis II: In Albion zählt der Tempel als Forum.</Text>
+          <Text>"117 Bürger... 1404 Bürger... 1503 Bürger... 1602 Bürger... 1800 Bürger... 2070 Bürger... 2205 Bürger...". &#xD;Hinweis: In Albion zählt der Tempel auch als Forum.</Text>
           <LineId>1600000221</LineId> 
       </Text>
     </ModOp>
   </Group>
 
-  <!-- Specialist AreaEffect-GrammaticusAdditionalGoodsbyBelief-E -->
+  <!-- Specialist AE-Gramma-AddGoods-NBelief-E -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
