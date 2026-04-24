@@ -7,8 +7,8 @@
         <Values>
           <Standard>
             <GUID>1600000234</GUID>
-            <Name>Specialist AE-AddSlot-Offica-L</Name>
-            <IconFilename>data/base/graphics/icons/r_fem_AddSlot-Villa-L.png</IconFilename>
+            <Name>Specialist AE-CSGrove-Pop-E</Name>
+            <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
             <InfoDescription>1600000235</InfoDescription>
           </Standard>
           <Effect>
@@ -21,14 +21,14 @@
             </Buffs>
             <Targets>
               <Item>
-                <GUID>44584</GUID>
+                <GUID>55981</GUID>
               </Item>
             </Targets>
             <HideInGovernorsBar>1</HideInGovernorsBar>
           </Effect>
           <Item>
-            <Niche>Diplomacy</Niche> 
-            <TradePrice>1500000</TradePrice>
+            <Niche>Agriculture</Niche> 
+            <TradePrice>80000</TradePrice>
             <BarkPool>83333</BarkPool> <!-- <GUID>83333</GUID> -->
             <Rarity>Legendary</Rarity> 
           </Item>
@@ -52,8 +52,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000236</GUID>
-                    <Name>Specialist AE-AddSlot-Offica-L FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/r_fem_AddSlot-Villa-L.png</IconFilename>
+                    <Name>Specialist AE-CSGrove-Pop-E FunctionalEffect</Name>
+                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>ObjectsInArea</EffectScope>
@@ -65,7 +65,7 @@
                     </Buffs>
                     <Targets>
                         <Item>
-                            <GUID>94282</GUID>
+                            <GUID>43097</GUID>
                         </Item>
                     </Targets>
                     <ExcludeEffectSourceGUID>0</ExcludeEffectSourceGUID>
@@ -84,18 +84,12 @@
             <Values>
                 <Standard>
                     <GUID>1600000235</GUID>
-                    <Name>Specialist AE-AddSlot-Offica-L FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/r_fem_AddSlot-Villa-L.png</IconFilename>
+                    <Name>Specialist AE-CSGrove-Pop-E FunctionalEffect BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000234</OasisId>
                 </Text>
-                <HealthUpgrade>
-                  <BaseHealthUpgrade>
-                    <Value>0</Value>
-                    <Percental>1</Percental>
-                  </BaseHealthUpgrade>
-                </HealthUpgrade>
                 <BuildingUpgrade>
                     <AdditionalFunctionalEffect>1600000236</AdditionalFunctionalEffect>
                 </BuildingUpgrade>
@@ -103,48 +97,19 @@
                 <Buff>
                     <SourceCategory>Item</SourceCategory>
                 </Buff>
-                <ResidenceUpgrade/>
-                <FactoryUpgrade/>
-                <ModuleOwnerUpgrade/>
-                <MaintenanceUpgrade>
-                  <MaintenanceFactorUpgrade>
-                    <Value>0</Value>
-                    <Percental>1</Percental>
-                  </MaintenanceFactorUpgrade>
-                </MaintenanceUpgrade>
-                <CityInstitutionUpgrade/>
-                <IncidentInfectableUpgrade/>
-                <RecruitmentUpgrade/>
-                <AqueductUpgrade/>
-                <WarehouseUpgrade/>
-                <IrrigationUpgrade/>
-                <ItemContainerUpgrade> <!-- Hint for Player to understand Effect -->
-                  <SocketCountUpgrade>
-                    <Value>0</Value>
-                    <Percental>0</Percental>
-                  </SocketCountUpgrade>
-                </ItemContainerUpgrade>
             </Values>
         </Asset>
     </ModOp>
 
     <ModOp Type="addNextSibling" GUID="80193">
         <Asset>
-            <Template>ShipBuff</Template>
+            <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
                     <GUID>1600000237</GUID>
-                    <Name>Specialist AE-AddSlot-Offica-L ShipBuff</Name>
-                    <IconFilename>data/base/graphics/icons/r_fem_AddSlot-Villa-L.png</IconFilename>
+                    <Name>Specialist AE-CSGrove-Pop-E BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
                 </Standard>
-                <HealthUpgrade>
-                  <BaseHealthUpgrade>
-                    <Value>100</Value>
-                    <Percental>1</Percental>
-                  </BaseHealthUpgrade>
-                </HealthUpgrade>
-                <VehicleUpgrade/>
-                <TradeShipUpgrade/>
                 <Text>
                     <OasisId>1600000234</OasisId>
                 </Text>
@@ -152,21 +117,52 @@
                     <SourceCategory>Adjacency</SourceCategory>
                     <IsStackable>0</IsStackable>
                 </Buff>
-                <MovementUpgrade/>
-                <MaintenanceUpgrade>
-                  <MaintenanceFactorUpgrade>
-                    <Value>0</Value>
-                    <Percental>1</Percental>
-                  </MaintenanceFactorUpgrade>
-                </MaintenanceUpgrade>
-                <UnitUpgrade/>
-                <ItemContainerUpgrade>
-                  <SocketCountUpgrade>
-                    <Value>3</Value>
-                    <Percental>0</Percental>
-                  </SocketCountUpgrade>
-                </ItemContainerUpgrade>
-                <SellableUpgrade/>
+                <BuildingUpgrade>
+                    <AdditionalAttributes>
+                        <Population>
+                            <AmountOrPercent>
+                                <Value>1.5</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
+                        </Population>
+                        <Happiness>
+                            <AmountOrPercent>
+                                <Value>0</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
+                        </Happiness>
+                        <Money>
+                            <AmountOrPercent>
+                                <Value>0</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
+                        </Money>
+                        <Prestige>
+                            <AmountOrPercent>
+                                <Value>0</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
+                        </Prestige>
+                        <Belief>
+                            <AmountOrPercent>
+                                <Value>0</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
+                        </Belief>
+                        <Knowledge>
+                            <AmountOrPercent>
+                                <Value>0</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
+                        </Knowledge>
+                        <Health>
+                            <AmountOrPercent>
+                                <Value>0</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
+                        </Health>
+                    </AdditionalAttributes>
+                </BuildingUpgrade>
             </Values>
         </Asset>
     </ModOp>

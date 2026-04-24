@@ -7,12 +7,12 @@
         <Values>
           <Standard>
             <GUID>1600000244</GUID>
-            <Name>Specialist AE-AddSlot-Villa-L</Name>
-            <IconFilename>data/base/graphics/icons/r_m_AddSlot-Villa-E.png</IconFilename>
+            <Name>Specialist AE-CBarrow-Money-NHappy-E</Name>
+            <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
             <InfoDescription>1600000245</InfoDescription>
           </Standard>
           <Effect>
-            <EffectScope>Local</EffectScope>
+            <EffectScope>Radius</EffectScope>
             <SourceCategory>Item</SourceCategory>
             <Buffs>
               <Item>
@@ -21,14 +21,14 @@
             </Buffs>
             <Targets>
               <Item>
-                <GUID>94282</GUID>
+                <GUID>55980</GUID>
               </Item>
             </Targets>
             <HideInGovernorsBar>1</HideInGovernorsBar>
           </Effect>
           <Item>
-            <Niche>Diplomacy</Niche> 
-            <TradePrice>1500000</TradePrice>
+            <Niche>Finance</Niche> 
+            <TradePrice>80000</TradePrice>
             <BarkPool>80244</BarkPool> <!-- <GUID>80244</GUID> -->
             <Rarity>Legendary</Rarity> 
           </Item>
@@ -51,46 +51,24 @@
             <Values>
                 <Standard>
                     <GUID>1600000245</GUID>
-                    <Name>Specialist AE-AddSlot-Villa-L FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/r_m_AddSlot-Villa-E.png</IconFilename>
+                    <Name>Specialist AE-CBarrow-Money-NHappy-E FunctionalEffect BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000244</OasisId>
                 </Text>
-                <HealthUpgrade>
-                  <BaseHealthUpgrade>
-                    <Value>0</Value>
-                    <Percental>1</Percental>
-                  </BaseHealthUpgrade>
-                </HealthUpgrade>
                 <BuildingUpgrade>
                     <AdditionalFunctionalEffect>1600000246</AdditionalFunctionalEffect>
                 </BuildingUpgrade>
-                <DistributionUpgrade/>
                 <Buff>
                     <SourceCategory>Item</SourceCategory>
                 </Buff>
-                <ResidenceUpgrade/>
-                <FactoryUpgrade/>
-                <ModuleOwnerUpgrade/>
                 <MaintenanceUpgrade>
-                  <MaintenanceFactorUpgrade>
-                    <Value>0</Value>
-                    <Percental>1</Percental>
-                  </MaintenanceFactorUpgrade>
+                    <MaintenanceFactorUpgrade>
+                        <Value>-1000</Value>
+                        <Percental>1</Percental>
+                    </MaintenanceFactorUpgrade>
                 </MaintenanceUpgrade>
-                <CityInstitutionUpgrade/>
-                <IncidentInfectableUpgrade/>
-                <RecruitmentUpgrade/>
-                <AqueductUpgrade/>
-                <WarehouseUpgrade/>
-                <IrrigationUpgrade/>
-                <ItemContainerUpgrade> <!-- Hint for Player to understand Effect -->
-                  <SocketCountUpgrade>
-                    <Value>0</Value>
-                    <Percental>0</Percental>
-                  </SocketCountUpgrade>
-                </ItemContainerUpgrade>
             </Values>
         </Asset>
     </ModOp>
@@ -102,11 +80,11 @@
             <Values>
                 <Standard>
                     <GUID>1600000246</GUID>
-                    <Name>Specialist AE-AddSlot-Villa-L FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/r_m_AddSlot-Villa-E.png</IconFilename>
+                    <Name>Specialist AE-CBarrow-Money-NHappy-E FunctionalEffect</Name>
+                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
                 </Standard>
                 <Effect>
-                    <EffectScope>ObjectsInArea</EffectScope>
+                    <EffectScope>StreetDistance</EffectScope>
                     <SourceCategory>Adjacency</SourceCategory>
                     <Buffs>
                         <Item>
@@ -115,7 +93,7 @@
                     </Buffs>
                     <Targets>
                         <Item>
-                            <GUID>44584</GUID>
+                            <GUID>43097</GUID>
                         </Item>
                     </Targets>
                     <ExcludeEffectSourceGUID>0</ExcludeEffectSourceGUID>
@@ -130,21 +108,13 @@
 
     <ModOp Type="addNextSibling" GUID="80193">
         <Asset>
-            <Template>ShipBuff</Template>
+            <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
                     <GUID>1600000247</GUID>
-                    <Name>Specialist AE-AddSlot-Villa-L ShipBuff</Name>
-                    <IconFilename>data/base/graphics/icons/r_m_AddSlot-Villa-E.png</IconFilename>
+                    <Name>Specialist AE-CBarrow-Money-NHappy-E BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
                 </Standard>
-                <HealthUpgrade>
-                  <BaseHealthUpgrade>
-                    <Value>100</Value>
-                    <Percental>1</Percental>
-                  </BaseHealthUpgrade>
-                </HealthUpgrade>
-                <VehicleUpgrade/>
-                <TradeShipUpgrade/>
                 <Text>
                     <OasisId>1600000244</OasisId>
                 </Text>
@@ -152,21 +122,52 @@
                     <SourceCategory>Adjacency</SourceCategory>
                     <IsStackable>0</IsStackable>
                 </Buff>
-                <MovementUpgrade/>
-                <MaintenanceUpgrade>
-                  <MaintenanceFactorUpgrade>
-                    <Value>0</Value>
-                    <Percental>1</Percental>
-                  </MaintenanceFactorUpgrade>
-                </MaintenanceUpgrade>
-                <UnitUpgrade/>
-                <ItemContainerUpgrade>
-                  <SocketCountUpgrade>
-                    <Value>3</Value>
-                    <Percental>0</Percental>
-                  </SocketCountUpgrade>
-                </ItemContainerUpgrade>
-                <SellableUpgrade/>
+                <BuildingUpgrade>
+                    <AdditionalAttributes>
+                        <Population>
+                            <AmountOrPercent>
+                                <Value>0</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
+                        </Population>
+                        <Happiness>
+                            <AmountOrPercent>
+                                <Value>-2</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
+                        </Happiness>
+                        <Money>
+                            <AmountOrPercent>
+                                <Value>4</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
+                        </Money>
+                        <Prestige>
+                            <AmountOrPercent>
+                                <Value>3</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
+                        </Prestige>
+                        <Belief>
+                            <AmountOrPercent>
+                                <Value>-2</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
+                        </Belief>
+                        <Knowledge>
+                            <AmountOrPercent>
+                                <Value>0</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
+                        </Knowledge>
+                        <Health>
+                            <AmountOrPercent>
+                                <Value>-1</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
+                        </Health>
+                    </AdditionalAttributes>
+                </BuildingUpgrade>
             </Values>
         </Asset>
     </ModOp>
