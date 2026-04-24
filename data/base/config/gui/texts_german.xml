@@ -1,430 +1,375 @@
 <ModOps>
-
-  <!-- Specialist AE-Bard-Belief-C -->
-  <Group>
     <ModOp Add="/TextExport/Texts">
-      <!-- Title -->
-      <Text>
-          <Text>Unerwünschter Barde</Text>
-          <LineId>1600000005</LineId> <!-- <GUID>1600000005</GUID> -->
-      </Text>
-      <!-- Description -->
-      <Text>
-          <Text>"Darauf ein kleines Ständchen..." "NEIN! Bei Cernunnos, haltet ihn auf!"</Text>
-          <LineId>1600000006</LineId> 
-      </Text>
-    </ModOp>
-  </Group>
+    <!-- Specialist AE-Bard-Belief-C -->
 
-  <!-- Specialist AE-CBarrow-HealthPresti-R -->
-  <Group>
-    <ModOp Add="/TextExport/Texts">
-      <!-- Title -->
-      <Text>
-          <Text>Keltischer Grabhüter</Text>
-          <LineId>1600000009</LineId> <!-- <GUID>1600000009</GUID> -->
-      </Text>
-      <!-- Description -->
-      <Text>
-          <Text>Bewahrt und pflegt die alten Grabhügel.</Text>
-          <LineId>1600000010</LineId> 
-      </Text>
-    </ModOp>
-  </Group>
-  
-  <!-- Specialist AE-Market-Belief-C -->
-  <Group>
-    <ModOp Add="/TextExport/Texts">
-      <!-- Title -->
-      <Text>
-          <Text>Religöse Händlerin</Text>
-          <LineId>1600000013</LineId> <!-- <GUID>1600000013</GUID> -->
-      </Text>
-      <!-- Description -->
-      <Text>
-          <Text>Bietet eine Auswahl an verschiedenen religiösen Objekten für jede Gottheit.</Text>
-          <LineId>1600000014</LineId> 
-      </Text>
-    </ModOp>
-  </Group>
+        <!-- Title -->
+        <Text>
+            <Text>Unerwünschter Barde</Text>
+            <LineId>1600000005</LineId> <!-- <GUID>1600000005</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>"Darauf ein kleines Ständchen..." "NEIN! Bei Cernunnos, haltet ihn auf!"</Text>
+            <LineId>1600000006</LineId> 
+        </Text>
 
-  <!-- Specialist AE-Sanc-Fanum-Belief-NMoney-R -->
-  <Group>
-    <ModOp Add="/TextExport/Texts">
-      <!-- Title -->
-      <Text>
-          <Text>Verarmte Priesterin</Text>
-          <LineId>1600000017</LineId> <!-- <GUID>1600000017</GUID> -->
-      </Text>
-      <!-- Description -->
-      <Text>
-          <Text>Zeigt Gläubigen, wie sie ohne materielle Ressourcen gedeihen können.</Text>
-          <LineId>1600000018</LineId> 
-      </Text>
-    </ModOp>
-  </Group>
+    <!-- Specialist AE-CBarrow-HealthPresti-R -->
+        <!-- Title -->
+        <Text>
+            <Text>Keltischer Grabhüter</Text>
+            <LineId>1600000009</LineId> <!-- <GUID>1600000009</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>Bewahrt und pflegt die alten Grabhügel.</Text>
+            <LineId>1600000010</LineId> 
+        </Text>
 
-  <!-- Specialist AE-TabernaBard-Money-C -->
-  <Group>
-    <ModOp Add="/TextExport/Texts">
-      <!-- Title -->
-      <Text>
-          <Text>Kneipenwächter</Text>
-          <LineId>1600000021</LineId> <!-- <GUID>1600000021</GUID> -->
-      </Text>
-      <!-- Description -->
-      <Text>
-          <Text>Stellt sicher, dass jeder Denar gezahlt wird..</Text>
-          <LineId>1600000022</LineId> 
-      </Text>
-    </ModOp>
-  </Group>
+    <!-- Specialist AE-Market-Belief-C -->
 
-  <!-- Specialist AreaEffect-CelcicTownHallHappinessPrestigeKnowledge-E -->
-  <Group>
-    <ModOp Add="/TextExport/Texts">
-      <!-- Title -->
-      <Text>
-          <Text>Vidumaros, Keltischer Traditionalist</Text>
-          <LineId>1600000048</LineId> <!-- <GUID>1600000048</GUID> -->
-      </Text>
-      <!-- Description -->
-      <Text>
-          <Text>Hält die keltische Tradition durch Erzählungen früherer Generationen am Leben.</Text>
-          <LineId>1600000049</LineId> 
-      </Text>
-    </ModOp>
-  </Group>  
+        <!-- Title -->
+        <Text>
+            <Text>Religöse Händlerin</Text>
+            <LineId>1600000013</LineId> <!-- <GUID>1600000013</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>Bietet eine Auswahl an verschiedenen religiösen Objekten für jede Gottheit.</Text>
+            <LineId>1600000014</LineId> 
+        </Text>
 
-  <!-- Specialist AE-Gamble-PrestiHappy-E -->
-  <Group>
-    <ModOp Add="/TextExport/Texts">
-      <!-- Title -->
-      <Text>
-          <Text>Probus, Ehrlicher Glücksspieler</Text>
-          <LineId>1600000056</LineId> <!-- <GUID>1600000056</GUID> -->
-      </Text>
-      <!-- Description -->
-      <Text>
-          <Text>Prüft jeden Würfel mit kritischem Blick, sodass nur das Schicksal über deine Chancen entscheidet.</Text>
-          <LineId>1600000057</LineId> 
-      </Text>
-    </ModOp>
-  </Group>
+    <!-- Specialist AE-Sanc-Fanum-Belief-NMoney-R -->
 
-  <!-- Specialist AE-Lib-KnowPresti-NFire-E -->
-  <Group>
-    <ModOp Add="/TextExport/Texts">
-      <!-- Title -->
-      <Text>
-          <Text>Julia Archivola, die lebende Bibliothēcaria</Text>
-          <LineId>1600000060</LineId> <!-- <GUID>1600000060</GUID> -->
-      </Text>
-      <!-- Description -->
-      <Text>
-          <Text>Erweitert die Bibliothek bis zur Decke mit Wissen aus fernen Ländern. Hoffen wir, dass es in der näheren Umgebung kein Feuer gibt.</Text>
-          <LineId>1600000061</LineId> 
-      </Text>
-    </ModOp>
-  </Group>
+        <!-- Title -->
+        <Text>
+            <Text>Verarmte Priesterin</Text>
+            <LineId>1600000017</LineId> <!-- <GUID>1600000017</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>Zeigt Gläubigen, wie sie ohne materielle Ressourcen gedeihen können.</Text>
+            <LineId>1600000018</LineId> 
+        </Text>
 
-  <!-- Specialist AreaEffect-LibraryPopulationHealth-E -->
-  <Group>
-    <ModOp Add="/TextExport/Texts">
-      <!-- Title -->
-      <Text>
-          <Text>Varius Flexus, Humanbiologe</Text>
-          <LineId>1600000064</LineId> <!-- <GUID>1600000064</GUID> -->
-      </Text>
-      <!-- Description -->
-      <Text>
-          <Text>Reiste zu zahlreichen Küsten, um alle möglichen Arten des menschlichen Körpers zu beobachten und zu studieren. Einer der ersten Autoren von Abhandlungen über die Flexibilität des menschlichen Körpers.</Text>
-          <LineId>1600000065</LineId> 
-      </Text>
-    </ModOp>
-  </Group>
+    <!-- Specialist AE-TabernaBard-Money-C -->
 
-  <!-- Specialist AE-TempleMars-E -->
-  <Group>
-    <ModOp Add="/TextExport/Texts">
-      <!-- Title -->
-      <Text>
-          <Text>Priesterin des Mars</Text>
-          <LineId>1600000068</LineId> <!-- <GUID>1600000068</GUID> -->
-      </Text>
-      <!-- Description -->
-      <Text>
-          <Text>Höchst hingebungsvoll und predigt die römischen Tugenden des Gottes Mars.</Text>
-          <LineId>1600000069</LineId> 
-      </Text>
-    </ModOp>
-  </Group>
+        <!-- Title -->
+        <Text>
+            <Text>Kneipenwächter</Text>
+            <LineId>1600000021</LineId> <!-- <GUID>1600000021</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>Stellt sicher, dass jeder Denar gezahlt wird..</Text>
+            <LineId>1600000022</LineId> 
+        </Text>
 
+    <!-- Specialist AreaEffect-CelcicTownHallHappinessPrestigeKnowledge-E -->
 
-  <!-- Specialist AE-TempleCeres-E -->
-  <Group>
-    <ModOp Add="/TextExport/Texts">
-      <!-- Title -->
-      <Text>
-          <Text>Priesterin der Ceres</Text>
-          <LineId>1600000072</LineId> <!-- <GUID>1600000072</GUID> -->
-      </Text>
-      <!-- Description -->
-      <Text>
-          <Text>Höchst hingebungsvoll und predigt die römischen Tugenden der Göttin Ceres.</Text>
-          <LineId>1600000073</LineId> 
-      </Text>
-    </ModOp>
-  </Group>
+        <!-- Title -->
+        <Text>
+            <Text>Vidumaros, Keltischer Traditionalist</Text>
+            <LineId>1600000048</LineId> <!-- <GUID>1600000048</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>Hält die keltische Tradition durch Erzählungen früherer Generationen am Leben.</Text>
+            <LineId>1600000049</LineId> 
+        </Text>
 
-  <!-- Specialist AE-TempleCernunnos-E -->
-  <Group>
-    <ModOp Add="/TextExport/Texts">
-      <!-- Title -->
-      <Text>
-          <Text>Druidenältester des Cernunnos</Text>
-          <LineId>1600000076</LineId> <!-- <GUID>1600000076</GUID> -->
-      </Text>
-      <!-- Description -->
-      <Text>
-          <Text>Kennt die alten keltischen Tugenden der Gottheit Cernunnos.</Text>
-          <LineId>1600000077</LineId> 
-      </Text>
-    </ModOp>
-  </Group>
+    <!-- Specialist AE-Gamble-PrestiHappy-E -->
 
-  <!-- Specialist AE-TempleEpona-E -->
-  <Group>
-    <ModOp Add="/TextExport/Texts">
-      <!-- Title -->
-      <Text>
-          <Text>Druidenältester der Epona</Text>
-          <LineId>1600000080</LineId> <!-- <GUID>1600000080</GUID> -->
-      </Text>
-      <!-- Description -->
-      <Text>
-          <Text>Kennt die alten keltischen Tugenden der Gottheit Epona.</Text>
-          <LineId>1600000081</LineId> 
-      </Text>
-    </ModOp>
-  </Group>
+        <!-- Title -->
+        <Text>
+            <Text>Probus, Ehrlicher Glücksspieler</Text>
+            <LineId>1600000056</LineId> <!-- <GUID>1600000056</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>Prüft jeden Würfel mit kritischem Blick, sodass nur das Schicksal über deine Chancen entscheidet.</Text>
+            <LineId>1600000057</LineId> 
+        </Text>
 
-  <!-- Specialist AE-TempleMercury-E -->
-  <Group>
-    <ModOp Add="/TextExport/Texts">
-      <!-- Title -->
-      <Text>
-          <Text>Priesterin des Merkur</Text>
-          <LineId>1600000084</LineId> <!-- <GUID>1600000084</GUID> -->
-      </Text>
-      <!-- Description -->
-      <Text>
-          <Text>Höchst hingebungsvoll und predigt die römischen Tugenden des Gottes Mercur.</Text>
-          <LineId>1600000085</LineId> 
-      </Text>
-    </ModOp>
-  </Group>
+    <!-- Specialist AE-Lib-KnowPresti-NFire-E -->
 
-  <!-- Specialist AE-TempleMinerva-E -->
-  <Group>
-    <ModOp Add="/TextExport/Texts">
-      <!-- Title -->
-      <Text>
-          <Text>Priesterin der Minerva</Text>
-          <LineId>1600000088</LineId> <!-- <GUID>1600000088</GUID> -->
-      </Text>
-      <!-- Description -->
-      <Text>
-          <Text>Höchst hingebungsvoll und predigt die römischen Tugenden der Göttin Minerva.</Text>
-          <LineId>1600000089</LineId> 
-      </Text>
-    </ModOp>
-  </Group>
+        <!-- Title -->
+        <Text>
+            <Text>Julia Archivola, die lebende Bibliothēcaria</Text>
+            <LineId>1600000060</LineId> <!-- <GUID>1600000060</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>Erweitert die Bibliothek bis zur Decke mit Wissen aus fernen Ländern. Hoffen wir, dass es in der näheren Umgebung kein Feuer gibt.</Text>
+            <LineId>1600000061</LineId> 
+        </Text>
 
-  <!-- Specialist AE-TempleNeptune-E -->
-  <Group>
-    <ModOp Add="/TextExport/Texts">
-      <!-- Title -->
-      <Text>
-          <Text>Priesterin des Neptun</Text>
-          <LineId>1600000092</LineId> <!-- <GUID>1600000092</GUID> -->
-      </Text>
-      <!-- Description -->
-      <Text>
-          <Text>Höchst hingebungsvoll und predigt die römischen Tugenden des Gottes Neptun.</Text>
-          <LineId>1600000093</LineId> 
-      </Text>
-    </ModOp>
-  </Group>
+    <!-- Specialist AreaEffect-LibraryPopulationHealth-E -->
 
-  <!-- Specialist AreaEffect-TheaterHealthBelief-E -->
-  <Group>
-    <ModOp Add="/TextExport/Texts">
-      <!-- Title -->
-      <Text>
-          <Text>Ethelia, Hexendarstellerin</Text>
-          <LineId>1600000096</LineId> <!-- <GUID>1600000096</GUID> -->
-      </Text>
-      <!-- Description -->
-      <Text>
-          <Text>Spielt die Rolle einer hässlichen Hexe, die es liebt, Augäpfel von anderen Bürger zu sammeln. Sie ist immer offen für einen guten Deal... Zu ihren Gunsten natürlich.</Text>
-          <LineId>1600000097</LineId> 
-      </Text>
-    </ModOp>
-  </Group>
+        <!-- Title -->
+        <Text>
+            <Text>Varius Flexus, Humanbiologe</Text>
+            <LineId>1600000064</LineId> <!-- <GUID>1600000064</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>Reiste zu zahlreichen Küsten, um alle möglichen Arten des menschlichen Körpers zu beobachten und zu studieren. Einer der ersten Autoren von Abhandlungen über die Flexibilität des menschlichen Körpers.</Text>
+            <LineId>1600000065</LineId> 
+        </Text>
 
-  <!-- Specialist AE-Theater-HappyPrestiKnow-L -->
-  <Group>
-    <ModOp Add="/TextExport/Texts">
-      <!-- Title -->
-      <Text>
-          <Text>Marcia Favor, die Geliebte Publikumsfavoritin</Text>
-          <LineId>1600000148</LineId> <!-- <GUID>1600000148</GUID> -->
-      </Text>
-      <!-- Description -->
-      <Text>
-          <Text>„Was für eine exquisite Darbietung!“ „Was für ein unglaubliches Talent!“ „Wenn ich groß bin, möchte ich genau wie er sein!“</Text>
-          <LineId>1600000149</LineId> 
-      </Text>
-      <!-- Boosted Description -->
-      <Text>
-          <Text>"Wo ist denn mein Publikum?" (15000 Einwohner auf Insel)</Text>
-          <LineId>1600000150</LineId> 
-      </Text>
-    </ModOp>
-  </Group>
+    <!-- Specialist AE-TempleMars-E -->
 
-  <!-- Specialist AE-Bath-Health-NHappy-R -->
-  <Group>
-    <ModOp Add="/TextExport/Texts">
-      <!-- Title -->
-      <Text>
-          <Text>Wütender Bademeister</Text>
-          <LineId>1600000162</LineId> <!-- <GUID>1600000162</GUID> -->
-      </Text>
-      <!-- Description -->
-      <Text>
-          <Text>"Bei Neptun, nicht vom Beckenrand springen!"</Text>
-          <LineId>1600000163</LineId> 
-      </Text>
-    </ModOp>
-  </Group>
+        <!-- Title -->
+        <Text>
+            <Text>Priesterin des Mars</Text>
+            <LineId>1600000068</LineId> <!-- <GUID>1600000068</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>Höchst hingebungsvoll und predigt die römischen Tugenden des Gottes Mars.</Text>
+            <LineId>1600000069</LineId> 
+        </Text>
 
-  <!-- Specialist AE-CSGrove-Belief-NPresti-R -->
-  <Group>
-    <ModOp Add="/TextExport/Texts">
-      <!-- Title -->
-      <Text>
-          <Text>Heidnische Ritualistin</Text>
-          <LineId>1600000166</LineId> <!-- <GUID>1600000166</GUID> -->
-      </Text>
-      <!-- Description -->
-      <Text>
-          <Text>Führt keltische heidnische Rituale durch zu Missgunst der Römer.</Text>
-          <LineId>1600000167</LineId> 
-      </Text>
-    </ModOp>
-  </Group>
+    <!-- Specialist AE-TempleCeres-E -->
 
-  <!-- Specialist AE-Gamble-Money-NHappyBelief-R -->
-  <Group>
-    <ModOp Add="/TextExport/Texts">
-      <!-- Title -->
-      <Text>
-          <Text>Spielschuldeneintreiber</Text>
-          <LineId>1600000174</LineId> <!-- <GUID>1600000174</GUID> -->
-      </Text>
-      <!-- Description -->
-      <Text>
-          <Text>Erlaubt riskante Wetten, nur um einen Vorwand zu haben, dein Zuhause zu besuchen. Oder besser gesagt, sein neues Zuhause.</Text>
-          <LineId>1600000175</LineId> 
-      </Text>
-    </ModOp>
-  </Group>
+        <!-- Title -->
+        <Text>
+            <Text>Priesterin der Ceres</Text>
+            <LineId>1600000072</LineId> <!-- <GUID>1600000072</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>Höchst hingebungsvoll und predigt die römischen Tugenden der Göttin Ceres.</Text>
+            <LineId>1600000073</LineId> 
+        </Text>
 
-  <!-- Specialist AE-Gramma-Know-R -->
-  <Group>
-    <ModOp Add="/TextExport/Texts">
-      <!-- Title -->
-      <Text>
-          <Text>Motivierter Lehrer</Text>
-          <LineId>1600000178</LineId> <!-- <GUID>1600000178</GUID> -->
-      </Text>
-      <!-- Description -->
-      <Text>
-          <Text>In die Zukunft zu investieren bedeutet, in Wissen zu investieren.</Text>
-          <LineId>1600000179</LineId> 
-      </Text>
-    </ModOp>
-  </Group>
+    <!-- Specialist AE-TempleCernunnos-E -->
 
-  <!-- Specialist AE-Theater-Happy-NPresti-R -->
-  <Group>
-    <ModOp Add="/TextExport/Texts">
-      <!-- Title -->
-      <Text>
-          <Text>Schelmischer Schauspieler</Text>
-          <LineId>1600000186</LineId> <!-- <GUID>1600000186</GUID> -->
-      </Text>
-      <!-- Description -->
-      <Text>
-          <Text>Bringt fast alle zum Lachen, mit Ausnahme von der Obrigkeit.</Text>
-          <LineId>1600000187</LineId> 
-      </Text>
-    </ModOp>
-  </Group>
-  
-  <!-- Specialist AE-Forum-MoneyPresti-Prod-L -->
-  <Group>
-    <ModOp Add="/TextExport/Texts">
-      <!-- Title -->
-      <Text>
-          <Text>Cornelia Regula Rectrix, Strenge Ökonomin</Text>
-          <LineId>1600000216</LineId> <!-- <GUID>1600000216</GUID> -->
-      </Text>
-      <!-- Description -->
-      <Text>
-          <Text>Entfacht das Herzstück römischer Handwerkskunst und Handels. &#xD;Hinweis I: Der Produktivitätbonus gilt für alle Produktionsgebäude im Straßenreichweite. &#xD;Hinweis II: In Albion zählt der Tempel als Forum.</Text>
-          <LineId>1600000217</LineId> 
-      </Text>
-      <!-- Boosted Description -->
-      <Text>
-          <Text>"Ohne eine wirtschaftliche Basis lässt sich hier nichts entfachen!" (42 Produktionsgebäude auf Insel)</Text>
-          <LineId>1600000218</LineId> 
-      </Text>
-    </ModOp>
-  </Group>
+        <!-- Title -->
+        <Text>
+            <Text>Druidenältester des Cernunnos</Text>
+            <LineId>1600000076</LineId> <!-- <GUID>1600000076</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>Kennt die alten keltischen Tugenden der Gottheit Cernunnos.</Text>
+            <LineId>1600000077</LineId> 
+        </Text>
 
-  <!-- Specialist AE-Forum-CTHall-Popu-NAll-E -->
-  <Group>
-    <ModOp Add="/TextExport/Texts">
-      <!-- Title -->
-      <Text>
-          <Text>Aurelia Ordinata, Abgesante des Zensus</Text>
-          <LineId>1600000220</LineId> <!-- <GUID>1600000220</GUID> -->
-      </Text>
-      <!-- Description -->
-      <Text>
-          <Text>"117 Bürger... 1404 Bürger... 1503 Bürger... 1602 Bürger... 1800 Bürger... 2070 Bürger... 2205 Bürger...". &#xD;Hinweis: In Albion zählt der Tempel auch als Forum.</Text>
-          <LineId>1600000221</LineId> 
-      </Text>
-    </ModOp>
-  </Group>
+    <!-- Specialist AE-TempleEpona-E -->
 
-  <!-- Specialist AE-Gramma-AddGoods-NBelief-E -->
-  <Group>
-    <ModOp Add="/TextExport/Texts">
-      <!-- Title -->
-      <Text>
-          <Text>Fabia Novella, Experimentelle Handwerkerin</Text>
-          <LineId>1600000230</LineId> <!-- <GUID>1600000230</GUID> -->
-      </Text>
-      <!-- Description -->
-      <Text>
-          <Text>Lehrt experimentelles Handwerk, sodass die Bürger ihren Glauben an die Götter verlieren. &#xD;Hinweis: Zusatzwaren werden von allen Produktionsketten in Straßenreichweite erzeugt.</Text>
-          <LineId>1600000231</LineId> 
-      </Text>
-    </ModOp>
-  </Group>
+        <!-- Title -->
+        <Text>
+            <Text>Druidenältester der Epona</Text>
+            <LineId>1600000080</LineId> <!-- <GUID>1600000080</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>Kennt die alten keltischen Tugenden der Gottheit Epona.</Text>
+            <LineId>1600000081</LineId> 
+        </Text>
 
+    <!-- Specialist AE-TempleMercury-E -->
+
+        <!-- Title -->
+        <Text>
+            <Text>Priesterin des Merkur</Text>
+            <LineId>1600000084</LineId> <!-- <GUID>1600000084</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>Höchst hingebungsvoll und predigt die römischen Tugenden des Gottes Mercur.</Text>
+            <LineId>1600000085</LineId> 
+        </Text>
+
+    <!-- Specialist AE-TempleMinerva-E -->
+
+        <!-- Title -->
+        <Text>
+            <Text>Priesterin der Minerva</Text>
+            <LineId>1600000088</LineId> <!-- <GUID>1600000088</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>Höchst hingebungsvoll und predigt die römischen Tugenden der Göttin Minerva.</Text>
+            <LineId>1600000089</LineId> 
+        </Text>
+
+    <!-- Specialist AE-TempleNeptune-E -->
+
+        <!-- Title -->
+        <Text>
+            <Text>Priesterin des Neptun</Text>
+            <LineId>1600000092</LineId> <!-- <GUID>1600000092</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>Höchst hingebungsvoll und predigt die römischen Tugenden des Gottes Neptun.</Text>
+            <LineId>1600000093</LineId> 
+        </Text>
+
+    <!-- Specialist AreaEffect-TheaterHealthBelief-E -->
+
+        <!-- Title -->
+        <Text>
+            <Text>Ethelia, Hexendarstellerin</Text>
+            <LineId>1600000096</LineId> <!-- <GUID>1600000096</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>Spielt die Rolle einer hässlichen Hexe, die es liebt, Augäpfel von anderen Bürger zu sammeln. Sie ist immer offen für einen guten Deal... Zu ihren Gunsten natürlich.</Text>
+            <LineId>1600000097</LineId> 
+        </Text>
+
+    <!-- Specialist AE-Theater-HappyPrestiKnow-L -->
+
+        <!-- Title -->
+        <Text>
+            <Text>Marcia Favor, die Geliebte Publikumsfavoritin</Text>
+            <LineId>1600000148</LineId> <!-- <GUID>1600000148</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>„Was für eine exquisite Darbietung!“ „Was für ein unglaubliches Talent!“ „Wenn ich groß bin, möchte ich genau wie er sein!“</Text>
+            <LineId>1600000149</LineId> 
+        </Text>
+        <!-- Boosted Description -->
+        <Text>
+            <Text>"Wo ist denn mein Publikum?" (15000 Einwohner auf Insel)</Text>
+            <LineId>1600000150</LineId> 
+        </Text>
+
+    <!-- Specialist AE-Bath-Health-NHappy-R -->
+
+        <!-- Title -->
+        <Text>
+            <Text>Wütender Bademeister</Text>
+            <LineId>1600000162</LineId> <!-- <GUID>1600000162</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>"Bei Neptun, nicht vom Beckenrand springen!"</Text>
+            <LineId>1600000163</LineId> 
+        </Text>
+
+    <!-- Specialist AE-CSGrove-Belief-NPresti-R -->
+
+        <!-- Title -->
+        <Text>
+            <Text>Heidnische Ritualistin</Text>
+            <LineId>1600000166</LineId> <!-- <GUID>1600000166</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>Führt keltische heidnische Rituale durch zu Missgunst der Römer.</Text>
+            <LineId>1600000167</LineId> 
+        </Text>
+
+    <!-- Specialist AE-Gamble-Money-NHappyBelief-R -->
+
+        <!-- Title -->
+        <Text>
+            <Text>Spielschuldeneintreiber</Text>
+            <LineId>1600000174</LineId> <!-- <GUID>1600000174</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>Erlaubt riskante Wetten, nur um einen Vorwand zu haben, dein Zuhause zu besuchen. Oder besser gesagt, sein neues Zuhause.</Text>
+            <LineId>1600000175</LineId> 
+        </Text>
+
+    <!-- Specialist AE-Gramma-Know-R -->
+
+        <!-- Title -->
+        <Text>
+            <Text>Motivierter Lehrer</Text>
+            <LineId>1600000178</LineId> <!-- <GUID>1600000178</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>In die Zukunft zu investieren bedeutet, in Wissen zu investieren.</Text>
+            <LineId>1600000179</LineId> 
+        </Text>
+
+    <!-- Specialist AE-Theater-Happy-NPresti-R -->
+
+        <!-- Title -->
+        <Text>
+            <Text>Schelmischer Schauspieler</Text>
+            <LineId>1600000186</LineId> <!-- <GUID>1600000186</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>Bringt fast alle zum Lachen, mit Ausnahme von der Obrigkeit.</Text>
+            <LineId>1600000187</LineId> 
+        </Text>
+
+    <!-- Specialist AE-Forum-MoneyPresti-Prod-L -->
+
+        <!-- Title -->
+        <Text>
+            <Text>Cornelia Regula Rectrix, Strenge Ökonomin</Text>
+            <LineId>1600000216</LineId> <!-- <GUID>1600000216</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>Entfacht das Herzstück römischer Handwerkskunst und Handels. &#xD;Hinweis I: Der Produktivitätbonus gilt für alle Produktionsgebäude im Straßenreichweite. &#xD;Hinweis II: In Albion zählt der Tempel als Forum.</Text>
+            <LineId>1600000217</LineId> 
+        </Text>
+        <!-- Boosted Description -->
+        <Text>
+            <Text>"Ohne eine wirtschaftliche Basis lässt sich hier nichts entfachen!" (42 Produktionsgebäude auf Insel)</Text>
+            <LineId>1600000218</LineId> 
+        </Text>
+
+    <!-- Specialist AE-Forum-CTHall-Popu-NAll-E -->
+
+        <!-- Title -->
+        <Text>
+            <Text>Aurelia Ordinata, Abgesante des Zensus</Text>
+            <LineId>1600000220</LineId> <!-- <GUID>1600000220</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>"117 Bürger... 1404 Bürger... 1503 Bürger... 1602 Bürger... 1800 Bürger... 2070 Bürger... 2205 Bürger...". &#xD;Hinweis: In Albion zählt der Tempel auch als Forum.</Text>
+            <LineId>1600000221</LineId> 
+        </Text>
+
+    <!-- Specialist AE-Gramma-AddGoods-NBelief-E -->
+
+        <!-- Title -->
+        <Text>
+            <Text>Fabia Novella, Experimentelle Handwerkerin</Text>
+            <LineId>1600000230</LineId> <!-- <GUID>1600000230</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>Lehrt experimentelles Handwerk, sodass die Bürger ihren Glauben an die Götter verlieren. &#xD;Hinweis: Zusatzwaren werden von allen Produktionsketten in Straßenreichweite erzeugt.</Text>
+            <LineId>1600000231</LineId> 
+        </Text>
+
+    <!-- Specialist AE-CBarrow-Money-NHappy-E -->
+        <!-- Title -->
+        <Text>
+            <Text>Quintus Merula, Raider of the Grove</Text>
+            <LineId>1600000244</LineId> <!-- <GUID>1600000244</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>Raiding old celtic barrows can offer many riches. This fellow don't care if he'll anger their gods and the locals. &#xD;(PublicService-Pack)</Text>
+            <LineId>1600000245</LineId> 
+        </Text>
+
+    <!-- Specialist AE-CSGrove-Pop-E -->
+        <!-- Title -->
+        <Text>
+            <Text>Lucia Fertilicia, Fertility Rites Druid</Text>
+            <LineId>1600000234</LineId> <!-- <GUID>1600000234</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>Her divine duty is to helps bringing children into this stormy and rough world. &#xD;(PublicService-Pack)</Text>
+            <LineId>1600000235</LineId> 
+        </Text>
+
+    </ModOp>
 </ModOps>

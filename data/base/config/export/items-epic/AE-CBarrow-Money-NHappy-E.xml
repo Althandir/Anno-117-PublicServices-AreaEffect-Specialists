@@ -1,0 +1,176 @@
+<ModOps>
+<!-- Item Definition GUID:1600000244 - 1600000247 | LineID:1600000244 - 1600000245 #TODO: Retest Item GUID Changed-->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="106410">
+      <Asset>
+        <Template>Item</Template>
+        <Values>
+          <Standard>
+            <GUID>1600000244</GUID>
+            <Name>Specialist AE-CBarrow-Money-NHappy-E</Name>
+            <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+            <InfoDescription>1600000245</InfoDescription>
+          </Standard>
+          <Effect>
+            <EffectScope>Radius</EffectScope>
+            <SourceCategory>Item</SourceCategory>
+            <Buffs>
+              <Item>
+                <GUID>1600000245</GUID>
+              </Item>
+            </Buffs>
+            <Targets>
+              <Item>
+                <GUID>55980</GUID>
+              </Item>
+            </Targets>
+            <HideInGovernorsBar>1</HideInGovernorsBar>
+          </Effect>
+          <Item>
+            <Niche>Finance</Niche> 
+            <TradePrice>80000</TradePrice>
+            <BarkPool>80244</BarkPool> <!-- <GUID>80244</GUID> -->
+            <Rarity>Legendary</Rarity> 
+          </Item>
+          <Locked>
+            <DefaultLockedState>0</DefaultLockedState>
+          </Locked>
+          <Text>
+            <OasisId>1600000244</OasisId>
+          </Text>
+        </Values>
+      </Asset>
+    </ModOp>
+  </Group>
+
+  <!-- Buff Definitions-->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="80193">
+        <Asset>
+            <Template>BuildingBuff</Template>
+            <Values>
+                <Standard>
+                    <GUID>1600000245</GUID>
+                    <Name>Specialist AE-CBarrow-Money-NHappy-E FunctionalEffect BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                </Standard>
+                <Text>
+                    <OasisId>1600000244</OasisId>
+                </Text>
+                <BuildingUpgrade>
+                    <AdditionalFunctionalEffect>1600000246</AdditionalFunctionalEffect>
+                </BuildingUpgrade>
+                <Buff>
+                    <SourceCategory>Item</SourceCategory>
+                </Buff>
+                <MaintenanceUpgrade>
+                    <MaintenanceFactorUpgrade>
+                        <Value>-1000</Value>
+                        <Percental>1</Percental>
+                    </MaintenanceFactorUpgrade>
+                </MaintenanceUpgrade>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- BuildingEffect Definition -->
+    <ModOp Type="addNextSibling" GUID="135498">
+        <Asset>
+            <Template>Effect</Template>
+            <Values>
+                <Standard>
+                    <GUID>1600000246</GUID>
+                    <Name>Specialist AE-CBarrow-Money-NHappy-E FunctionalEffect</Name>
+                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                </Standard>
+                <Effect>
+                    <EffectScope>StreetDistance</EffectScope>
+                    <SourceCategory>Adjacency</SourceCategory>
+                    <Buffs>
+                        <Item>
+                            <GUID>1600000247</GUID>
+                        </Item>
+                    </Buffs>
+                    <Targets>
+                        <Item>
+                            <GUID>43097</GUID>
+                        </Item>
+                    </Targets>
+                    <ExcludeEffectSourceGUID>0</ExcludeEffectSourceGUID>
+                    <HideInGovernorsBar>1</HideInGovernorsBar>
+                </Effect>
+                <Text>
+                    <OasisId>1600000244</OasisId>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="80193">
+        <Asset>
+            <Template>BuildingBuff</Template>
+            <Values>
+                <Standard>
+                    <GUID>1600000247</GUID>
+                    <Name>Specialist AE-CBarrow-Money-NHappy-E BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                </Standard>
+                <Text>
+                    <OasisId>1600000244</OasisId>
+                </Text>
+                <Buff>
+                    <SourceCategory>Adjacency</SourceCategory>
+                    <IsStackable>0</IsStackable>
+                </Buff>
+                <BuildingUpgrade>
+                    <AdditionalAttributes>
+                        <Population>
+                            <AmountOrPercent>
+                                <Value>0</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
+                        </Population>
+                        <Happiness>
+                            <AmountOrPercent>
+                                <Value>-2</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
+                        </Happiness>
+                        <Money>
+                            <AmountOrPercent>
+                                <Value>4</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
+                        </Money>
+                        <Prestige>
+                            <AmountOrPercent>
+                                <Value>3</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
+                        </Prestige>
+                        <Belief>
+                            <AmountOrPercent>
+                                <Value>-2</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
+                        </Belief>
+                        <Knowledge>
+                            <AmountOrPercent>
+                                <Value>0</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
+                        </Knowledge>
+                        <Health>
+                            <AmountOrPercent>
+                                <Value>-1</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
+                        </Health>
+                    </AdditionalAttributes>
+                </BuildingUpgrade>
+            </Values>
+        </Asset>
+    </ModOp>
+  </Group>
+
+</ModOps>
