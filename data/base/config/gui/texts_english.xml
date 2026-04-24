@@ -428,4 +428,36 @@
     </ModOp>
   </Group>
 
+    <!-- Specialist AE-AddSlot-Villa-L -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+        <!-- Title -->
+        <Text>
+            <Text>Quintus Merula, Master of Invitations</Text>
+            <LineId>1600000244</LineId> <!-- <GUID>1600000244</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>"My invitations reach every person of note throughout the Roman Empire."&#xD;&#xD;Important notes:&#xD;Place this specialist in an Officium. The Villa on this Island receives 3 specialist slots & +100% hit points.&#xD;&#xD;Ignore the regular effect description. The correct effect can be viewed as an area effect under “Active Effects.”&#xD;&#xD;The slots sometimes only update while the game is running and not always when the game is paused.&#xD;&#xD;(MoreSlots-Pack)</Text>
+            <LineId>1600000245</LineId> 
+        </Text>
+        </ModOp>
+    </Group>
+
+    <!-- Specialist AE-AddSlot-Offica-L -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+        <!-- Title -->
+        <Text>
+            <Text>Lucia Illuminata, Enlightened Housekeeper</Text>
+            <LineId>1600000234</LineId> <!-- <GUID>1600000234</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>"My guests are floating in Jupiter's arms."&#xD;&#xD;Important notes:&#xD;Place this specialist in your Villa. All Officia on this Island receives 3 specialist slots & +100% hit points.&#xD;&#xD;Ignore the regular effect description. The correct effect can be viewed as an area effect under “Active Effects.”&#xD;&#xD;The slots sometimes only update while the game is running and not always when the game is paused.&#xD;&#xD;(MoreSlots-Pack)</Text>
+            <LineId>1600000235</LineId> 
+        </Text>
+        </ModOp>
+    </Group>    
+
 </ModOps>

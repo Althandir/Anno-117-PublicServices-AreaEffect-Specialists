@@ -62,6 +62,9 @@
     <Include File="items-legendary/AE-Forum-MoneyPresti-Prod-L.xml"/>
 </Group>
 
+    <Include File="items-refactor/AE-AddSlot-Offica-L.xml" />
+    <Include File="items-refactor/AE-AddSlot-Villa-L.xml" />
+    
 <!-- Add to Pools -->
 <Include File="pools/AssetList/AssetListPool.xml" />
 <Include File="pools/RewardPool/AllItems&Specialists.xml" />
