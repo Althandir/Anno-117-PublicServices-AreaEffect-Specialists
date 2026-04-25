@@ -12,7 +12,7 @@
             <InfoDescription>1600000235</InfoDescription>
           </Standard>
           <Effect>
-            <EffectScope>Local</EffectScope>
+            <EffectScope>Radius</EffectScope>
             <SourceCategory>Item</SourceCategory>
             <Buffs>
               <Item>
@@ -30,7 +30,7 @@
             <Niche>Agriculture</Niche> 
             <TradePrice>80000</TradePrice>
             <BarkPool>83333</BarkPool> <!-- <GUID>83333</GUID> -->
-            <Rarity>Legendary</Rarity> 
+            <Rarity>Epic</Rarity> 
           </Item>
           <Locked>
             <DefaultLockedState>0</DefaultLockedState>
@@ -56,7 +56,7 @@
                     <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
                 </Standard>
                 <Effect>
-                    <EffectScope>ObjectsInArea</EffectScope>
+                    <EffectScope>StreetDistance</EffectScope>
                     <SourceCategory>Item</SourceCategory>
                     <Buffs>
                         <Item>
