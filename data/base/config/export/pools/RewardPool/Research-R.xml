@@ -1,0 +1,12 @@
+<ModOps>
+<!-- Add to RewardPools -->
+<!-- RewardList Research Rare -->
+<Group>
+    <ModOp Type="add" GUID="121871" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+        <ItemLink>1600000178</ItemLink>
+    </Item> 
+    </ModOp>
+</Group>
+
+</ModOps>

@@ -1,0 +1,12 @@
+<ModOps>
+<!-- Add to RewardPools -->
+<!-- RewardList Culture Epic -->
+<Group>
+    <ModOp Type="add" GUID="121892" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+        <ItemLink>1600000056</ItemLink>
+    </Item> 
+    </ModOp>
+</Group>
+
+</ModOps>

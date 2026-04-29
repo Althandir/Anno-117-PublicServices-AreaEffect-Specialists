@@ -1,0 +1,15 @@
+<ModOps>
+<!-- Add to RewardPools -->
+<!-- RewardList Nature Epic -->
+<Group>
+    <ModOp Type="add" GUID="121887" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+        <ItemLink>1600000234</ItemLink>
+    </Item> 
+    <Item>
+        <ItemLink>1600000064</ItemLink>
+    </Item> 
+    </ModOp>
+</Group>
+
+</ModOps>
