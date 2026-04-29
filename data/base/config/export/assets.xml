@@ -65,11 +65,15 @@
     <Include File="items-legendary/AE-Forum-MoneyPresti-Prod-L.xml"/>
 </Group>
 
-
-
 <!-- Add to Pools -->
 <Include File="pools/AssetList/AssetListPool.xml" />
 <Include File="pools/RewardPool/AllItems&Specialists.xml" />
+
+
+
+
+
+
 
 <!-- Add to Traderpools --> 
 <Include File="pools/Traders/pools-common.xml" />

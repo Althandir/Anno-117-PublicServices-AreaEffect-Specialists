@@ -1,0 +1,33 @@
+<ModOps>
+<!-- Add to RewardPools -->
+<!-- RewardList Religion Epic -->
+<Group>
+    <ModOp Type="add" GUID="121867" Path="/Values/RewardPool/ItemsPool">
+        <Item>
+            <ItemLink>1600000068</ItemLink>
+        </Item>
+        <Item>
+            <ItemLink>1600000072</ItemLink>
+        </Item>
+        <Item>
+            <ItemLink>1600000076</ItemLink>
+        </Item>
+        <Item>
+            <ItemLink>1600000080</ItemLink>
+        </Item>
+        <Item>
+            <ItemLink>1600000084</ItemLink>
+        </Item>
+        <Item>
+            <ItemLink>1600000088</ItemLink>
+        </Item>
+        <Item>
+            <ItemLink>1600000092</ItemLink>
+        </Item>
+        <Item>
+            <ItemLink>1600000096</ItemLink>
+        </Item>
+    </ModOp>
+</Group>
+
+</ModOps>
