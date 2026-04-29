@@ -3,7 +3,7 @@
     <Group>
         <ModOp Type="addNextSibling" GUID="106410">
         <Asset>
-            <Template>Item</Template>
+            <Template>ItemWithBoost</Template>
             <Values>
             <Standard>
                 <GUID>1600000148</GUID>
