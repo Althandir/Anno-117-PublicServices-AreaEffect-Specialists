@@ -8,7 +8,7 @@
           <Standard>
             <GUID>1600000244</GUID>
             <Name>Specialist AE-CBarrow-Money-NHappy-E</Name>
-            <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+            <IconFilename>data/base/graphics/icons/AE-CBarrow-Money-NHappy-E.png</IconFilename>
             <InfoDescription>1600000245</InfoDescription>
           </Standard>
           <Effect>
@@ -28,7 +28,7 @@
           </Effect>
           <Item>
             <Niche>Finance</Niche> 
-            <TradePrice>80000</TradePrice>
+            <TradePrice><ModValue Insert="$TradePrice_Epic"/></TradePrice>
             <BarkPool>80244</BarkPool> <!-- <GUID>80244</GUID> -->
             <Rarity>Epic</Rarity> 
           </Item>
@@ -52,7 +52,7 @@
                 <Standard>
                     <GUID>1600000245</GUID>
                     <Name>Specialist AE-CBarrow-Money-NHappy-E FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/AE-CBarrow-Money-NHappy-E.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000244</OasisId>
@@ -65,7 +65,7 @@
                 </Buff>
                 <MaintenanceUpgrade>
                     <MaintenanceFactorUpgrade>
-                        <Value>-1000</Value>
+                        <Value>-100</Value>
                         <Percental>1</Percental>
                     </MaintenanceFactorUpgrade>
                 </MaintenanceUpgrade>
@@ -81,7 +81,7 @@
                 <Standard>
                     <GUID>1600000246</GUID>
                     <Name>Specialist AE-CBarrow-Money-NHappy-E FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/AE-CBarrow-Money-NHappy-E.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>StreetDistance</EffectScope>
@@ -113,7 +113,7 @@
                 <Standard>
                     <GUID>1600000247</GUID>
                     <Name>Specialist AE-CBarrow-Money-NHappy-E BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/AE-CBarrow-Money-NHappy-E.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000244</OasisId>

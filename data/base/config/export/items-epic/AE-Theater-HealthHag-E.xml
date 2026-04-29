@@ -28,7 +28,7 @@
           </Effect>
           <Item>
             <Niche>Agriculture</Niche>
-            <TradePrice>82000</TradePrice> 
+            <TradePrice><ModValue Insert="$TradePrice_Epic"/></TradePrice> 
             <BarkPool>83331</BarkPool> <!-- <GUID>83331</GUID> -->
              
             <Rarity>Epic</Rarity> 
@@ -136,7 +136,7 @@
                         </Health>
                         <Belief>
                             <AmountOrPercent>
-                                <Value>1.5</Value>
+                                <Value>1</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
 				        </Belief>

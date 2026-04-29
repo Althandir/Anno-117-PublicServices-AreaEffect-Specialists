@@ -8,7 +8,7 @@
           <Standard>
             <GUID>1600000234</GUID>
             <Name>Specialist AE-CSGrove-Pop-E</Name>
-            <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+            <IconFilename>data/base/graphics/icons/AE-CSGrove-Pop-E.png</IconFilename>
             <InfoDescription>1600000235</InfoDescription>
           </Standard>
           <Effect>
@@ -28,7 +28,7 @@
           </Effect>
           <Item>
             <Niche>Agriculture</Niche> 
-            <TradePrice>80000</TradePrice>
+            <TradePrice><ModValue Insert="$TradePrice_Epic"/></TradePrice>
             <BarkPool>83333</BarkPool> <!-- <GUID>83333</GUID> -->
             <Rarity>Epic</Rarity> 
           </Item>
@@ -53,7 +53,7 @@
                 <Standard>
                     <GUID>1600000236</GUID>
                     <Name>Specialist AE-CSGrove-Pop-E FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/AE-CSGrove-Pop-E.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>StreetDistance</EffectScope>
@@ -85,7 +85,7 @@
                 <Standard>
                     <GUID>1600000235</GUID>
                     <Name>Specialist AE-CSGrove-Pop-E FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/AE-CSGrove-Pop-E.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000234</OasisId>
@@ -108,7 +108,7 @@
                 <Standard>
                     <GUID>1600000237</GUID>
                     <Name>Specialist AE-CSGrove-Pop-E BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/AE-CSGrove-Pop-E.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000234</OasisId>
@@ -121,7 +121,7 @@
                     <AdditionalAttributes>
                         <Population>
                             <AmountOrPercent>
-                                <Value>1.5</Value>
+                                <Value>1</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
                         </Population>
@@ -145,7 +145,7 @@
                         </Prestige>
                         <Belief>
                             <AmountOrPercent>
-                                <Value>0</Value>
+                                <Value>0.25</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
                         </Belief>
@@ -157,7 +157,7 @@
                         </Knowledge>
                         <Health>
                             <AmountOrPercent>
-                                <Value>0</Value>
+                                <Value>0.25</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
                         </Health>
