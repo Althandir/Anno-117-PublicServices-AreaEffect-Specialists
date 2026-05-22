@@ -350,7 +350,7 @@
     <!-- Specialist AE-CBarrow-Money-NHappy-E -->
         <!-- Title -->
         <Text>
-            <Text>Quintus Merula, Raider of the Grove</Text>
+            <Text>Quintus Merula, Plünderer des Hains</Text>
             <LineId>1600000244</LineId> <!-- <GUID>1600000244</GUID> -->
         </Text>
         <!-- Description -->
@@ -362,7 +362,7 @@
     <!-- Specialist AE-CSGrove-Pop-E -->
         <!-- Title -->
         <Text>
-            <Text>Nemetona Damona, Fertility Rites Druid</Text>
+            <Text>Nemetona Damona, Druidin der Fruchtbarkeit</Text>
             <LineId>1600000234</LineId> <!-- <GUID>1600000234</GUID> -->
         </Text>
         <!-- Description -->
