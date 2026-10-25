@@ -8,7 +8,7 @@
           <Standard>
             <GUID>1600000178</GUID>
             <Name>Specialist AE-Gramma-Know-R</Name>
-            <IconFilename>data/base/graphics/icons/m_AE-Gramma-Know-R.png</IconFilename>
+            <IconFilename>data/base/graphics/icons/PublicServices-Pack/m_AE-Gramma-Know-R.png</IconFilename>
             <InfoDescription>1600000179</InfoDescription>
           </Standard>
           <Effect>
@@ -53,7 +53,7 @@
                 <Standard>
                     <GUID>1600000179</GUID>
                     <Name>Specialist AE-Gramma-Know-R BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/m_AE-Gramma-Know-R.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/PublicServices-Pack/m_AE-Gramma-Know-R.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000178</OasisId>
@@ -95,7 +95,7 @@
                 <Standard>
                     <GUID>1600000180</GUID>
                     <Name>Specialist AE-Gramma-Know-R FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/m_AE-Gramma-Know-R.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/PublicServices-Pack/m_AE-Gramma-Know-R.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>StreetDistance</EffectScope>
@@ -127,7 +127,7 @@
                 <Standard>
                     <GUID>1600000181</GUID>
                     <Name>Specialist AE-Gramma-Know-R FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/m_AE-Gramma-Know-R.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/PublicServices-Pack/m_AE-Gramma-Know-R.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000178</OasisId>

@@ -8,7 +8,7 @@
           <Standard>
             <GUID>1600000009</GUID>
             <Name>Specialist AE-CBarrow-HealthPresti-R</Name>
-            <IconFilename>data/base/graphics/icons/unchanged/c_m_barrowgardener.png</IconFilename>
+            <IconFilename>data/base/graphics/icons/PublicServices-Pack/c_m_barrowgardener.png</IconFilename>
             <InfoDescription>1600000010</InfoDescription>
           </Standard>
           <Effect>
@@ -53,7 +53,7 @@
                 <Standard>
                     <GUID>1600000010</GUID>
                     <Name>Specialist AE-CBarrow-HealthPresti-R BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/unchanged/c_m_barrowgardener.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/PublicServices-Pack/c_m_barrowgardener.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000009</OasisId>
@@ -88,7 +88,7 @@
                 <Standard>
                     <GUID>1600000011</GUID>
                     <Name>Specialist AE-CBarrow-HealthPresti-R FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/unchanged/c_m_barrowgardener.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/PublicServices-Pack/c_m_barrowgardener.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>StreetDistance</EffectScope>
@@ -120,7 +120,7 @@
                 <Standard>
                     <GUID>1600000012</GUID>
                     <Name>Specialist AE-CBarrow-HealthPresti-R FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/unchanged/c_m_barrowgardener.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/PublicServices-Pack/c_m_barrowgardener.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000009</OasisId>

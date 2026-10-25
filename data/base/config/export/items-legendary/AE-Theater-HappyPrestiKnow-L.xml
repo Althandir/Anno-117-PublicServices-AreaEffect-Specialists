@@ -8,7 +8,7 @@
             <Standard>
                 <GUID>1600000148</GUID>
                 <Name>Specialist AE-Theater-HappyPrestiKnow-L</Name>
-                <IconFilename>data/base/graphics/icons/unchanged/f_AE-Theater-HappyPrestiKnow-L.png</IconFilename>
+                <IconFilename>data/base/graphics/icons/PublicServices-Pack/f_AE-Theater-HappyPrestiKnow-L.png</IconFilename>
                 <InfoDescription>1600000149</InfoDescription>
             </Standard>
             <Effect>
@@ -100,7 +100,7 @@
                 <Standard>
                     <GUID>1600000149</GUID>
                     <Name>Specialist AE-Theater-HappyPrestiKnow-L BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/unchanged/f_AE-Theater-HappyPrestiKnow-L.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/PublicServices-Pack/f_AE-Theater-HappyPrestiKnow-L.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000148</OasisId>
@@ -134,7 +134,7 @@
                 <Standard>
                     <GUID>1600000150</GUID>
                     <Name>Specialist AE-Theater-HappyPrestiKnow-L FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/unchanged/f_AE-Theater-HappyPrestiKnow-L.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/PublicServices-Pack/f_AE-Theater-HappyPrestiKnow-L.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>StreetDistance</EffectScope>
@@ -166,7 +166,7 @@
                 <Standard>
                     <GUID>1600000151</GUID>
                     <Name>Specialist AE-Theater-HappyPrestiKnow-L FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/unchanged/f_AE-Theater-HappyPrestiKnow-L.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/PublicServices-Pack/f_AE-Theater-HappyPrestiKnow-L.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000148</OasisId>
@@ -222,7 +222,7 @@
                 <Standard>
                     <GUID>1600000291</GUID>
                     <Name>Specialist AE-Theater-HappyPrestiKnow-L BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/unchanged/f_AE-Theater-HappyPrestiKnow-L.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/PublicServices-Pack/f_AE-Theater-HappyPrestiKnow-L.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000148</OasisId>
@@ -256,7 +256,7 @@
                 <Standard>
                     <GUID>1600000292</GUID>
                     <Name>Specialist AE-Theater-HappyPrestiKnow-L FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/unchanged/f_AE-Theater-HappyPrestiKnow-L.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/PublicServices-Pack/f_AE-Theater-HappyPrestiKnow-L.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>StreetDistance</EffectScope>
@@ -288,7 +288,7 @@
                 <Standard>
                     <GUID>1600000293</GUID>
                     <Name>Specialist AE-Theater-HappyPrestiKnow-L FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/unchanged/f_AE-Theater-HappyPrestiKnow-L.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/PublicServices-Pack/f_AE-Theater-HappyPrestiKnow-L.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000148</OasisId>

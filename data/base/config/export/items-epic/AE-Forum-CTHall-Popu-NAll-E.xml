@@ -8,7 +8,7 @@
           <Standard>
             <GUID>1600000220</GUID>
             <Name>Specialist AE-Forum-CTHall-Popu-NAll-E</Name>
-            <IconFilename>data/base/graphics/icons/f_AE-Forum-CTHall-Popu-NAll-E.png</IconFilename>
+            <IconFilename>data/base/graphics/icons/PublicServices-Pack/f_AE-Forum-CTHall-Popu-NAll-E.png</IconFilename>
             <InfoDescription>1600000221</InfoDescription>
           </Standard>
           <Effect>
@@ -56,7 +56,7 @@
                 <Standard>
                     <GUID>1600000221</GUID>
                     <Name>Specialist AE-Forum-CTHall-Popu-NAll-E BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/f_AE-Forum-CTHall-Popu-NAll-E.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/PublicServices-Pack/f_AE-Forum-CTHall-Popu-NAll-E.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000220</OasisId>
@@ -97,7 +97,7 @@
                 <Standard>
                     <GUID>1600000222</GUID>
                     <Name>Specialist AE-Forum-CTHall-Popu-NAll-E FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/f_AE-Forum-CTHall-Popu-NAll-E.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/PublicServices-Pack/f_AE-Forum-CTHall-Popu-NAll-E.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>StreetDistance</EffectScope>
@@ -129,7 +129,7 @@
                 <Standard>
                     <GUID>1600000223</GUID>
                     <Name>Specialist AE-Forum-CTHall-Popu-NAll-E FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/f_AE-Forum-CTHall-Popu-NAll-E.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/PublicServices-Pack/f_AE-Forum-CTHall-Popu-NAll-E.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000220</OasisId>

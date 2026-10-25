@@ -8,7 +8,7 @@
           <Standard>
             <GUID>1600000230</GUID>
             <Name>Specialist AE-Gramma-AddGoods-NBelief-E</Name>
-            <IconFilename>data/base/graphics/icons/f_AE-Gramma-AddGoods-NBelief-E.png</IconFilename>
+            <IconFilename>data/base/graphics/icons/PublicServices-Pack/f_AE-Gramma-AddGoods-NBelief-E.png</IconFilename>
             <InfoDescription>1600000231</InfoDescription>
           </Standard>
           <Effect>
@@ -53,7 +53,7 @@
                 <Standard>
                     <GUID>1600000231</GUID>
                     <Name>Specialist AE-Gramma-AddGoods-NBelief-E BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/f_AE-Gramma-AddGoods-NBelief-E.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/PublicServices-Pack/f_AE-Gramma-AddGoods-NBelief-E.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000230</OasisId>
@@ -100,7 +100,7 @@
                 <Standard>
                     <GUID>1600000232</GUID>
                     <Name>Specialist AE-Gramma-AddGoods-NBelief-E FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/f_AE-Gramma-AddGoods-NBelief-E.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/PublicServices-Pack/f_AE-Gramma-AddGoods-NBelief-E.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>StreetDistance</EffectScope>
@@ -132,7 +132,7 @@
                 <Standard>
                     <GUID>1600000233</GUID>
                     <Name>Specialist AE-Gramma-AddGoods-NBelief-E FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/f_AE-Gramma-AddGoods-NBelief-E.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/PublicServices-Pack/f_AE-Gramma-AddGoods-NBelief-E.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000230</OasisId>

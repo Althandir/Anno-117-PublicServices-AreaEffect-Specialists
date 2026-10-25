@@ -8,7 +8,7 @@
           <Standard>
             <GUID>1600000064</GUID>
             <Name>Specialist AE-Lib-PopHealthHappy-E</Name>
-            <IconFilename>data/base/graphics/icons/m_AE-Lib-PopHealthHappy-E.png</IconFilename>
+            <IconFilename>data/base/graphics/icons/PublicServices-Pack/m_AE-Lib-PopHealthHappy-E.png</IconFilename>
             <InfoDescription>1600000065</InfoDescription>
           </Standard>
           <Effect>
@@ -53,7 +53,7 @@
                 <Standard>
                     <GUID>1600000065</GUID>
                     <Name>Specialist AE-Lib-PopHealthHappy-E BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/m_AE-Lib-PopHealthHappy-E.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/PublicServices-Pack/m_AE-Lib-PopHealthHappy-E.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000064</OasisId>
@@ -88,7 +88,7 @@
                 <Standard>
                     <GUID>1600000066</GUID>
                     <Name>Specialist AE-Lib-PopHealthHappy-E FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/m_AE-Lib-PopHealthHappy-E.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/PublicServices-Pack/m_AE-Lib-PopHealthHappy-E.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>StreetDistance</EffectScope>
@@ -120,7 +120,7 @@
                 <Standard>
                     <GUID>1600000067</GUID>
                     <Name>Specialist AE-Lib-PopHealthHappy-E FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/m_AE-Lib-PopHealthHappy-E.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/PublicServices-Pack/m_AE-Lib-PopHealthHappy-E.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000064</OasisId>

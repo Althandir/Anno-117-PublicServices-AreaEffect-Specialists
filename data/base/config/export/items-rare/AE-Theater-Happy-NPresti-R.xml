@@ -8,7 +8,7 @@
           <Standard>
             <GUID>1600000186</GUID>
             <Name>Specialist AE-Theater-Happy-NPresti-R</Name>
-            <IconFilename>data/base/graphics/icons/unchanged/c_f_AE-Theater-Happy-NPresti-R.png</IconFilename>
+            <IconFilename>data/base/graphics/icons/PublicServices-Pack/c_f_AE-Theater-Happy-NPresti-R.png</IconFilename>
             <InfoDescription>1600000187</InfoDescription>
           </Standard>
           <Effect>
@@ -53,7 +53,7 @@
                 <Standard>
                     <GUID>1600000187</GUID>
                     <Name>Specialist AE-Theater-Happy-NPresti-R BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/unchanged/c_f_AE-Theater-Happy-NPresti-R.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/PublicServices-Pack/c_f_AE-Theater-Happy-NPresti-R.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000186</OasisId>
@@ -87,7 +87,7 @@
                 <Standard>
                     <GUID>1600000188</GUID>
                     <Name>Specialist AE-Theater-Happy-NPresti-R FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/unchanged/c_f_AE-Theater-Happy-NPresti-R.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/PublicServices-Pack/c_f_AE-Theater-Happy-NPresti-R.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>StreetDistance</EffectScope>
@@ -119,7 +119,7 @@
                 <Standard>
                     <GUID>1600000189</GUID>
                     <Name>Specialist AE-Theater-Happy-NPresti-R FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/unchanged/c_f_AE-Theater-Happy-NPresti-R.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/PublicServices-Pack/c_f_AE-Theater-Happy-NPresti-R.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000186</OasisId>

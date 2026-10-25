@@ -8,7 +8,7 @@
             <Standard>
                 <GUID>1600000216</GUID>
                 <Name>Specialist AE-Forum-MoneyPresti-Prod-L</Name>
-                <IconFilename>data/base/graphics/icons/f_AE-Forum-MoneyPresti-Prod-L.png</IconFilename>
+                <IconFilename>data/base/graphics/icons/PublicServices-Pack/f_AE-Forum-MoneyPresti-Prod-L.png</IconFilename>
                 <InfoDescription>1600000217</InfoDescription>
             </Standard>
             <Effect>
@@ -99,7 +99,7 @@
                     <Standard>
                         <GUID>1600000217</GUID>
                         <Name>Specialist AE-Forum-MoneyPresti-Prod-L BuildingBuff</Name>
-                        <IconFilename>data/base/graphics/icons/f_AE-Forum-MoneyPresti-Prod-L.png</IconFilename>
+                        <IconFilename>data/base/graphics/icons/PublicServices-Pack/f_AE-Forum-MoneyPresti-Prod-L.png</IconFilename>
                     </Standard>
                     <Text>
                         <OasisId>1600000216</OasisId>
@@ -143,7 +143,7 @@
                     <Standard>
                         <GUID>1600000218</GUID>
                         <Name>Specialist AE-Forum-MoneyPresti-Prod-L FunctionalEffect</Name>
-                        <IconFilename>data/base/graphics/icons/f_AE-Forum-MoneyPresti-Prod-L.png</IconFilename>
+                        <IconFilename>data/base/graphics/icons/PublicServices-Pack/f_AE-Forum-MoneyPresti-Prod-L.png</IconFilename>
                     </Standard>
                     <Effect>
                         <EffectScope>StreetDistance</EffectScope>
@@ -175,7 +175,7 @@
                     <Standard>
                         <GUID>1600000219</GUID>
                         <Name>Specialist AE-Forum-MoneyPresti-Prod-L FunctionalEffect BuildingBuff</Name>
-                        <IconFilename>data/base/graphics/icons/f_AE-Forum-MoneyPresti-Prod-L.png</IconFilename>
+                        <IconFilename>data/base/graphics/icons/PublicServices-Pack/f_AE-Forum-MoneyPresti-Prod-L.png</IconFilename>
                     </Standard>
                     <Text>
                         <OasisId>1600000216</OasisId>
@@ -216,7 +216,7 @@
                     <Standard>
                         <GUID>1600000288</GUID>
                         <Name>Specialist AE-Forum-MoneyPresti-Prod-L BuildingBuff</Name>
-                        <IconFilename>data/base/graphics/icons/f_AE-Forum-MoneyPresti-Prod-L.png</IconFilename>
+                        <IconFilename>data/base/graphics/icons/PublicServices-Pack/f_AE-Forum-MoneyPresti-Prod-L.png</IconFilename>
                     </Standard>
                     <Text>
                         <OasisId>1600000216</OasisId>
@@ -260,7 +260,7 @@
                     <Standard>
                         <GUID>1600000289</GUID>
                         <Name>Specialist AE-Forum-MoneyPresti-Prod-L FunctionalEffect</Name>
-                        <IconFilename>data/base/graphics/icons/f_AE-Forum-MoneyPresti-Prod-L.png</IconFilename>
+                        <IconFilename>data/base/graphics/icons/PublicServices-Pack/f_AE-Forum-MoneyPresti-Prod-L.png</IconFilename>
                     </Standard>
                     <Effect>
                         <EffectScope>StreetDistance</EffectScope>
@@ -292,7 +292,7 @@
                     <Standard>
                         <GUID>1600000290</GUID>
                         <Name>Specialist AE-Forum-MoneyPresti-Prod-L FunctionalEffect BuildingBuff</Name>
-                        <IconFilename>data/base/graphics/icons/f_AE-Forum-MoneyPresti-Prod-L.png</IconFilename>
+                        <IconFilename>data/base/graphics/icons/PublicServices-Pack/f_AE-Forum-MoneyPresti-Prod-L.png</IconFilename>
                     </Standard>
                     <Text>
                         <OasisId>1600000216</OasisId>

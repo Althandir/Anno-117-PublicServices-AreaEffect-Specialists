@@ -8,7 +8,7 @@
           <Standard>
             <GUID>1600000048</GUID>
             <Name>Specialist AE-CTHall-PrestiKnowHappy-E</Name>
-            <IconFilename>data/base/graphics/icons/unchanged/c_m_AE-CTHall-PrestiKnowHappy-E.png</IconFilename>
+            <IconFilename>data/base/graphics/icons/PublicServices-Pack/c_m_AE-CTHall-PrestiKnowHappy-E.png</IconFilename>
             <InfoDescription>1600000049</InfoDescription>
           </Standard>
           <Effect>
@@ -53,7 +53,7 @@
                 <Standard>
                     <GUID>1600000049</GUID>
                     <Name>Specialist AE-CTHall-PrestiKnowHappy-E BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/unchanged/c_m_AE-CTHall-PrestiKnowHappy-E.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/PublicServices-Pack/c_m_AE-CTHall-PrestiKnowHappy-E.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000048</OasisId>
@@ -88,7 +88,7 @@
                 <Standard>
                     <GUID>1600000050</GUID>
                     <Name>Specialist AE-CTHall-PrestiKnowHappy-E FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/unchanged/c_m_AE-CTHall-PrestiKnowHappy-E.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/PublicServices-Pack/c_m_AE-CTHall-PrestiKnowHappy-E.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>StreetDistance</EffectScope>
@@ -120,7 +120,7 @@
                 <Standard>
                     <GUID>1600000051</GUID>
                     <Name>Specialist AE-CTHall-PrestiKnowHappy-E FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/unchanged/c_m_AE-CTHall-PrestiKnowHappy-E.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/PublicServices-Pack/c_m_AE-CTHall-PrestiKnowHappy-E.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000048</OasisId>

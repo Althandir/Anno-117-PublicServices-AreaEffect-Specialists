@@ -8,7 +8,7 @@
           <Standard>
             <GUID>1600000068</GUID>
             <Name>Specialist AE-TempleMars-E</Name>
-            <IconFilename>data/base/graphics/icons/r_temple/roman_priestess_mod_Mars.png</IconFilename>
+            <IconFilename>data/base/graphics/icons/PublicServices-Pack/roman_priestess_mod_Mars.png</IconFilename>
             <InfoDescription>1600000069</InfoDescription>
           </Standard>
           <Effect>
@@ -53,7 +53,7 @@
                 <Standard>
                     <GUID>1600000069</GUID>
                     <Name>Specialist AE-TempleMars-E BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/r_temple/roman_priestess_mod_Mars.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/PublicServices-Pack/roman_priestess_mod_Mars.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000068</OasisId>
@@ -88,7 +88,7 @@
                 <Standard>
                     <GUID>1600000070</GUID>
                     <Name>Specialist AE-TempleMars-E FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/r_temple/roman_priestess_mod_Mars.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/PublicServices-Pack/roman_priestess_mod_Mars.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>StreetDistance</EffectScope>
@@ -120,7 +120,7 @@
                 <Standard>
                     <GUID>1600000071</GUID>
                     <Name>Specialist AE-TempleMars-E FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/r_temple/roman_priestess_mod_Mars.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/PublicServices-Pack/roman_priestess_mod_Mars.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000068</OasisId>

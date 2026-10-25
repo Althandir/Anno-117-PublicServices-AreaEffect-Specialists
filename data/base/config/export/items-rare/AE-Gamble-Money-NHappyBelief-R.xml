@@ -8,7 +8,7 @@
           <Standard>
             <GUID>1600000174</GUID>
             <Name>Specialist AE-Gamble-Money-NHappyBelief-R</Name>
-            <IconFilename>data/base/graphics/icons/r_m_AE-Gamble-Money-NHappyBelief-R.png</IconFilename>
+            <IconFilename>data/base/graphics/icons/PublicServices-Pack/r_m_AE-Gamble-Money-NHappyBelief-R.png</IconFilename>
             <InfoDescription>1600000175</InfoDescription>
           </Standard>
           <Effect>
@@ -53,7 +53,7 @@
                 <Standard>
                     <GUID>1600000175</GUID>
                     <Name>Specialist AE-Gamble-Money-NHappyBelief-R BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/r_m_AE-Gamble-Money-NHappyBelief-R.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/PublicServices-Pack/r_m_AE-Gamble-Money-NHappyBelief-R.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000174</OasisId>
@@ -88,7 +88,7 @@
                 <Standard>
                     <GUID>1600000176</GUID>
                     <Name>Specialist AE-Gamble-Money-NHappyBelief-R FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/r_m_AE-Gamble-Money-NHappyBelief-R.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/PublicServices-Pack/r_m_AE-Gamble-Money-NHappyBelief-R.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>StreetDistance</EffectScope>
@@ -120,7 +120,7 @@
                 <Standard>
                     <GUID>1600000177</GUID>
                     <Name>Specialist AE-Gamble-Money-NHappyBelief-R FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/r_m_AE-Gamble-Money-NHappyBelief-R.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/PublicServices-Pack/r_m_AE-Gamble-Money-NHappyBelief-R.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000174</OasisId>

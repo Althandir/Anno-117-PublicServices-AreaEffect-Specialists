@@ -8,7 +8,7 @@
           <Standard>
             <GUID>1600000072</GUID>
             <Name>Specialist AE-TempleCeres-E</Name>
-            <IconFilename>data/base/graphics/icons/r_temple/roman_priestess_mod_Ceres.png</IconFilename>
+            <IconFilename>data/base/graphics/icons/PublicServices-Pack/roman_priestess_mod_Ceres.png</IconFilename>
             <InfoDescription>1600000073</InfoDescription>
           </Standard>
           <Effect>
@@ -54,7 +54,7 @@
                 <Standard>
                     <GUID>1600000073</GUID>
                     <Name>Specialist AE-TempleCeres-E BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/r_temple/roman_priestess_mod_Ceres.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/PublicServices-Pack/roman_priestess_mod_Ceres.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000072</OasisId>
@@ -89,7 +89,7 @@
                 <Standard>
                     <GUID>1600000074</GUID>
                     <Name>Specialist AE-TempleCeres-E FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/r_temple/roman_priestess_mod_Ceres.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/PublicServices-Pack/roman_priestess_mod_Ceres.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>StreetDistance</EffectScope>
@@ -121,7 +121,7 @@
                 <Standard>
                     <GUID>1600000075</GUID>
                     <Name>Specialist AE-TempleCeres-E FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/r_temple/roman_priestess_mod_Ceres.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/PublicServices-Pack/roman_priestess_mod_Ceres.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000072</OasisId>

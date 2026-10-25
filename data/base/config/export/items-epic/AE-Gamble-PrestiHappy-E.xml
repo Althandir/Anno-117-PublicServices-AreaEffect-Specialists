@@ -8,7 +8,7 @@
           <Standard>
             <GUID>1600000056</GUID>
             <Name>Specialist AE-Gamble-PrestiHappy-E</Name>
-            <IconFilename>data/base/graphics/icons/r_m_AE-Gamble-PrestiHappy-E.png</IconFilename>
+            <IconFilename>data/base/graphics/icons/PublicServices-Pack/r_m_AE-Gamble-PrestiHappy-E.png</IconFilename>
             <InfoDescription>1600000057</InfoDescription>
           </Standard>
           <Effect>
@@ -53,7 +53,7 @@
                 <Standard>
                     <GUID>1600000057</GUID>
                     <Name>Specialist AE-Gamble-PrestiHappy-E BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/r_m_AE-Gamble-PrestiHappy-E.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/PublicServices-Pack/r_m_AE-Gamble-PrestiHappy-E.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000056</OasisId>
@@ -88,7 +88,7 @@
                 <Standard>
                     <GUID>1600000058</GUID>
                     <Name>Specialist AE-Gamble-PrestiHappy-E FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/r_m_AE-Gamble-PrestiHappy-E.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/PublicServices-Pack/r_m_AE-Gamble-PrestiHappy-E.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>StreetDistance</EffectScope>
@@ -120,7 +120,7 @@
                 <Standard>
                     <GUID>1600000059</GUID>
                     <Name>Specialist AE-Gamble-PrestiHappy-E FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/r_m_AE-Gamble-PrestiHappy-E.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/PublicServices-Pack/r_m_AE-Gamble-PrestiHappy-E.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000056</OasisId>

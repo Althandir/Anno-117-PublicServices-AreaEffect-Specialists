@@ -8,7 +8,7 @@
           <Standard>
             <GUID>1600000084</GUID>
             <Name>Specialist AE-TempleMercury-E</Name>
-            <IconFilename>data/base/graphics/icons/r_temple/roman_priestess_mod_Mercury.png</IconFilename>
+            <IconFilename>data/base/graphics/icons/PublicServices-Pack/roman_priestess_mod_Mercury.png</IconFilename>
             <InfoDescription>1600000085</InfoDescription>
           </Standard>
           <Effect>
@@ -53,7 +53,7 @@
                 <Standard>
                     <GUID>1600000085</GUID>
                     <Name>Specialist AE-TempleMercury-E BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/r_temple/roman_priestess_mod_Mercury.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/PublicServices-Pack/roman_priestess_mod_Mercury.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000084</OasisId>
@@ -88,7 +88,7 @@
                 <Standard>
                     <GUID>1600000086</GUID>
                     <Name>Specialist AE-TempleMercury-E FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/r_temple/roman_priestess_mod_Mercury.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/PublicServices-Pack/roman_priestess_mod_Mercury.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>StreetDistance</EffectScope>
@@ -120,7 +120,7 @@
                 <Standard>
                     <GUID>1600000087</GUID>
                     <Name>Specialist AE-TempleMercury-E FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/r_temple/roman_priestess_mod_Mercury.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/PublicServices-Pack/roman_priestess_mod_Mercury.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000084</OasisId>

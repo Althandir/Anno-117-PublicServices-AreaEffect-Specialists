@@ -8,7 +8,7 @@
           <Standard>
             <GUID>1600000088</GUID>
             <Name>Specialist AE-TempleMinerva-E</Name>
-            <IconFilename>data/base/graphics/icons/r_temple/roman_priestess_mod_Minerva.png</IconFilename>
+            <IconFilename>data/base/graphics/icons/PublicServices-Pack/roman_priestess_mod_Minerva.png</IconFilename>
             <InfoDescription>1600000089</InfoDescription>
           </Standard>
           <Effect>
@@ -53,7 +53,7 @@
                 <Standard>
                     <GUID>1600000089</GUID>
                     <Name>Specialist AE-TempleMinerva-E BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/r_temple/roman_priestess_mod_Minerva.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/PublicServices-Pack/roman_priestess_mod_Minerva.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000088</OasisId>
@@ -88,7 +88,7 @@
                 <Standard>
                     <GUID>1600000090</GUID>
                     <Name>Specialist AE-TempleMinerva-E FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/r_temple/roman_priestess_mod_Minerva.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/PublicServices-Pack/roman_priestess_mod_Minerva.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>StreetDistance</EffectScope>
@@ -120,7 +120,7 @@
                 <Standard>
                     <GUID>1600000091</GUID>
                     <Name>Specialist AE-TempleMinerva-E FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/r_temple/roman_priestess_mod_Minerva.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/PublicServices-Pack/roman_priestess_mod_Minerva.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000088</OasisId>

@@ -8,7 +8,7 @@
           <Standard>
             <GUID>1600000060</GUID>
             <Name>Specialist AE-Lib-KnowPresti-NFire-E</Name>
-            <IconFilename>data/base/graphics/icons/r_f_AE-Lib-KnowPresti-NFire-E.png</IconFilename>
+            <IconFilename>data/base/graphics/icons/PublicServices-Pack/r_f_AE-Lib-KnowPresti-NFire-E.png</IconFilename>
             <InfoDescription>1600000061</InfoDescription>
           </Standard>
           <Effect>
@@ -53,7 +53,7 @@
                 <Standard>
                     <GUID>1600000061</GUID>
                     <Name>Specialist AE-Lib-KnowPresti-NFire-E BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/r_f_AE-Lib-KnowPresti-NFire-E.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/PublicServices-Pack/r_f_AE-Lib-KnowPresti-NFire-E.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000060</OasisId>
@@ -88,7 +88,7 @@
                 <Standard>
                     <GUID>1600000062</GUID>
                     <Name>Specialist AE-Lib-KnowPresti-NFire-E FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/r_f_AE-Lib-KnowPresti-NFire-E.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/PublicServices-Pack/r_f_AE-Lib-KnowPresti-NFire-E.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>StreetDistance</EffectScope>
@@ -120,7 +120,7 @@
                 <Standard>
                     <GUID>1600000063</GUID>
                     <Name>Specialist AE-Lib-KnowPresti-NFire-E FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/r_f_AE-Lib-KnowPresti-NFire-E.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/PublicServices-Pack/r_f_AE-Lib-KnowPresti-NFire-E.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000060</OasisId>

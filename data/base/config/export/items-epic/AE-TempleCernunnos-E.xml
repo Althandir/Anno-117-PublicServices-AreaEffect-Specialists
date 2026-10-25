@@ -8,7 +8,7 @@
           <Standard>
             <GUID>1600000076</GUID>
             <Name>Specialist AE-TempleCernunnos-E</Name>
-            <IconFilename>data/base/graphics/icons/c_temple/celtic_druid_cernunnos.png</IconFilename>
+            <IconFilename>data/base/graphics/icons/PublicServices-Pack/celtic_druid_cernunnos.png</IconFilename>
             <InfoDescription>1600000077</InfoDescription>
           </Standard>
           <Effect>
@@ -54,7 +54,7 @@
                 <Standard>
                     <GUID>1600000077</GUID>
                     <Name>Specialist AE-TempleCernunnos-E BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/c_temple/celtic_druid_cernunnos.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/PublicServices-Pack/celtic_druid_cernunnos.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000076</OasisId>
@@ -89,7 +89,7 @@
                 <Standard>
                     <GUID>1600000078</GUID>
                     <Name>Specialist AE-TempleCernunnos-E FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/c_temple/celtic_druid_cernunnos.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/PublicServices-Pack/celtic_druid_cernunnos.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>StreetDistance</EffectScope>
@@ -121,7 +121,7 @@
                 <Standard>
                     <GUID>1600000079</GUID>
                     <Name>Specialist AE-TempleCernunnos-E FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/c_temple/celtic_druid_cernunnos.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/PublicServices-Pack/celtic_druid_cernunnos.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000076</OasisId>
