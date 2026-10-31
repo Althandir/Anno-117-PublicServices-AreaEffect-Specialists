@@ -1,0 +1,139 @@
+<ModOps>
+  <!-- Item Definition GUID:1600000064 - 1600000067 | LineID:1600000064 - 1600000065 -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="106410">
+      <Asset>
+        <Template>Item</Template>
+        <Values>
+          <Standard>
+            <GUID>1600000064</GUID>
+            <Name>Specialist AE-Lib-Pop-E</Name>
+            <IconFilename>data/base/graphics/icons/PublicServices-Pack/AE-Lib-Pop-E.png</IconFilename>
+            <InfoDescription>1600000065</InfoDescription>
+          </Standard>
+          <Effect>
+            <EffectScope>Radius</EffectScope>
+            <SourceCategory>Item</SourceCategory>
+            <Buffs>
+              <Item>
+                <GUID>1600000065</GUID>
+              </Item>
+            </Buffs>
+            <Targets> <!-- Targets of Buff TODO: DLC03 -->
+              <Item>
+                <GUID>31368</GUID>
+              </Item>
+            </Targets>
+            <HideInGovernorsBar>1</HideInGovernorsBar>
+          </Effect>
+          <Item>
+            <Niche>Agriculture</Niche>
+            <TradePrice><ModValue Insert="$TradePrice_Epic"/></TradePrice>
+            <BarkPool>83310</BarkPool> <!-- <GUID>83310</GUID> -->
+            <Rarity>Epic</Rarity>
+          </Item>
+          <Locked>
+            <DefaultLockedState>0</DefaultLockedState>
+          </Locked>
+          <Text>
+            <OasisId>1600000064</OasisId>
+          </Text>
+        </Values>
+      </Asset>
+    </ModOp>
+  </Group>
+
+  <!-- Buff Definitions-->
+  <Group>
+    <!-- BuildingEffect Definition -->
+    <ModOp Type="addNextSibling" GUID="80193">
+      <Asset>
+        <Template>BuildingBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>1600000065</GUID>
+            <Name>Specialist AE-Lib-Pop-E BuildingBuff</Name>
+            <IconFilename>data/base/graphics/icons/PublicServices-Pack/AE-Lib-Pop-E.png</IconFilename>
+          </Standard>
+          <Text>
+            <OasisId>1600000064</OasisId>
+          </Text>
+          <BuildingUpgrade>
+            <AdditionalFunctionalEffect>1600000066</AdditionalFunctionalEffect>
+          </BuildingUpgrade>
+          <Buff>
+            <SourceCategory>Item</SourceCategory>
+          </Buff>
+        </Values>
+      </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="135498">
+      <Asset>
+        <Template>Effect</Template>
+        <Values>
+          <Standard>
+            <GUID>1600000066</GUID>
+            <Name>Specialist AE-Lib-Pop-E FunctionalEffect</Name>
+            <IconFilename>data/base/graphics/icons/PublicServices-Pack/AE-Lib-Pop-E.png</IconFilename>
+          </Standard>
+          <Effect>
+            <EffectScope>StreetDistance</EffectScope>
+            <SourceCategory>Adjacency</SourceCategory>
+            <Buffs>
+              <Item>
+                <GUID>1600000067</GUID>
+              </Item>
+            </Buffs>
+            <Targets>
+              <Item>
+                <GUID>43097</GUID>
+              </Item>
+            </Targets>
+            <ExcludeEffectSourceGUID>0</ExcludeEffectSourceGUID>
+            <HideInGovernorsBar>1</HideInGovernorsBar>
+          </Effect>
+          <Text>
+            <OasisId>1600000064</OasisId>
+          </Text>
+        </Values>
+      </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="80193">
+      <Asset>
+        <Template>BuildingBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>1600000067</GUID>
+            <Name>Specialist AE-Lib-Pop-E FunctionalEffect BuildingBuff</Name>
+            <IconFilename>data/base/graphics/icons/PublicServices-Pack/AE-Lib-Pop-E.png</IconFilename>
+          </Standard>
+          <Text>
+            <OasisId>1600000064</OasisId>
+          </Text>
+          <BuildingUpgrade>
+            <AdditionalAttributes>
+              <Population>
+                <AmountOrPercent>
+                  <Value>0.5</Value>
+                  <Percental>0</Percental>
+                </AmountOrPercent>
+              </Population>
+              <Health>
+                <AmountOrPercent>
+                  <Value>1</Value>
+                  <Percental>0</Percental>
+                </AmountOrPercent>
+              </Health>
+            </AdditionalAttributes>
+          </BuildingUpgrade>
+          <Buff>
+            <SourceCategory>Adjacency</SourceCategory>
+          </Buff>
+        </Values>
+      </Asset>
+    </ModOp>
+  </Group>
+
+</ModOps>

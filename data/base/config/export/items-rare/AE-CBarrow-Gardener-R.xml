@@ -1,25 +1,25 @@
 <ModOps>
-<!-- Item Definition GUID:1600000244 - 1600000247 | LineID:1600000244 - 1600000245 #TODO: Retest Item GUID Changed-->
+<!-- Item Definition GUID:1600000009 - 1600000012 | LineID:1600000009 - 1600000010 -->
   <Group>
     <ModOp Type="addNextSibling" GUID="106410">
       <Asset>
         <Template>Item</Template>
         <Values>
           <Standard>
-            <GUID>1600000244</GUID>
-            <Name>Specialist AE-CBarrow-Money-NHappy-E</Name>
-            <IconFilename>data/base/graphics/icons/AE-CBarrow-Money-NHappy-E.png</IconFilename>
-            <InfoDescription>1600000245</InfoDescription>
+            <GUID>1600000009</GUID>
+            <Name>Specialist AE-CBarrow-Gardener-R</Name>
+            <IconFilename>data/base/graphics/icons/PublicServices-Pack/AE-CBarrow-Gardener-R.png</IconFilename>
+            <InfoDescription>1600000010</InfoDescription>
           </Standard>
           <Effect>
-            <EffectScope>Radius</EffectScope>
+            <EffectScope>Radius</EffectScope> 
             <SourceCategory>Item</SourceCategory>
             <Buffs>
               <Item>
-                <GUID>1600000245</GUID>
+                <GUID>1600000010</GUID>
               </Item>
             </Buffs>
-            <Targets>
+            <Targets> 
               <Item>
                 <GUID>55980</GUID>
               </Item>
@@ -27,16 +27,16 @@
             <HideInGovernorsBar>1</HideInGovernorsBar>
           </Effect>
           <Item>
-            <Niche>Finance</Niche> 
-            <TradePrice><ModValue Insert="$TradePrice_Epic"/></TradePrice>
-            <BarkPool>80244</BarkPool> <!-- <GUID>80244</GUID> -->
-            <Rarity>Epic</Rarity> 
+            <Niche>Agriculture</Niche>
+            <TradePrice><ModValue Insert="$TradePrice_Rare"/></TradePrice> 
+            <BarkPool>83321</BarkPool> <!-- <GUID>83321</GUID> -->
+            <Rarity>Rare</Rarity> 
           </Item>
           <Locked>
             <DefaultLockedState>0</DefaultLockedState>
           </Locked>
           <Text>
-            <OasisId>1600000244</OasisId>
+            <OasisId>1600000009</OasisId>
           </Text>
         </Values>
       </Asset>
@@ -45,50 +45,57 @@
 
   <!-- Buff Definitions-->
   <Group>
+    <!-- BuildingEffect Definition -->
     <ModOp Type="addNextSibling" GUID="80193">
         <Asset>
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000245</GUID>
-                    <Name>Specialist AE-CBarrow-Money-NHappy-E FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/AE-CBarrow-Money-NHappy-E.png</IconFilename>
+                    <GUID>1600000010</GUID>
+                    <Name>Specialist AE-CBarrow-Gardener-R BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/PublicServices-Pack/AE-CBarrow-Gardener-R.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000244</OasisId>
+                    <OasisId>1600000009</OasisId>
                 </Text>
+                <HealthUpgrade/>
                 <BuildingUpgrade>
-                    <AdditionalFunctionalEffect>1600000246</AdditionalFunctionalEffect>
+                    <AdditionalFunctionalEffect>1600000011</AdditionalFunctionalEffect>
                 </BuildingUpgrade>
+                <DistributionUpgrade/>
                 <Buff>
                     <SourceCategory>Item</SourceCategory>
                 </Buff>
-                <MaintenanceUpgrade>
-                    <MaintenanceFactorUpgrade>
-                        <Value>-100</Value>
-                        <Percental>1</Percental>
-                    </MaintenanceFactorUpgrade>
-                </MaintenanceUpgrade>
+                <ResidenceUpgrade>
+                </ResidenceUpgrade>
+                <FactoryUpgrade/>
+                <ModuleOwnerUpgrade/>
+                <MaintenanceUpgrade/>
+                <CityInstitutionUpgrade/>
+                <IncidentInfectableUpgrade/>
+                <RecruitmentUpgrade/>
+                <AqueductUpgrade/>
+                <WarehouseUpgrade/>
+                <IrrigationUpgrade/>
             </Values>
         </Asset>
     </ModOp>
-
-    <!-- BuildingEffect Definition -->
+    
     <ModOp Type="addNextSibling" GUID="135498">
         <Asset>
             <Template>Effect</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000246</GUID>
-                    <Name>Specialist AE-CBarrow-Money-NHappy-E FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/AE-CBarrow-Money-NHappy-E.png</IconFilename>
+                    <GUID>1600000011</GUID>
+                    <Name>Specialist AE-CBarrow-Gardener-R FunctionalEffect</Name>
+                    <IconFilename>data/base/graphics/icons/PublicServices-Pack/AE-CBarrow-Gardener-R.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>StreetDistance</EffectScope>
                     <SourceCategory>Adjacency</SourceCategory>
                     <Buffs>
                         <Item>
-                            <GUID>1600000247</GUID>
+                            <GUID>1600000012</GUID>
                         </Item>
                     </Buffs>
                     <Targets>
@@ -100,7 +107,7 @@
                     <HideInGovernorsBar>1</HideInGovernorsBar>
                 </Effect>
                 <Text>
-                    <OasisId>1600000244</OasisId>
+                    <OasisId>1600000009</OasisId>
                 </Text>
             </Values>
         </Asset>
@@ -111,17 +118,14 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000247</GUID>
-                    <Name>Specialist AE-CBarrow-Money-NHappy-E BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/AE-CBarrow-Money-NHappy-E.png</IconFilename>
+                    <GUID>1600000012</GUID>
+                    <Name>Specialist AE-CBarrow-Gardener-R FunctionalEffect BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/PublicServices-Pack/AE-CBarrow-Gardener-R.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000244</OasisId>
+                    <OasisId>1600000009</OasisId>
                 </Text>
-                <Buff>
-                    <SourceCategory>Adjacency</SourceCategory>
-                    <IsStackable>0</IsStackable>
-                </Buff>
+                <HealthUpgrade/>
                 <BuildingUpgrade>
                     <AdditionalAttributes>
                         <Population>
@@ -132,25 +136,25 @@
                         </Population>
                         <Happiness>
                             <AmountOrPercent>
-                                <Value>-2</Value>
+                                <Value>0</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
                         </Happiness>
                         <Money>
                             <AmountOrPercent>
-                                <Value>4</Value>
+                                <Value>0</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
                         </Money>
                         <Prestige>
                             <AmountOrPercent>
-                                <Value>3</Value>
+                                <Value>1</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
                         </Prestige>
                         <Belief>
                             <AmountOrPercent>
-                                <Value>-2</Value>
+                                <Value>0</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
                         </Belief>
@@ -162,12 +166,27 @@
                         </Knowledge>
                         <Health>
                             <AmountOrPercent>
-                                <Value>-1</Value>
+                                <Value>1</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
                         </Health>
                     </AdditionalAttributes>
                 </BuildingUpgrade>
+                <DistributionUpgrade/>
+                <Buff>
+                    <SourceCategory>Adjacency</SourceCategory>
+                </Buff>
+                <ResidenceUpgrade>
+                </ResidenceUpgrade>
+                <FactoryUpgrade/>
+                <ModuleOwnerUpgrade/>
+                <MaintenanceUpgrade/>
+                <CityInstitutionUpgrade/>
+                <IncidentInfectableUpgrade/>
+                <RecruitmentUpgrade/>
+                <AqueductUpgrade/>
+                <WarehouseUpgrade/>
+                <IrrigationUpgrade/>
             </Values>
         </Asset>
     </ModOp>

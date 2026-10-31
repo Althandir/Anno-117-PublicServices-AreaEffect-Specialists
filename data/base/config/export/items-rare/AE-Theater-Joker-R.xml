@@ -1,0 +1,139 @@
+<ModOps>
+  <!-- Item Definition GUID:1600000186 - 1600000189 | LineID:1600000186 - 1600000187 -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="106410">
+      <Asset>
+        <Template>Item</Template>
+        <Values>
+          <Standard>
+            <GUID>1600000186</GUID>
+            <Name>Specialist AE-Theater-Joker-R</Name>
+            <IconFilename>data/base/graphics/icons/PublicServices-Pack/AE-Theater-Joker-R.png</IconFilename>
+            <InfoDescription>1600000187</InfoDescription>
+          </Standard>
+          <Effect>
+            <EffectScope>Radius</EffectScope>
+            <SourceCategory>Item</SourceCategory>
+            <Buffs>
+              <Item>
+                <GUID>1600000187</GUID>
+              </Item>
+            </Buffs>
+            <Targets> <!-- Targets of Buff -->
+              <Item>
+                <GUID>81446</GUID>
+              </Item>
+            </Targets>
+            <HideInGovernorsBar>1</HideInGovernorsBar>
+          </Effect>
+          <Item>
+            <Niche>Culture</Niche>
+            <TradePrice><ModValue Insert="$TradePrice_Rare"/></TradePrice>
+            <BarkPool>83313</BarkPool> <!-- <GUID>83313</GUID> -->
+            <Rarity>Rare</Rarity>
+          </Item>
+          <Locked>
+            <DefaultLockedState>0</DefaultLockedState>
+          </Locked>
+          <Text>
+            <OasisId>1600000186</OasisId>
+          </Text>
+        </Values>
+      </Asset>
+    </ModOp>
+  </Group>
+
+  <!-- Buff Definitions-->
+  <Group>
+    <!-- BuildingEffect Definition -->
+    <ModOp Type="addNextSibling" GUID="80193">
+      <Asset>
+        <Template>BuildingBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>1600000187</GUID>
+            <Name>Specialist AE-Theater-Joker-R BuildingBuff</Name>
+            <IconFilename>data/base/graphics/icons/PublicServices-Pack/AE-Theater-Joker-R.png</IconFilename>
+          </Standard>
+          <Text>
+            <OasisId>1600000186</OasisId>
+          </Text>
+          <BuildingUpgrade>
+            <AdditionalFunctionalEffect>1600000188</AdditionalFunctionalEffect>
+          </BuildingUpgrade>
+          <Buff>
+            <SourceCategory>Item</SourceCategory>
+          </Buff>
+        </Values>
+      </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="135498">
+      <Asset>
+        <Template>Effect</Template>
+        <Values>
+          <Standard>
+            <GUID>1600000188</GUID>
+            <Name>Specialist AE-Theater-Joker-R FunctionalEffect</Name>
+            <IconFilename>data/base/graphics/icons/PublicServices-Pack/AE-Theater-Joker-R.png</IconFilename>
+          </Standard>
+          <Effect>
+            <EffectScope>StreetDistance</EffectScope>
+            <SourceCategory>Adjacency</SourceCategory>
+            <Buffs>
+              <Item>
+                <GUID>1600000189</GUID>
+              </Item>
+            </Buffs>
+            <Targets>
+              <Item>
+                <GUID>43097</GUID>
+              </Item>
+            </Targets>
+            <ExcludeEffectSourceGUID>0</ExcludeEffectSourceGUID>
+            <HideInGovernorsBar>1</HideInGovernorsBar>
+          </Effect>
+          <Text>
+            <OasisId>1600000186</OasisId>
+          </Text>
+        </Values>
+      </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="80193">
+      <Asset>
+        <Template>BuildingBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>1600000189</GUID>
+            <Name>Specialist AE-Theater-Joker-R FunctionalEffect BuildingBuff</Name>
+            <IconFilename>data/base/graphics/icons/PublicServices-Pack/AE-Theater-Joker-R.png</IconFilename>
+          </Standard>
+          <Text>
+            <OasisId>1600000186</OasisId>
+          </Text>
+          <BuildingUpgrade>
+            <AdditionalAttributes>
+              <Happiness>
+                <AmountOrPercent>
+                  <Value>1</Value>
+                  <Percental>0</Percental>
+                </AmountOrPercent>
+              </Happiness>
+              <Prestige>
+                <AmountOrPercent>
+                  <Value>-0.5</Value>
+                  <Percental>0</Percental>
+                </AmountOrPercent>
+              </Prestige>
+            </AdditionalAttributes>
+          </BuildingUpgrade>
+          <Buff>
+            <SourceCategory>Adjacency</SourceCategory>
+          </Buff>
+        </Values>
+      </Asset>
+    </ModOp>
+  </Group>
+
+</ModOps>

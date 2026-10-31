@@ -1,5 +1,5 @@
 <ModOps>
-<!-- Item Definition GUID:1600000005 - 1600000008 | LineID: 1600000005 - 1600000006 -->
+  <!-- Item Definition GUID:1600000005 - 1600000008 | LineID: 1600000005 - 1600000006 -->
   <Group>
     <ModOp Type="addNextSibling" GUID="106410">
       <Asset>
@@ -8,7 +8,7 @@
           <Standard>
             <GUID>1600000005</GUID>
             <Name>Specialist AE-Bard-Belief-C</Name>
-            <IconFilename>data/base/graphics/icons/c_m_Bard-C.png</IconFilename>
+            <IconFilename>data/base/graphics/icons/PublicServices-Pack/AE-Bard-Belief-C.png</IconFilename>
             <InfoDescription>1600000006</InfoDescription>
           </Standard>
           <Effect>
@@ -19,7 +19,7 @@
                 <GUID>1600000006</GUID>
               </Item>
             </Buffs>
-            <Targets> 
+            <Targets>
               <Item>
                 <GUID>6727</GUID>
               </Item>
@@ -27,10 +27,10 @@
             <HideInGovernorsBar>1</HideInGovernorsBar>
           </Effect>
           <Item>
-            <Niche>Religion</Niche> 
+            <Niche>Religion</Niche>
             <TradePrice><ModValue Insert="$TradePrice_Common"/></TradePrice>
             <BarkPool>80244</BarkPool> <!-- <GUID>80244</GUID> -->
-            <Rarity>Common</Rarity> 
+            <Rarity>Common</Rarity>
           </Item>
           <Locked>
             <DefaultLockedState>0</DefaultLockedState>
@@ -47,142 +47,86 @@
   <Group>
     <!-- BuildingEffect Definition -->
     <ModOp Type="addNextSibling" GUID="80193">
-        <Asset>
-            <Template>BuildingBuff</Template>
-            <Values>
-                <Standard>
-                    <GUID>1600000006</GUID>
-                    <Name>Specialist AE-Bard-Belief-C BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/c_m_Bard-C.png</IconFilename>
-                </Standard>
-                <Text>
-                    <OasisId>1600000005</OasisId>
-                </Text>
-                <HealthUpgrade/>
-                <BuildingUpgrade>
-                    <AdditionalFunctionalEffect>1600000007</AdditionalFunctionalEffect>
-                </BuildingUpgrade>
-                <DistributionUpgrade/>
-                <Buff>
-                    <SourceCategory>Item</SourceCategory>
-                </Buff>
-                <ResidenceUpgrade>
-                </ResidenceUpgrade>
-                <FactoryUpgrade/>
-                <ModuleOwnerUpgrade/>
-                <MaintenanceUpgrade/>
-                <CityInstitutionUpgrade/>
-                <IncidentInfectableUpgrade/>
-                <RecruitmentUpgrade/>
-                <AqueductUpgrade/>
-                <WarehouseUpgrade/>
-                <IrrigationUpgrade/>
-            </Values>
-        </Asset>
+      <Asset>
+        <Template>BuildingBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>1600000006</GUID>
+            <Name>Specialist AE-Bard-Belief-C BuildingBuff</Name>
+            <IconFilename>data/base/graphics/icons/PublicServices-Pack/AE-Bard-Belief-C.png</IconFilename>
+          </Standard>
+          <Text>
+            <OasisId>1600000005</OasisId>
+          </Text>
+          <BuildingUpgrade>
+            <AdditionalFunctionalEffect>1600000007</AdditionalFunctionalEffect>
+          </BuildingUpgrade>
+          <Buff>
+            <SourceCategory>Item</SourceCategory>
+          </Buff>
+        </Values>
+      </Asset>
     </ModOp>
-    
+
     <ModOp Type="addNextSibling" GUID="135498">
-        <Asset>
-            <Template>Effect</Template>
-            <Values>
-                <Standard>
-                    <GUID>1600000007</GUID>
-                    <Name>Specialist AE-Bard-Belief-C FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/c_m_Bard-C.png</IconFilename>
-                </Standard>
-                <Effect>
-                    <EffectScope>StreetDistance</EffectScope>
-                    <SourceCategory>Adjacency</SourceCategory>
-                    <Buffs>
-                        <Item>
-                            <GUID>1600000008</GUID>
-                        </Item>
-                    </Buffs>
-                    <Targets>
-                        <Item>
-                            <GUID>43097</GUID>
-                        </Item>
-                    </Targets>
-                    <ExcludeEffectSourceGUID>0</ExcludeEffectSourceGUID>
-                    <HideInGovernorsBar>1</HideInGovernorsBar>
-                </Effect>
-                <Text>
-                    <OasisId>1600000005</OasisId>
-                </Text>
-            </Values>
-        </Asset>
+      <Asset>
+        <Template>Effect</Template>
+        <Values>
+          <Standard>
+            <GUID>1600000007</GUID>
+            <Name>Specialist AE-Bard-Belief-C FunctionalEffect</Name>
+            <IconFilename>data/base/graphics/icons/PublicServices-Pack/AE-Bard-Belief-C.png</IconFilename>
+          </Standard>
+          <Effect>
+            <EffectScope>StreetDistance</EffectScope>
+            <SourceCategory>Adjacency</SourceCategory>
+            <Buffs>
+              <Item>
+                <GUID>1600000008</GUID>
+              </Item>
+            </Buffs>
+            <Targets>
+              <Item>
+                <GUID>43097</GUID>
+              </Item>
+            </Targets>
+            <ExcludeEffectSourceGUID>0</ExcludeEffectSourceGUID>
+            <HideInGovernorsBar>1</HideInGovernorsBar>
+          </Effect>
+          <Text>
+            <OasisId>1600000005</OasisId>
+          </Text>
+        </Values>
+      </Asset>
     </ModOp>
 
     <ModOp Type="addNextSibling" GUID="80193">
-        <Asset>
-            <Template>BuildingBuff</Template>
-            <Values>
-                <Standard>
-                    <GUID>1600000008</GUID>
-                    <Name>Specialist AE-Bard-Belief-C FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/c_m_Bard-C.png</IconFilename>
-                </Standard>
-                <Text>
-                    <OasisId>1600000005</OasisId>
-                </Text>
-                <HealthUpgrade/>
-                <BuildingUpgrade>
-                    <AdditionalAttributes>
-                      <Happiness>
-                          <AmountOrPercent>
-                              <Value>0</Value>
-                              <Percental>0</Percental>
-                          </AmountOrPercent>
-                      </Happiness>
-                      <Money>
-                          <AmountOrPercent>
-                              <Value>0</Value>
-                              <Percental>0</Percental>
-                          </AmountOrPercent>
-                      </Money>
-                      <Prestige>
-                          <AmountOrPercent>
-                              <Value>0</Value>
-                              <Percental>0</Percental>
-                          </AmountOrPercent>
-                      </Prestige>
-                      <Belief>
-                          <AmountOrPercent>
-                              <Value>0.5</Value>
-                              <Percental>0</Percental>
-                          </AmountOrPercent>
-                      </Belief>
-                      <Knowledge>
-                          <AmountOrPercent>
-                              <Value>0</Value>
-                              <Percental>0</Percental>
-                          </AmountOrPercent>
-                      </Knowledge>
-                      <Health>
-                          <AmountOrPercent>
-                              <Value>0</Value>
-                              <Percental>0</Percental>
-                          </AmountOrPercent>
-                      </Health>
-                    </AdditionalAttributes>
-                </BuildingUpgrade>
-                <DistributionUpgrade/>
-                <Buff>
-                    <SourceCategory>Adjacency</SourceCategory>
-                </Buff>
-                <ResidenceUpgrade>
-                </ResidenceUpgrade>
-                <FactoryUpgrade/>
-                <ModuleOwnerUpgrade/>
-                <MaintenanceUpgrade/>
-                <CityInstitutionUpgrade/>
-                <IncidentInfectableUpgrade/>
-                <RecruitmentUpgrade/>
-                <AqueductUpgrade/>
-                <WarehouseUpgrade/>
-                <IrrigationUpgrade/>
-            </Values>
-        </Asset>
+      <Asset>
+        <Template>BuildingBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>1600000008</GUID>
+            <Name>Specialist AE-Bard-Belief-C FunctionalEffect BuildingBuff</Name>
+            <IconFilename>data/base/graphics/icons/PublicServices-Pack/AE-Bard-Belief-C.png</IconFilename>
+          </Standard>
+          <Text>
+            <OasisId>1600000005</OasisId>
+          </Text>
+          <BuildingUpgrade>
+            <AdditionalAttributes>
+              <Belief>
+                <AmountOrPercent>
+                  <Value>0.5</Value>
+                  <Percental>0</Percental>
+                </AmountOrPercent>
+              </Belief>
+            </AdditionalAttributes>
+          </BuildingUpgrade>
+          <Buff>
+            <SourceCategory>Adjacency</SourceCategory>
+          </Buff>
+        </Values>
+      </Asset>
     </ModOp>
   </Group>
 
