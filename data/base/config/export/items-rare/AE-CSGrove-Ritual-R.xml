@@ -1,0 +1,145 @@
+<ModOps>
+  <!-- Item Definition GUID:1600000166 - 1600000169 | LineID:1600000166 - 1600000167 -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="106410">
+      <Asset>
+        <Template>Item</Template>
+        <Values>
+          <Standard>
+            <GUID>1600000166</GUID>
+            <Name>Specialist AE-CSGrove-Ritual-R</Name>
+            <IconFilename>data/base/graphics/icons/PublicServices-Pack/AE-CSGrove-Ritual-R.png</IconFilename>
+            <InfoDescription>1600000167</InfoDescription>
+          </Standard>
+          <Effect>
+            <EffectScope>Radius</EffectScope>
+            <SourceCategory>Item</SourceCategory>
+            <Buffs>
+              <Item>
+                <GUID>1600000167</GUID>
+              </Item>
+            </Buffs>
+            <Targets> <!-- Targets of Buff -->
+              <Item>
+                <GUID>55981</GUID>
+              </Item>
+            </Targets>
+            <HideInGovernorsBar>1</HideInGovernorsBar>
+          </Effect>
+          <Item>
+            <Niche>Religion</Niche>
+            <TradePrice><ModValue Insert="$TradePrice_Rare"/></TradePrice>
+            <BarkPool>83342</BarkPool> <!-- <GUID>83342</GUID> -->
+            <Rarity>Rare</Rarity>
+          </Item>
+          <Locked>
+            <DefaultLockedState>0</DefaultLockedState>
+          </Locked>
+          <Text>
+            <OasisId>1600000166</OasisId>
+          </Text>
+        </Values>
+      </Asset>
+    </ModOp>
+  </Group>
+
+  <!-- Buff Definitions-->
+  <Group>
+    <!-- BuildingEffect Definition -->
+    <ModOp Type="addNextSibling" GUID="80193">
+      <Asset>
+        <Template>BuildingBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>1600000167</GUID>
+            <Name>Specialist AE-CSGrove-Ritual-R BuildingBuff</Name>
+            <IconFilename>data/base/graphics/icons/PublicServices-Pack/AE-CSGrove-Ritual-R.png</IconFilename>
+          </Standard>
+          <Text>
+            <OasisId>1600000166</OasisId>
+          </Text>
+          <BuildingUpgrade>
+            <AdditionalFunctionalEffect>1600000168</AdditionalFunctionalEffect>
+          </BuildingUpgrade>
+          <Buff>
+            <SourceCategory>Item</SourceCategory>
+          </Buff>
+        </Values>
+      </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="135498">
+      <Asset>
+        <Template>Effect</Template>
+        <Values>
+          <Standard>
+            <GUID>1600000168</GUID>
+            <Name>Specialist AE-CSGrove-Ritual-R FunctionalEffect</Name>
+            <IconFilename>data/base/graphics/icons/PublicServices-Pack/AE-CSGrove-Ritual-R.png</IconFilename>
+          </Standard>
+          <Effect>
+            <EffectScope>StreetDistance</EffectScope>
+            <SourceCategory>Adjacency</SourceCategory>
+            <Buffs>
+              <Item>
+                <GUID>1600000169</GUID>
+              </Item>
+            </Buffs>
+            <Targets>
+              <Item>
+                <GUID>43097</GUID>
+              </Item>
+            </Targets>
+            <ExcludeEffectSourceGUID>0</ExcludeEffectSourceGUID>
+            <HideInGovernorsBar>1</HideInGovernorsBar>
+          </Effect>
+          <Text>
+            <OasisId>1600000166</OasisId>
+          </Text>
+        </Values>
+      </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="80193">
+      <Asset>
+        <Template>BuildingBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>1600000169</GUID>
+            <Name>Specialist AE-CSGrove-Ritual-R FunctionalEffect BuildingBuff</Name>
+            <IconFilename>data/base/graphics/icons/PublicServices-Pack/AE-CSGrove-Ritual-R.png</IconFilename>
+          </Standard>
+          <Text>
+            <OasisId>1600000166</OasisId>
+          </Text>
+          <BuildingUpgrade>
+            <AdditionalAttributes>
+              <Prestige>
+                <AmountOrPercent>
+                  <Value>-1</Value>
+                  <Percental>0</Percental>
+                </AmountOrPercent>
+              </Prestige>
+              <Belief>
+                <AmountOrPercent>
+                  <Value>1.5</Value>
+                  <Percental>0</Percental>
+                </AmountOrPercent>
+              </Belief>
+              <Knowledge>
+                <AmountOrPercent>
+                  <Value>0.5</Value>
+                  <Percental>0</Percental>
+                </AmountOrPercent>
+              </Knowledge>
+            </AdditionalAttributes>
+          </BuildingUpgrade>
+          <Buff>
+            <SourceCategory>Adjacency</SourceCategory>
+          </Buff>
+        </Values>
+      </Asset>
+    </ModOp>
+  </Group>
+
+</ModOps>

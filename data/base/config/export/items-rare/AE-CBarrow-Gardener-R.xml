@@ -1,42 +1,42 @@
 <ModOps>
-<!-- Item Definition GUID:1600000186 - 1600000189 | LineID:1600000186 - 1600000187 -->
+<!-- Item Definition GUID:1600000009 - 1600000012 | LineID:1600000009 - 1600000010 -->
   <Group>
     <ModOp Type="addNextSibling" GUID="106410">
       <Asset>
         <Template>Item</Template>
         <Values>
           <Standard>
-            <GUID>1600000186</GUID>
-            <Name>Specialist AE-Theater-Happy-NPresti-R</Name>
-            <IconFilename>data/base/graphics/icons/PublicServices-Pack/c_f_AE-Theater-Happy-NPresti-R.png</IconFilename>
-            <InfoDescription>1600000187</InfoDescription>
+            <GUID>1600000009</GUID>
+            <Name>Specialist AE-CBarrow-Gardener-R</Name>
+            <IconFilename>data/base/graphics/icons/PublicServices-Pack/AE-CBarrow-Gardener-R.png</IconFilename>
+            <InfoDescription>1600000010</InfoDescription>
           </Standard>
           <Effect>
-            <EffectScope>Radius</EffectScope>  
+            <EffectScope>Radius</EffectScope> 
             <SourceCategory>Item</SourceCategory>
             <Buffs>
               <Item>
-                <GUID>1600000187</GUID>
+                <GUID>1600000010</GUID>
               </Item>
             </Buffs>
-            <Targets> <!-- Targets of Buff -->
+            <Targets> 
               <Item>
-                <GUID>81446</GUID>
+                <GUID>55980</GUID>
               </Item>
             </Targets>
             <HideInGovernorsBar>1</HideInGovernorsBar>
           </Effect>
           <Item>
-            <Niche>Culture</Niche>
+            <Niche>Agriculture</Niche>
             <TradePrice><ModValue Insert="$TradePrice_Rare"/></TradePrice> 
-            <BarkPool>83313</BarkPool> <!-- <GUID>83313</GUID> -->
+            <BarkPool>83321</BarkPool> <!-- <GUID>83321</GUID> -->
             <Rarity>Rare</Rarity> 
           </Item>
           <Locked>
             <DefaultLockedState>0</DefaultLockedState>
           </Locked>
           <Text>
-            <OasisId>1600000186</OasisId>
+            <OasisId>1600000009</OasisId>
           </Text>
         </Values>
       </Asset>
@@ -51,22 +51,23 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000187</GUID>
-                    <Name>Specialist AE-Theater-Happy-NPresti-R BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/PublicServices-Pack/c_f_AE-Theater-Happy-NPresti-R.png</IconFilename>
+                    <GUID>1600000010</GUID>
+                    <Name>Specialist AE-CBarrow-Gardener-R BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/PublicServices-Pack/AE-CBarrow-Gardener-R.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000186</OasisId>
+                    <OasisId>1600000009</OasisId>
                 </Text>
                 <HealthUpgrade/>
                 <BuildingUpgrade>
-                    <AdditionalFunctionalEffect>1600000188</AdditionalFunctionalEffect>
+                    <AdditionalFunctionalEffect>1600000011</AdditionalFunctionalEffect>
                 </BuildingUpgrade>
                 <DistributionUpgrade/>
                 <Buff>
                     <SourceCategory>Item</SourceCategory>
                 </Buff>
-                <ResidenceUpgrade/>
+                <ResidenceUpgrade>
+                </ResidenceUpgrade>
                 <FactoryUpgrade/>
                 <ModuleOwnerUpgrade/>
                 <MaintenanceUpgrade/>
@@ -85,16 +86,16 @@
             <Template>Effect</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000188</GUID>
-                    <Name>Specialist AE-Theater-Happy-NPresti-R FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/PublicServices-Pack/c_f_AE-Theater-Happy-NPresti-R.png</IconFilename>
+                    <GUID>1600000011</GUID>
+                    <Name>Specialist AE-CBarrow-Gardener-R FunctionalEffect</Name>
+                    <IconFilename>data/base/graphics/icons/PublicServices-Pack/AE-CBarrow-Gardener-R.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>StreetDistance</EffectScope>
                     <SourceCategory>Adjacency</SourceCategory>
                     <Buffs>
                         <Item>
-                            <GUID>1600000189</GUID>
+                            <GUID>1600000012</GUID>
                         </Item>
                     </Buffs>
                     <Targets>
@@ -106,7 +107,7 @@
                     <HideInGovernorsBar>1</HideInGovernorsBar>
                 </Effect>
                 <Text>
-                    <OasisId>1600000186</OasisId>
+                    <OasisId>1600000009</OasisId>
                 </Text>
             </Values>
         </Asset>
@@ -117,35 +118,66 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000189</GUID>
-                    <Name>Specialist AE-Theater-Happy-NPresti-R FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/PublicServices-Pack/c_f_AE-Theater-Happy-NPresti-R.png</IconFilename>
+                    <GUID>1600000012</GUID>
+                    <Name>Specialist AE-CBarrow-Gardener-R FunctionalEffect BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/PublicServices-Pack/AE-CBarrow-Gardener-R.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000186</OasisId>
+                    <OasisId>1600000009</OasisId>
                 </Text>
                 <HealthUpgrade/>
                 <BuildingUpgrade>
                     <AdditionalAttributes>
+                        <Population>
+                            <AmountOrPercent>
+                                <Value>0</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
+                        </Population>
                         <Happiness>
+                            <AmountOrPercent>
+                                <Value>0</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
+                        </Happiness>
+                        <Money>
+                            <AmountOrPercent>
+                                <Value>0</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
+                        </Money>
+                        <Prestige>
                             <AmountOrPercent>
                                 <Value>1</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
-                        </Happiness>
-                        <Prestige>
+                        </Prestige>
+                        <Belief>
                             <AmountOrPercent>
-                                <Value>-0.5</Value>
+                                <Value>0</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
-				                </Prestige>
+                        </Belief>
+                        <Knowledge>
+                            <AmountOrPercent>
+                                <Value>0</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
+                        </Knowledge>
+                        <Health>
+                            <AmountOrPercent>
+                                <Value>1</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
+                        </Health>
                     </AdditionalAttributes>
                 </BuildingUpgrade>
                 <DistributionUpgrade/>
                 <Buff>
                     <SourceCategory>Adjacency</SourceCategory>
                 </Buff>
-                <ResidenceUpgrade/>
+                <ResidenceUpgrade>
+                </ResidenceUpgrade>
                 <FactoryUpgrade/>
                 <ModuleOwnerUpgrade/>
                 <MaintenanceUpgrade/>

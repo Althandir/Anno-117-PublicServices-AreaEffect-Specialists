@@ -13,7 +13,7 @@
             <LineId>1600000006</LineId> 
         </Text>
 
-    <!-- Specialist AE-CBarrow-HealthPresti-R -->
+    <!-- Specialist AE-CBarrow-Gardener-R -->
         <!-- Title -->
         <Text>
             <Text>Celtic Grave Keeper</Text>
@@ -38,7 +38,7 @@
             <LineId>1600000014</LineId> 
         </Text>
 
-    <!-- Specialist AE-Sanc-Fanum-Belief-NMoney-R -->
+    <!-- Specialist AE-PSRegionT2-R -->
 
         <!-- Title -->
         <Text>
@@ -51,7 +51,7 @@
             <LineId>1600000018</LineId> 
         </Text>
 
-    <!-- Specialist AE-TabernaBard-Money-C -->
+    <!-- Specialist AE-PSRegioT1-Money-C -->
 
         <!-- Title -->
         <Text>
@@ -77,7 +77,7 @@
             <LineId>1600000049</LineId> 
         </Text>
 
-    <!-- Specialist AE-Gamble-PrestiHappy-E -->
+    <!-- Specialist AE-Gamble-Legal-E -->
 
         <!-- Title -->
         <Text>
@@ -90,7 +90,7 @@
             <LineId>1600000057</LineId> 
         </Text>
 
-    <!-- Specialist AE-Lib-KnowPresti-NFire-E -->
+    <!-- Specialist AE-Lib-Know-E -->
 
         <!-- Title -->
         <Text>
@@ -220,7 +220,7 @@
             <LineId>1600000097</LineId> 
         </Text>
 
-    <!-- Specialist AE-Theater-HappyPrestiKnow-L -->
+    <!-- Specialist AE-Theater-Happy-L -->
 
         <!-- Title -->
         <Text>
@@ -238,7 +238,7 @@
             <LineId>1600000150</LineId> 
         </Text>
 
-    <!-- Specialist AE-Bath-Health-NHappy-R -->
+    <!-- Specialist AE-Bath-Master-R -->
 
         <!-- Title -->
         <Text>
@@ -251,7 +251,7 @@
             <LineId>1600000163</LineId> 
         </Text>
 
-    <!-- Specialist AE-CSGrove-Belief-NPresti-R -->
+    <!-- Specialist AE-CSGrove-Ritual-R -->
 
         <!-- Title -->
         <Text>
@@ -264,7 +264,7 @@
             <LineId>1600000167</LineId> 
         </Text>
 
-    <!-- Specialist AE-Gamble-Money-NHappyBelief-R -->
+    <!-- Specialist AE-Gamble-R -->
 
         <!-- Title -->
         <Text>
@@ -277,7 +277,7 @@
             <LineId>1600000175</LineId> 
         </Text>
 
-    <!-- Specialist AE-Gramma-Know-R -->
+    <!-- Specialist AE-Gramma-R -->
 
         <!-- Title -->
         <Text>
@@ -290,7 +290,7 @@
             <LineId>1600000179</LineId> 
         </Text>
 
-    <!-- Specialist AE-Theater-Happy-NPresti-R -->
+    <!-- Specialist AE-Theater-Joker-R -->
 
         <!-- Title -->
         <Text>
@@ -303,7 +303,7 @@
             <LineId>1600000187</LineId> 
         </Text>
 
-    <!-- Specialist AE-Forum-MoneyPresti-Prod-L -->
+    <!-- Specialist AE-Forum-Prod-L -->
 
         <!-- Title -->
         <Text>
@@ -321,7 +321,7 @@
             <LineId>1600000218</LineId> 
         </Text>
 
-    <!-- Specialist AE-Forum-CTHall-Popu-NAll-E -->
+    <!-- Specialist AE-WonderT3-Counter-E -->
 
         <!-- Title -->
         <Text>
@@ -334,7 +334,7 @@
             <LineId>1600000221</LineId> 
         </Text>
 
-    <!-- Specialist AE-Gramma-AddGoods-NBelief-E -->
+    <!-- Specialist AE-Gramma-Prod-E -->
 
         <!-- Title -->
         <Text>
@@ -347,7 +347,7 @@
             <LineId>1600000231</LineId> 
         </Text>
 
-    <!-- Specialist AE-CBarrow-Money-NHappy-E -->
+    <!-- Specialist AE-CBarrow-Raider-E -->
         <!-- Title -->
         <Text>
             <Text>Quintus Merula, Raider of the Grove</Text>

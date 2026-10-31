@@ -10,31 +10,31 @@
 <Group>
     <Include File="items-common/AE-Bard-Belief-C.xml" />
     <Include File="items-common/AE-Market-Belief-C.xml" />
-    <Include File="items-common/AE-TabernaBard-Money-C.xml" />
+    <Include File="items-common/AE-PSRegioT1-Money-C.xml" />
 </Group>
 
 <!-- Rare Specialists -->
 <Group>
-    <Include File="items-rare/AE-CBarrow-HealthPresti-R.xml" />
-    <Include File="items-rare/AE-Bath-Health-NHappy-R.xml" />
-    <Include File="items-rare/AE-CSGrove-Belief-NPresti-R.xml" />
-    <Include File="items-rare/AE-Gamble-Money-NHappyBelief-R.xml"/>
-    <Include File="items-rare/AE-Gramma-Know-R.xml"/>
-    <Include File="items-rare/AE-Theater-Happy-NPresti-R.xml"/>
-    <Include File="items-rare/AE-Sanc-Fanum-Belief-NMoney-R.xml" />
+    <Include File="items-rare/AE-CBarrow-Gardener-R.xml" />
+    <Include File="items-rare/AE-Bath-Master-R.xml" />
+    <Include File="items-rare/AE-CSGrove-Ritual-R.xml" />
+    <Include File="items-rare/AE-Gamble-R.xml"/>
+    <Include File="items-rare/AE-Gramma-R.xml"/>
+    <Include File="items-rare/AE-Theater-Joker-R.xml"/>
+    <Include File="items-rare/AE-PSRegionT2-R.xml" />
 </Group>
 
 <!-- Epic Specialists -->
 <Group>
     <Include File="items-epic/AE-CSGrove-Pop-E.xml" />
-    <Include File="items-epic/AE-CBarrow-Money-NHappy-E.xml" />
+    <Include File="items-epic/AE-CBarrow-Raider-E.xml" />
     
-    <Include File="items-epic/AE-CTHall-PrestiKnowHappy-E.xml" />
-    <Include File="items-epic/AE-Forum-CTHall-Popu-NAll-E.xml" />
-    <Include File="items-epic/AE-Gamble-PrestiHappy-E.xml" />
-    <Include File="items-epic/AE-Gramma-AddGoods-NBelief-E.xml" />
-    <Include File="items-epic/AE-Lib-KnowPresti-NFire-E.xml" />
-    <Include File="items-epic/AE-Lib-PopHealthHappy-E.xml" />
+    <Include File="items-epic/AE-CTHall-Story-E.xml" />
+    <Include File="items-epic/AE-WonderT3-Counter-E.xml" />
+    <Include File="items-epic/AE-Gamble-Legal-E.xml" />
+    <Include File="items-epic/AE-Gramma-Prod-E.xml" />
+    <Include File="items-epic/AE-Lib-Know-E.xml" />
+    <Include File="items-epic/AE-Lib-Pop-E.xml" />
     <Include File="items-epic/AE-TempleMars-E.xml" />
     <Include File="items-epic/AE-TempleCeres-E.xml" />
     <Include File="items-epic/AE-TempleCernunnos-E.xml" />
@@ -42,13 +42,13 @@
     <Include File="items-epic/AE-TempleMercury-E.xml" />
     <Include File="items-epic/AE-TempleMinerva-E.xml" />  
     <Include File="items-epic/AE-TempleNeptune-E.xml" />
-    <Include File="items-epic/AE-Theater-HealthHag-E.xml" />
+    <Include File="items-epic/AE-Theater-Hag-E.xml" />
 </Group>
 
 <!-- Legendary Specialists -->
 <Group>
-    <Include File="items-legendary/AE-Theater-HappyPrestiKnow-L.xml" />
-    <Include File="items-legendary/AE-Forum-MoneyPresti-Prod-L.xml"/>
+    <Include File="items-legendary/AE-Theater-Happy-L.xml" />
+    <Include File="items-legendary/AE-Forum-Prod-L.xml"/>
 </Group>
 
 <!-- Add to Pools -->

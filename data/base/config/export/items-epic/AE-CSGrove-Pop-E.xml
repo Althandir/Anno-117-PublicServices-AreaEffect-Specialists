@@ -1,5 +1,5 @@
 <ModOps>
-<!-- Item Definition GUID:1600000234 - 1600000237 | LineID:1600000234 - 1600000235 -->
+  <!-- Item Definition GUID:1600000234 - 1600000237 | LineID:1600000234 - 1600000235 -->
   <Group>
     <ModOp Type="addNextSibling" GUID="106410">
       <Asset>
@@ -27,10 +27,10 @@
             <HideInGovernorsBar>1</HideInGovernorsBar>
           </Effect>
           <Item>
-            <Niche>Agriculture</Niche> 
+            <Niche>Agriculture</Niche>
             <TradePrice><ModValue Insert="$TradePrice_Epic"/></TradePrice>
             <BarkPool>83333</BarkPool> <!-- <GUID>83333</GUID> -->
-            <Rarity>Epic</Rarity> 
+            <Rarity>Epic</Rarity>
           </Item>
           <Locked>
             <DefaultLockedState>0</DefaultLockedState>
@@ -47,124 +47,100 @@
   <Group>
     <!-- BuildingEffect Definition -->
     <ModOp Type="addNextSibling" GUID="135498">
-        <Asset>
-            <Template>Effect</Template>
-            <Values>
-                <Standard>
-                    <GUID>1600000236</GUID>
-                    <Name>Specialist AE-CSGrove-Pop-E FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/PublicServices-Pack/AE-CSGrove-Pop-E.png</IconFilename>
-                </Standard>
-                <Effect>
-                    <EffectScope>StreetDistance</EffectScope>
-                    <SourceCategory>Item</SourceCategory>
-                    <Buffs>
-                        <Item>
-                            <GUID>1600000237</GUID>
-                        </Item>
-                    </Buffs>
-                    <Targets>
-                        <Item>
-                            <GUID>43097</GUID>
-                        </Item>
-                    </Targets>
-                    <ExcludeEffectSourceGUID>0</ExcludeEffectSourceGUID>
-                    <HideInGovernorsBar>1</HideInGovernorsBar>
-                </Effect>
-                <Text>
-                    <OasisId>1600000234</OasisId>
-                </Text>
-            </Values>
-        </Asset>
+      <Asset>
+        <Template>Effect</Template>
+        <Values>
+          <Standard>
+            <GUID>1600000236</GUID>
+            <Name>Specialist AE-CSGrove-Pop-E FunctionalEffect</Name>
+            <IconFilename>data/base/graphics/icons/PublicServices-Pack/AE-CSGrove-Pop-E.png</IconFilename>
+          </Standard>
+          <Effect>
+            <EffectScope>StreetDistance</EffectScope>
+            <SourceCategory>Item</SourceCategory>
+            <Buffs>
+              <Item>
+                <GUID>1600000237</GUID>
+              </Item>
+            </Buffs>
+            <Targets>
+              <Item>
+                <GUID>43097</GUID>
+              </Item>
+            </Targets>
+            <ExcludeEffectSourceGUID>0</ExcludeEffectSourceGUID>
+            <HideInGovernorsBar>1</HideInGovernorsBar>
+          </Effect>
+          <Text>
+            <OasisId>1600000234</OasisId>
+          </Text>
+        </Values>
+      </Asset>
     </ModOp>
 
     <ModOp Type="addNextSibling" GUID="80193">
-        <Asset>
-            <Template>BuildingBuff</Template>
-            <Values>
-                <Standard>
-                    <GUID>1600000235</GUID>
-                    <Name>Specialist AE-CSGrove-Pop-E FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/PublicServices-Pack/AE-CSGrove-Pop-E.png</IconFilename>
-                </Standard>
-                <Text>
-                    <OasisId>1600000234</OasisId>
-                </Text>
-                <BuildingUpgrade>
-                    <AdditionalFunctionalEffect>1600000236</AdditionalFunctionalEffect>
-                </BuildingUpgrade>
-                <DistributionUpgrade/>
-                <Buff>
-                    <SourceCategory>Item</SourceCategory>
-                </Buff>
-            </Values>
-        </Asset>
+      <Asset>
+        <Template>BuildingBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>1600000235</GUID>
+            <Name>Specialist AE-CSGrove-Pop-E FunctionalEffect BuildingBuff</Name>
+            <IconFilename>data/base/graphics/icons/PublicServices-Pack/AE-CSGrove-Pop-E.png</IconFilename>
+          </Standard>
+          <Text>
+            <OasisId>1600000234</OasisId>
+          </Text>
+          <BuildingUpgrade>
+            <AdditionalFunctionalEffect>1600000236</AdditionalFunctionalEffect>
+          </BuildingUpgrade>
+          <DistributionUpgrade/>
+          <Buff>
+            <SourceCategory>Item</SourceCategory>
+          </Buff>
+        </Values>
+      </Asset>
     </ModOp>
 
     <ModOp Type="addNextSibling" GUID="80193">
-        <Asset>
-            <Template>BuildingBuff</Template>
-            <Values>
-                <Standard>
-                    <GUID>1600000237</GUID>
-                    <Name>Specialist AE-CSGrove-Pop-E BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/PublicServices-Pack/AE-CSGrove-Pop-E.png</IconFilename>
-                </Standard>
-                <Text>
-                    <OasisId>1600000234</OasisId>
-                </Text>
-                <Buff>
-                    <SourceCategory>Adjacency</SourceCategory>
-                    <IsStackable>0</IsStackable>
-                </Buff>
-                <BuildingUpgrade>
-                    <AdditionalAttributes>
-                        <Population>
-                            <AmountOrPercent>
-                                <Value>1</Value>
-                                <Percental>0</Percental>
-                            </AmountOrPercent>
-                        </Population>
-                        <Happiness>
-                            <AmountOrPercent>
-                                <Value>0</Value>
-                                <Percental>0</Percental>
-                            </AmountOrPercent>
-                        </Happiness>
-                        <Money>
-                            <AmountOrPercent>
-                                <Value>0</Value>
-                                <Percental>0</Percental>
-                            </AmountOrPercent>
-                        </Money>
-                        <Prestige>
-                            <AmountOrPercent>
-                                <Value>0</Value>
-                                <Percental>0</Percental>
-                            </AmountOrPercent>
-                        </Prestige>
-                        <Belief>
-                            <AmountOrPercent>
-                                <Value>0.25</Value>
-                                <Percental>0</Percental>
-                            </AmountOrPercent>
-                        </Belief>
-                        <Knowledge>
-                            <AmountOrPercent>
-                                <Value>0</Value>
-                                <Percental>0</Percental>
-                            </AmountOrPercent>
-                        </Knowledge>
-                        <Health>
-                            <AmountOrPercent>
-                                <Value>0.25</Value>
-                                <Percental>0</Percental>
-                            </AmountOrPercent>
-                        </Health>
-                    </AdditionalAttributes>
-                </BuildingUpgrade>
-            </Values>
-        </Asset>
+      <Asset>
+        <Template>BuildingBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>1600000237</GUID>
+            <Name>Specialist AE-CSGrove-Pop-E BuildingBuff</Name>
+            <IconFilename>data/base/graphics/icons/PublicServices-Pack/AE-CSGrove-Pop-E.png</IconFilename>
+          </Standard>
+          <Text>
+            <OasisId>1600000234</OasisId>
+          </Text>
+          <Buff>
+            <SourceCategory>Adjacency</SourceCategory>
+            <IsStackable>0</IsStackable>
+          </Buff>
+          <BuildingUpgrade>
+            <AdditionalAttributes>
+              <Population>
+                <AmountOrPercent>
+                  <Value>1</Value>
+                  <Percental>0</Percental>
+                </AmountOrPercent>
+              </Population>
+              <Belief>
+                <AmountOrPercent>
+                  <Value>0.3</Value>
+                  <Percental>0</Percental>
+                </AmountOrPercent>
+              </Belief>
+              <Health>
+                <AmountOrPercent>
+                  <Value>0.3</Value>
+                  <Percental>0</Percental>
+                </AmountOrPercent>
+              </Health>
+            </AdditionalAttributes>
+          </BuildingUpgrade>
+        </Values>
+      </Asset>
     </ModOp>
   </Group>
 
