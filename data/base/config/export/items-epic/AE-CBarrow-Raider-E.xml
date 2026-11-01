@@ -1,5 +1,5 @@
 <ModOps>
-  <!-- Item Definition GUID:1600000244 - 1600000247 | LineID:1600000244 - 1600000245 #TODO: Retest Item GUID Changed-->
+  <!-- Item Definition GUID:1600000244 - 1600000247 | LineID:1600000244 - 1600000245 -->
   <Group>
     <ModOp Type="addNextSibling" GUID="106410">
       <Asset>
