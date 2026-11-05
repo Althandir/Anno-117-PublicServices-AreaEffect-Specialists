@@ -21,7 +21,7 @@
     <Include File="items-rare/AE-Gamble-R.xml"/>
     <Include File="items-rare/AE-Gramma-R.xml"/>
     <Include File="items-rare/AE-Theater-Joker-R.xml"/>
-    <Include File="items-rare/AE-PSRegionT2-R.xml" />
+    <Include File="items-rare/AE-PSReligionT2-R.xml" />
 </Group>
 
 <!-- Epic Specialists -->
