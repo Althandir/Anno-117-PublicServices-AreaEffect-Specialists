@@ -19,12 +19,15 @@
                 <GUID>1600000221</GUID>
               </Item>
             </Buffs>
-            <Targets> <!-- Targets of Buff TODO: DLC03-->
+            <Targets> <!-- Targets of Buff -->
               <Item>
-                <GUID>81273</GUID> <!-- #Info: For some Reason: RomanCelticTemple is in this Asset Pool? -->
+                <GUID>81273</GUID>
               </Item>
               <Item>
                 <GUID>6726</GUID>
+              </Item>
+              <Item>
+                <GUID>152069</GUID>
               </Item>
             </Targets>
             <HideInGovernorsBar>1</HideInGovernorsBar>

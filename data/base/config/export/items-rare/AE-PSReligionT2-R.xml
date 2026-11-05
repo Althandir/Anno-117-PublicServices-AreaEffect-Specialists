@@ -19,7 +19,10 @@
                 <GUID>1600000018</GUID>
               </Item>
             </Buffs>
-            <Targets> <!-- Targets of Buff TODO: DLC03 -->
+            <Targets> <!-- Targets of Buff TODO:Replace Double Sanctuary when Global Asset Pool is available  -->
+              <Item>
+                <GUID>152066</GUID>
+              </Item>
               <Item>
                 <GUID>3615</GUID>
               </Item>
@@ -146,3 +149,4 @@
   </Group>
 
 </ModOps>
+
