@@ -1,0 +1,110 @@
+<ModOps>
+<!-- 
+###
+#   Contains Specialists for Albion Regional Traders & Raider
+### 
+  -->
+  <!-- RewardPool Common -->
+  <ModOp Type="add" GUID="83476,83472,83480" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>1600000005</ItemLink>
+    </Item>
+    <Item>
+      <ItemLink>1600000021</ItemLink>
+    </Item>
+    <Item>
+      <ItemLink>1600000013</ItemLink>
+    </Item>
+  </ModOp>
+
+  <!-- RewardPool Rare -->
+  <ModOp Type="add" GUID="83477,83473,83481" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>1600000162</ItemLink>
+    </Item>
+    <Item>
+      <ItemLink>1600000009</ItemLink>
+    </Item>
+    <Item>
+      <ItemLink>1600000166</ItemLink>
+    </Item>
+    <Item>
+      <ItemLink>1600000174</ItemLink>
+    </Item>
+    <Item>
+      <ItemLink>1600000178</ItemLink>
+    </Item>
+    <Item>
+      <ItemLink>1600000186</ItemLink>
+    </Item>
+    <Item>
+      <ItemLink>1600000017</ItemLink>
+    </Item>
+  </ModOp>
+
+  <!-- RewardPool Epic Traders -->
+  <ModOp Type="add" GUID="83478,83474,83482" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>1600000048</ItemLink>
+    </Item>
+    <Item>
+      <ItemLink>1600000056</ItemLink>
+    </Item>
+    <Item>
+      <ItemLink>1600000076</ItemLink>
+    </Item>
+    <Item>
+      <ItemLink>1600000080</ItemLink>
+    </Item>
+    <Item>
+      <ItemLink>1600000068</ItemLink>
+    </Item>
+    <Item>
+      <ItemLink>1600000072</ItemLink>
+    </Item>
+    <Item>
+      <ItemLink>1600000084</ItemLink>
+    </Item>
+    <Item>
+      <ItemLink>1600000088</ItemLink>
+    </Item>
+    <Item>
+      <ItemLink>1600000092</ItemLink>
+    </Item>
+    <Item>
+      <ItemLink>1600000096</ItemLink>
+    </Item>
+    <Item>
+      <ItemLink>1600000220</ItemLink>
+    </Item>
+    <Item>
+      <ItemLink>1600000230</ItemLink>
+    </Item>
+    <Item>
+      <ItemLink>1600000244</ItemLink>
+    </Item>
+    <Item>
+      <ItemLink>1600000234</ItemLink>
+    </Item>
+  </ModOp>
+
+  <!-- RewardPool Legendary Traders -->
+  <ModOp Type="add" GUID="83479,83475,83483" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>1600000148</ItemLink>
+    </Item>
+  </ModOp>
+
+</ModOps>
+
+
+
+
+
+
+
+
+
+
+
+
