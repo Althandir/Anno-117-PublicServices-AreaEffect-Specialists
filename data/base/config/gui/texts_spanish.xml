@@ -343,7 +343,7 @@
         </Text>
         <!-- Description -->
         <Text>
-            <Text>Teaches experimental craftmanship which causes citizens to stop trusting the gods. &#xD;Hint: Additional Goods are created by all Productionchains in Street Range.&#xD;(Altdolphin-PublicServices-Pack)</Text>
+            <Text>Teaches experimental craftmanship which causes citizens to stop trusting the gods. &#xD;Productivity applies to Buildings in Range&#xD;(Altdolphin-PublicServices-Pack)</Text>
             <LineId>1600000231</LineId> 
         </Text>
 
