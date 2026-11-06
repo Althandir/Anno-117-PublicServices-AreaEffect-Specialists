@@ -7,8 +7,8 @@
         <Values>
           <Standard>
             <GUID>1600000017</GUID>
-            <Name>Specialist AE-PSRegionT2-R</Name>
-            <IconFilename>data/base/graphics/icons/PublicServices-Pack/AE-PSRegionT2-R.png</IconFilename>
+            <Name>Specialist AE-PSReligionT2-R</Name>
+            <IconFilename>data/base/graphics/icons/PublicServices-Pack/AE-PSReligionT2-R.png</IconFilename>
             <InfoDescription>1600000018</InfoDescription>
           </Standard>
           <Effect>
@@ -19,7 +19,10 @@
                 <GUID>1600000018</GUID>
               </Item>
             </Buffs>
-            <Targets> <!-- Targets of Buff TODO: DLC03 -->
+            <Targets> <!-- Targets of Buff TODO:Replace Double Sanctuary when Global Asset Pool is available  -->
+              <Item>
+                <GUID>152066</GUID>
+              </Item>
               <Item>
                 <GUID>3615</GUID>
               </Item>
@@ -55,8 +58,8 @@
         <Values>
           <Standard>
             <GUID>1600000018</GUID>
-            <Name>Specialist AE-PSRegionT2-R BuildingBuff</Name>
-            <IconFilename>data/base/graphics/icons/PublicServices-Pack/AE-PSRegionT2-R.png</IconFilename>
+            <Name>Specialist AE-PSReligionT2-R BuildingBuff</Name>
+            <IconFilename>data/base/graphics/icons/PublicServices-Pack/AE-PSReligionT2-R.png</IconFilename>
           </Standard>
           <Text>
             <OasisId>1600000017</OasisId>
@@ -77,8 +80,8 @@
         <Values>
           <Standard>
             <GUID>1600000019</GUID>
-            <Name>Specialist AE-PSRegionT2-R FunctionalEffect</Name>
-            <IconFilename>data/base/graphics/icons/PublicServices-Pack/AE-PSRegionT2-R.png</IconFilename>
+            <Name>Specialist AE-PSReligionT2-R FunctionalEffect</Name>
+            <IconFilename>data/base/graphics/icons/PublicServices-Pack/AE-PSReligionT2-R.png</IconFilename>
           </Standard>
           <Effect>
             <EffectScope>StreetDistance</EffectScope>
@@ -109,8 +112,8 @@
         <Values>
           <Standard>
             <GUID>1600000020</GUID>
-            <Name>Specialist AE-PSRegionT2-R FunctionalEffect BuildingBuff</Name>
-            <IconFilename>data/base/graphics/icons/PublicServices-Pack/AE-PSRegionT2-R.png</IconFilename>
+            <Name>Specialist AE-PSReligionT2-R FunctionalEffect BuildingBuff</Name>
+            <IconFilename>data/base/graphics/icons/PublicServices-Pack/AE-PSReligionT2-R.png</IconFilename>
           </Standard>
           <Text>
             <OasisId>1600000017</OasisId>
@@ -146,3 +149,4 @@
   </Group>
 
 </ModOps>
+

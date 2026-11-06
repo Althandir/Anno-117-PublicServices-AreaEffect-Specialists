@@ -2,7 +2,7 @@
 <!-- Add to RewardPools -->
 <!-- RewardList Culture Legendary -->
 <Group>
-    <ModOp Type="add" GUID="121893" Path="/Values/RewardPool/ItemsPool">
+    <ModOp Type="add" GUID="121893,79670" Path="/Values/RewardPool/ItemsPool">
     <Item>
         <ItemLink>1600000148</ItemLink>
     </Item> 

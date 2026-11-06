@@ -19,9 +19,12 @@
                 <GUID>1600000175</GUID>
               </Item>
             </Buffs>
-            <Targets> <!-- Targets of Buff -->
+            <Targets> <!-- Targets of Buff TODO: Replace if Global Asset Pool is updated-->
               <Item>
                 <GUID>81911</GUID>
+              </Item>
+              <Item>
+                <GUID>185598</GUID>
               </Item>
             </Targets>
             <HideInGovernorsBar>1</HideInGovernorsBar>
@@ -143,4 +146,5 @@
   </Group>
 
 </ModOps>
+
 

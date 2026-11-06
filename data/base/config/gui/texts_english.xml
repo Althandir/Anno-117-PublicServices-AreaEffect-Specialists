@@ -38,7 +38,7 @@
             <LineId>1600000014</LineId> 
         </Text>
 
-    <!-- Specialist AE-PSRegionT2-R -->
+    <!-- Specialist AE-PSReligionT2-R -->
 
         <!-- Title -->
         <Text>
@@ -64,7 +64,7 @@
             <LineId>1600000022</LineId> 
         </Text>
 
-    <!-- Specialist AreaEffect-CelcicTownHallHappinessPrestigeKnowledge-E -->
+    <!-- Specialist AE-CTHall-Story-E -->
 
         <!-- Title -->
         <Text>
@@ -207,7 +207,7 @@
             <LineId>1600000093</LineId> 
         </Text>
 
-    <!-- Specialist AreaEffect-TheaterHealthBelief-E -->
+    <!-- Specialist AE-Theater-Hag-E -->
 
         <!-- Title -->
         <Text>
@@ -330,7 +330,7 @@
         </Text>
         <!-- Description -->
         <Text>
-            <Text>"117 Citzens... 1404 Citzens... 1503 Citzens... 1602 Citzens... 1800 Citzens... 2070 Citzens... 2205 Citzens..." &#xD;Hint: In Albion, the temple also counts as a forum.&#xD;(Altdolphin-PublicServices-Pack)</Text>
+            <Text>"117 Citizens... 1404 Citizens... 1503 Citizens... 1602 Citizens... 1800 Citizens... 2070 Citizens... 2205 Citizens..." &#xD;(Altdolphin-PublicServices-Pack)</Text>
             <LineId>1600000221</LineId> 
         </Text>
 

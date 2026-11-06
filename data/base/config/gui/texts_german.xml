@@ -38,7 +38,7 @@
             <LineId>1600000014</LineId> 
         </Text>
 
-    <!-- Specialist AE-PSRegionT2-R -->
+    <!-- Specialist AE-PSReligionT2-R -->
 
         <!-- Title -->
         <Text>
@@ -64,7 +64,7 @@
             <LineId>1600000022</LineId> 
         </Text>
 
-    <!-- Specialist AreaEffect-CelcicTownHallHappinessPrestigeKnowledge-E -->
+    <!-- Specialist AE-CTHall-Story-E -->
 
         <!-- Title -->
         <Text>
@@ -207,7 +207,7 @@
             <LineId>1600000093</LineId> 
         </Text>
 
-    <!-- Specialist AreaEffect-TheaterHealthBelief-E -->
+    <!-- Specialist AE-Theater-Hag-E -->
 
         <!-- Title -->
         <Text>

@@ -19,9 +19,9 @@
                 <GUID>1600000065</GUID>
               </Item>
             </Buffs>
-            <Targets> <!-- Targets of Buff TODO: DLC03 -->
+            <Targets> <!-- Targets of Buff -->
               <Item>
-                <GUID>31368</GUID>
+                <GUID>180799</GUID>
               </Item>
             </Targets>
             <HideInGovernorsBar>1</HideInGovernorsBar>
