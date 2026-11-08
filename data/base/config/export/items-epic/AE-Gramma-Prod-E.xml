@@ -66,7 +66,7 @@
           </Buff>
           <FactoryUpgrade>
             <ProductivityUpgrade>
-              <Value>25</Value>
+              <Value>20</Value>
               <Percental>1</Percental>
             </ProductivityUpgrade>
           </FactoryUpgrade>
@@ -93,11 +93,12 @@
             </Buffs>
             <Targets>
               <Item>
-                <GUID>43097</GUID>
+                <GUID>38370</GUID>
               </Item>
             </Targets>
             <ExcludeEffectSourceGUID>0</ExcludeEffectSourceGUID>
             <HideInGovernorsBar>1</HideInGovernorsBar>
+            <EffectIconCategory>DoublePositive</EffectIconCategory>
           </Effect>
           <Text>
             <OasisId>1600000230</OasisId>
@@ -118,22 +119,12 @@
           <Text>
             <OasisId>1600000230</OasisId>
           </Text>
-          <BuildingUpgrade>
-            <AdditionalAttributes>
-              <Belief>
-                <AmountOrPercent>
-                  <Value>-1</Value>
-                  <Percental>0</Percental>
-                </AmountOrPercent>
-              </Belief>
-            </AdditionalAttributes>
-          </BuildingUpgrade>
           <Buff>
             <SourceCategory>Adjacency</SourceCategory>
           </Buff>
           <FactoryUpgrade>
             <ProductivityUpgrade>
-              <Value>25</Value>
+              <Value>20</Value>
               <Percental>1</Percental>
             </ProductivityUpgrade>
           </FactoryUpgrade>
