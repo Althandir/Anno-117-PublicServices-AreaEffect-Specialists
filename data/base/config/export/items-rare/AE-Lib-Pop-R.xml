@@ -7,8 +7,8 @@
         <Values>
           <Standard>
             <GUID>1600000064</GUID>
-            <Name>Specialist AE-Lib-Pop-E</Name>
-            <IconFilename>data/base/graphics/icons/PublicServices-Pack/AE-Lib-Pop-E.png</IconFilename>
+            <Name>Specialist AE-Lib-Pop-R</Name>
+            <IconFilename>data/base/graphics/icons/PublicServices-Pack/AE-Lib-Pop-R.png</IconFilename>
             <InfoDescription>1600000065</InfoDescription>
           </Standard>
           <Effect>
@@ -28,9 +28,9 @@
           </Effect>
           <Item>
             <Niche>Agriculture</Niche>
-            <TradePrice><ModValue Insert="$TradePrice_Epic"/></TradePrice>
+            <TradePrice><ModValue Insert="$TradePrice_Rare"/></TradePrice>
             <BarkPool>83310</BarkPool> <!-- <GUID>83310</GUID> -->
-            <Rarity>Epic</Rarity>
+            <Rarity>Rare</Rarity>
           </Item>
           <Locked>
             <DefaultLockedState>0</DefaultLockedState>
@@ -52,8 +52,8 @@
         <Values>
           <Standard>
             <GUID>1600000065</GUID>
-            <Name>Specialist AE-Lib-Pop-E BuildingBuff</Name>
-            <IconFilename>data/base/graphics/icons/PublicServices-Pack/AE-Lib-Pop-E.png</IconFilename>
+            <Name>Specialist AE-Lib-Pop-R BuildingBuff</Name>
+            <IconFilename>data/base/graphics/icons/PublicServices-Pack/AE-Lib-Pop-R.png</IconFilename>
           </Standard>
           <Text>
             <OasisId>1600000064</OasisId>
@@ -74,8 +74,8 @@
         <Values>
           <Standard>
             <GUID>1600000066</GUID>
-            <Name>Specialist AE-Lib-Pop-E FunctionalEffect</Name>
-            <IconFilename>data/base/graphics/icons/PublicServices-Pack/AE-Lib-Pop-E.png</IconFilename>
+            <Name>Specialist AE-Lib-Pop-R FunctionalEffect</Name>
+            <IconFilename>data/base/graphics/icons/PublicServices-Pack/AE-Lib-Pop-R.png</IconFilename>
           </Standard>
           <Effect>
             <EffectScope>StreetDistance</EffectScope>
@@ -106,8 +106,8 @@
         <Values>
           <Standard>
             <GUID>1600000067</GUID>
-            <Name>Specialist AE-Lib-Pop-E FunctionalEffect BuildingBuff</Name>
-            <IconFilename>data/base/graphics/icons/PublicServices-Pack/AE-Lib-Pop-E.png</IconFilename>
+            <Name>Specialist AE-Lib-Pop-R FunctionalEffect BuildingBuff</Name>
+            <IconFilename>data/base/graphics/icons/PublicServices-Pack/AE-Lib-Pop-R.png</IconFilename>
           </Standard>
           <Text>
             <OasisId>1600000064</OasisId>
@@ -116,13 +116,13 @@
             <AdditionalAttributes>
               <Population>
                 <AmountOrPercent>
-                  <Value>0.5</Value>
+                  <Value>1</Value>
                   <Percental>0</Percental>
                 </AmountOrPercent>
               </Population>
               <Health>
                 <AmountOrPercent>
-                  <Value>1</Value>
+                  <Value>-1</Value>
                   <Percental>0</Percental>
                 </AmountOrPercent>
               </Health>
