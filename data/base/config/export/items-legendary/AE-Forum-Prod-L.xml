@@ -110,17 +110,6 @@
           <Buff>
             <SourceCategory>Item</SourceCategory>
           </Buff>
-            <!-- 
-            This is here to inform the player about the Buffs on TargetBuildings! 
-            UI currently don't reflect this. 
-            Buff itself will have no effect on Building. Workaround is to inform Player via Description. 
-            -->
-          <FactoryUpgrade>
-            <ProductivityUpgrade>
-              <Value>15</Value>
-              <Percental>1</Percental>
-            </ProductivityUpgrade>
-          </FactoryUpgrade>
         </Values>
       </Asset>
     </ModOp>
@@ -203,17 +192,6 @@
           <Buff>
             <SourceCategory>Item</SourceCategory>
           </Buff>
-            <!-- 
-            This is here to inform the player about the Buffs on TargetBuildings! 
-            UI currently don't reflect this. 
-            Buff itself will have no effect on Building. Workaround is to inform Player via Description. 
-            -->
-          <FactoryUpgrade>
-            <ProductivityUpgrade>
-              <Value>25</Value>
-              <Percental>1</Percental>
-            </ProductivityUpgrade>
-          </FactoryUpgrade>
         </Values>
       </Asset>
     </ModOp>

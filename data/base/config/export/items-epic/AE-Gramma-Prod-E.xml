@@ -64,12 +64,6 @@
           <Buff>
             <SourceCategory>Item</SourceCategory>
           </Buff>
-          <FactoryUpgrade>
-            <ProductivityUpgrade>
-              <Value>20</Value>
-              <Percental>1</Percental>
-            </ProductivityUpgrade>
-          </FactoryUpgrade>
         </Values>
       </Asset>
     </ModOp>
