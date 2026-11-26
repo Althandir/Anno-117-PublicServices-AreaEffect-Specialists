@@ -80,6 +80,9 @@
               <Item>
                 <GUID>1600000288</GUID>
               </Item>
+              <Item>
+                <GUID>1600001236</GUID>
+              </Item>
             </BoostBuffs>
             <BoostHint>1600000218</BoostHint>
           </ItemWithBoost>
@@ -133,11 +136,12 @@
             </Buffs>
             <Targets>
               <Item>
-                <GUID>43097</GUID>
+                <GUID>38370</GUID>
               </Item>
             </Targets>
             <ExcludeEffectSourceGUID>0</ExcludeEffectSourceGUID>
             <HideInGovernorsBar>1</HideInGovernorsBar>
+            <EffectIconCategory>DoublePositive</EffectIconCategory>
           </Effect>
           <Text>
             <OasisId>1600000216</OasisId>
@@ -259,6 +263,81 @@
           <Buff>
             <SourceCategory>Adjacency</SourceCategory>
           </Buff>
+        </Values>
+      </Asset>
+    </ModOp>
+
+    <!-- Prod BuildingEffect Definition -->
+    <ModOp Type="addNextSibling" GUID="80193">
+      <Asset>
+        <Template>BuildingBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>1600001236</GUID>
+            <Name>Specialist AE-Forum-Prod-L Prod BuildingBuff</Name>
+            <IconFilename>data/base/graphics/icons/PublicServices-Pack/AE-Forum-Prod-L.png</IconFilename>
+          </Standard>
+          <Text>
+            <OasisId>1600000216</OasisId>
+          </Text>
+          <BuildingUpgrade>
+            <AdditionalFunctionalEffect>1600001237</AdditionalFunctionalEffect>
+          </BuildingUpgrade>
+          <Buff>
+            <SourceCategory>Item</SourceCategory>
+          </Buff>
+        </Values>
+      </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="135498">
+      <Asset>
+        <Template>Effect</Template>
+        <Values>
+          <Standard>
+            <GUID>1600001237</GUID>
+            <Name>Specialist AE-Forum-Prod-L Prod FunctionalEffect</Name>
+            <IconFilename>data/base/graphics/icons/PublicServices-Pack/AE-Forum-Prod-L.png</IconFilename>
+          </Standard>
+          <Effect>
+            <EffectScope>StreetDistance</EffectScope>
+            <SourceCategory>Adjacency</SourceCategory>
+            <Buffs>
+              <Item>
+                <GUID>1600001238</GUID>
+              </Item>
+            </Buffs>
+            <Targets>
+              <Item>
+                <GUID>38370</GUID>
+              </Item>
+            </Targets>
+            <ExcludeEffectSourceGUID>0</ExcludeEffectSourceGUID>
+            <HideInGovernorsBar>1</HideInGovernorsBar>
+            <EffectIconCategory>DoublePositive</EffectIconCategory>
+          </Effect>
+          <Text>
+            <OasisId>1600000216</OasisId>
+          </Text>
+        </Values>
+      </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="80193">
+      <Asset>
+        <Template>BuildingBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>1600001238</GUID>
+            <Name>Specialist AE-Forum-Prod-L Prod FunctionalEffect BuildingBuff</Name>
+            <IconFilename>data/base/graphics/icons/PublicServices-Pack/AE-Forum-Prod-L.png</IconFilename>
+          </Standard>
+          <Text>
+            <OasisId>1600000216</OasisId>
+          </Text>
+          <Buff>
+            <SourceCategory>Adjacency</SourceCategory>
+          </Buff>
           <FactoryUpgrade>
             <ProductivityUpgrade>
               <Value>25</Value>
@@ -268,6 +347,8 @@
         </Values>
       </Asset>
     </ModOp>
+  </Group>
+
   </Group>
 
 
