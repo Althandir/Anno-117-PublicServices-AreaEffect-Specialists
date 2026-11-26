@@ -116,10 +116,16 @@
             <AdditionalAttributes>
               <Knowledge>
                 <AmountOrPercent>
-                  <Value>1</Value>
+                  <Value>3</Value>
                   <Percental>0</Percental>
                 </AmountOrPercent>
               </Knowledge>
+              <Money>
+                <AmountOrPercent>
+                  <Value>-1</Value>
+                  <Percental>0</Percental>
+                </AmountOrPercent>
+              </Money>
             </AdditionalAttributes>
           </BuildingUpgrade>
           <Buff>
